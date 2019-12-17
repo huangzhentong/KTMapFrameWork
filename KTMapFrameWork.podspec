@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '181310067@qq.com' => 'huangzhentong@keytop.com.cn' }
-  s.source           = { :git => 'https://github.com/181310067@qq.com/KTMapFrameWork.git', :tag => s.version.to_s }
+  s.source           = { :git => '/Users/kt-stc08/Desktop/Git/KTMapFrameWork', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

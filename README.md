@@ -27,3 +27,5 @@ pod 'KTMapFrameWork'
 ## License
 
 KTMapFrameWork is available under the MIT license. See the LICENSE file for more info.
+
+pod package KTMapFrameWork.podspec --force --embedded --no-mangle --exclude-deps
