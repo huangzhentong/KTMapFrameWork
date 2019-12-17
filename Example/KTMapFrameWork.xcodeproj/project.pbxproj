@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AFC2B51C188BD475617394A /* libPods-KTMapFrameWork_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904F7E1F2A2030201F234BAF /* libPods-KTMapFrameWork_Example.a */; };
-		467634E723A8D59C00CB7D6D /* KTTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 467634E623A8D59C00CB7D6D /* KTTextModel.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +38,6 @@
 
 /* Begin PBXFileReference section */
 		112DF383545E8DB6DB82C817 /* Pods-KTMapFrameWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMapFrameWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-KTMapFrameWork_Tests/Pods-KTMapFrameWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		467634E523A8D59C00CB7D6D /* KTTextModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTextModel.h; sourceTree = "<group>"; };
-		467634E623A8D59C00CB7D6D /* KTTextModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTextModel.m; sourceTree = "<group>"; };
 		49533D4EA9021589471A13CE /* libPods-KTMapFrameWork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTMapFrameWork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KTMapFrameWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTMapFrameWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -151,8 +148,6 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* KTViewController.h */,
 				6003F5A6195388D20070C39A /* KTViewController.m */,
-				467634E523A8D59C00CB7D6D /* KTTextModel.h */,
-				467634E623A8D59C00CB7D6D /* KTTextModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -213,7 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				4C8E244873192A017821B6EF /* [CP] Copy Pods Resources */,
-				0FD8DCA2F3511E3424213E15 /* [CP] Embed Pods Frameworks */,
+				04E368E50F943568DE487773 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,7 +299,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0FD8DCA2F3511E3424213E15 /* [CP] Embed Pods Frameworks */ = {
+		04E368E50F943568DE487773 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KTAppDelegate.m in Sources */,
-				467634E723A8D59C00CB7D6D /* KTTextModel.m in Sources */,
 				6003F5A7195388D20070C39A /* KTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

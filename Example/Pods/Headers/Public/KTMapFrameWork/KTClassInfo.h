@@ -1,1 +1,1 @@
-../../../../../KTMapFrameWork/Classes/KTModel/KTClassInfo.h
+../../../../../KTMapFrameWork/Classes/Module/KTModel/KTClassInfo.h
