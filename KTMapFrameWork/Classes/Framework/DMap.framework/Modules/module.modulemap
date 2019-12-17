@@ -1,0 +1,4 @@
+framework module DMap {
+  header "DMap-Swift.h"
+  requires objc
+}

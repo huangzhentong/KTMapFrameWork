@@ -1,0 +1,12 @@
+
+platform :ios, '8.0'
+
+target 'KTMapFrameWork_Example' do
+  pod 'KTMapFrameWork', :path => '../'
+
+  target 'KTMapFrameWork_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

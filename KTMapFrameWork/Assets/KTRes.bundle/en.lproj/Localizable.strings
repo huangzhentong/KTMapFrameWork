@@ -1,0 +1,67 @@
+/* 
+  KTLocalization.string.strings
+  KTFindCarSDK
+
+  Created by KT--stc08 on 2019/3/29.
+  Copyright © 2019 181310067@qq.com. All rights reserved.
+*/
+"KTParkTitle"="Carpark";
+//Car Info.
+"KTFloor" = "Parking Floor";
+"KTParkSpace" = "Parking Area";
+"KTParkAddresse" = "Parking Location";
+
+"KTPathFind" = "Car Finding Route";
+"KTBluFind" = "Bluetooth Car Finding ";
+//
+"KTFindCarMessage1"="Find nearest Parking Slot";
+"KTFindCarMessage2"="Input nearest Slot No.to start navigation";
+"KTNearParkLotNum" = "Nearest Slot No.";
+"KTInputParkLotNum" = "Pls input Slot No.";
+"KTSureBtn" = "Ok";
+//≤È’“≥µŒª
+"FindParkSpaceTitle"= "Find Parking Slot";
+"PathMessage"="Pls %@ Slot No. at %@";
+"Left"="Turn Left";
+"Right"="Turn Right";
+
+//Select Floor
+"SelectFloor"="Pls select current floor";
+
+
+//AR
+"AR" = "AR Car Finding";
+"CarNum" = "Plate No.";
+"ParkNo" = "Slot No.";
+"NaviOver" = "You have arrived near parking slot \nNavigation End";
+
+
+//Ã· æ
+"UserFloor"="Your Floor";
+"CarFloor"="Parking Floor";
+"Tips"="Warm Prompt";
+"TipsMessage"="*Pls go to same floor for starting navigation";
+"Cancel" = "Cancel";
+"TheSameFloor"="Arrived same floor";
+
+
+
+//»®œﬁ…Ë÷√
+"PhoneSetting"="Pls allow APP access your camera at iPhone Setting-Privacy-Camera";
+"GoSetting" = "Switch to setting page";
+"LocationSetting"="Initiate Bluetooth function first to enable AR finding";
+"IKnow"="Ok";
+
+
+//loading
+"Loading" = "Loading...";
+
+//Error
+"Reload" = "Reloading...";
+
+"ibeaconSearch"="iBeacon Searching ...";
+"arFindCarNorBlu"="Failed to obtain Bluetooth signal , please make sure you are in the carpark and move to another location to try again！";
+"arFindCarYes"="I Know";
+"arFindCarBack"="back";
+"kt_warnBluth"="nitiate Bluetooth function first";
+"soLibFailed"="This function is not available in this carpark";

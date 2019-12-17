@@ -1,0 +1,66 @@
+/* 
+  KTLocalization.string.strings
+  KTFindCarSDK
+
+  Created by KT--stc08 on 2019/3/29.
+  Copyright © 2019 181310067@qq.com. All rights reserved.
+*/
+"KTParkTitle"="停車場";
+//車輛信息
+"KTFloor" = "所在樓層";
+"KTParkSpace" = "車位地點";
+"KTParkAddresse" = "車位地址";
+
+"KTPathFind" = "找車路線";
+"KTBluFind" = "藍牙找車";
+//
+"KTFindCarMessage1"="找您最近的車位";
+"KTFindCarMessage2"="找您最近的車位號，輸入，即可導航";
+"KTNearParkLotNum" = "就近車位號";
+"KTInputParkLotNum" = "請輸入車位號";
+"KTSureBtn" = "確定";
+//查找車位
+"FindParkSpaceTitle"= "查找車位";
+"PathMessage"="請在%@號車位 往%@";
+"Left"="左走";
+"Right"="右走";
+
+//選擇樓層
+"SelectFloor"="請選擇當前所在樓層";
+
+
+//AR
+"AR" = "AR找車";
+"CarNum" = "車牌號";
+"ParkNo" = "車位號";
+"NaviOver" = "您已到達車位附近\n導航結束";
+
+
+//提示
+"UserFloor"="您的樓層";
+"CarFloor"="停車樓層";
+"Tips"="友情提示";
+"TipsMessage"="*請先到同壹樓層，以便我們為您導航";
+"Cancel" = "取消";
+"TheSameFloor"="已到同壹樓層";
+
+
+
+//權限設置
+"PhoneSetting"="請在iPhone的”設置-隱私-相機“選項中，允許App訪問妳的相機";
+"GoSetting" = "前去開啟";
+"LocationSetting"="您需要先打開定位服務，才能使用AR找車";
+"IKnow"="我知道了";
+
+
+//loading
+"Loading" = "加載中...";
+
+//Error
+"Reload" = "重新加載...";
+"ibeaconSearch"="藍牙搜索中...";
+"arFindCarNorBlu"="當前位置獲取不到車場藍牙信號，請確保在停車場內，並移動到其他位置重試";
+"arFindCarYes"="我知道了";
+"arFindCarBack"="返回";
+"kt_warnBluth"="您需要先打開藍牙，才能使用藍牙找車";
+"soLibFailed"="該車場暫未開放該功能";
