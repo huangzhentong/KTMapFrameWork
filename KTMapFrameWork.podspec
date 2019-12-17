@@ -44,9 +44,9 @@ TODO: Add long description of the pod here.
 s.vendored_frameworks = 'KTMapFrameWork/Classes/Framework/DMap.framework'
 
 s.dependency  'Masonry'
-s.dependency 'IQKeyboardManager'
-s.dependency 'YYModel'
+#s.dependency 'IQKeyboardManager'
+#s.dependency 'YYModel'
 s.dependency'AFNetworking'
 s.dependency 'SVProgressHUD'
-s.dependency 'AMapNavi-NO-IDFA'
+#s.dependency 'AMapNavi-NO-IDFA'
 end

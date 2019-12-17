@@ -7,7 +7,8 @@
 //
 
 #import "KTViewController.h"
-
+#import "KTTextModel.h"
+#import "KTYYTextModel.h"
 @interface KTViewController ()
 
 @end
@@ -17,6 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSDictionary *dic = @{@"key1":@"123",@"key2":@"567"};
+    KTTextModel *model = [KTTextModel KT_modelWithJSON:dic];
+    KTYYTextModel *yyModel = [KTYYTextModel yy_modelWithJSON:dic];
+    NSLog(@"model=%@",model);
+    NSLog(@"yyModel=%@",yyModel);
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
