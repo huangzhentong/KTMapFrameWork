@@ -7,7 +7,7 @@
 //
 
 #import "KTViewController.h"
-#import "KTTextModel.h"
+#import <KTDMapViewController.h>
 
 @interface KTViewController ()
 
@@ -18,20 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSDictionary *dic = @{@"key1":@"123",@"key2":@"567"};
-    KTTextModel *model = [KTTextModel KT_modelWithJSON:dic];
-   
-    NSLog(@"model=%@",model);
-
-    
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    UIViewController *viewController = [[KTDMapViewController alloc] initWithCode:@"hyjg" withURL:@"https://test.seeklane.com/test/hyjg/index.html"];
+    [self presentViewController:viewController animated:true completion:nil];
 }
 
 @end

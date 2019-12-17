@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - KTMapFrameWork (0.1.0):
+  - KTMapFrameWork (0.1.1):
     - AFNetworking
     - Masonry
     - SVProgressHUD
@@ -36,7 +36,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  KTMapFrameWork: 53b71e8a61a0d5df9d4e190cfb56f3b13890d7e3
+  KTMapFrameWork: 3a9f89e043e969e68b60439a372e8ef0b930ff6d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
