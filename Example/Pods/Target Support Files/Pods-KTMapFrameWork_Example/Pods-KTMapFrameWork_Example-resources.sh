@@ -97,10 +97,14 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/HTCKeyboard/HTCKeyboard/HTCKeyboardRes.bundle"
+  install_resource "${PODS_ROOT}/../../KTMapFrameWork/Assets/HTCKeyboardRes.bundle"
   install_resource "${PODS_ROOT}/../../KTMapFrameWork/Assets/KTRes.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/HTCKeyboard/HTCKeyboard/HTCKeyboardRes.bundle"
+  install_resource "${PODS_ROOT}/../../KTMapFrameWork/Assets/HTCKeyboardRes.bundle"
   install_resource "${PODS_ROOT}/../../KTMapFrameWork/Assets/KTRes.bundle"
   install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi

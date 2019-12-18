@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTMapFrameWork'
-  s.version          = '0.1.12'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of KTMapFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -29,26 +29,25 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
  s.ios.deployment_target = '10.0'
-s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
-s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
 
 
-  s.source_files = 'KTMapFrameWork/Classes/Module/**/*'
+
+  s.source_files = 'KTMapFrameWork/Classes/**/*'
   s.resource = 'KTMapFrameWork/Assets/*'
   # s.resource_bundles = {
   #   'KTMapFrameWork' => ['KTMapFrameWork/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'WebKit','Foundation','CoreLocation','ObjectiveC'
+   s.frameworks = 'UIKit', 'WebKit','Foundation','CoreLocation'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-s.vendored_frameworks = 'KTMapFrameWork/Classes/Framework/DMap.framework'
 
 s.dependency  'Masonry'
 #s.dependency 'IQKeyboardManager'
 #s.dependency 'YYModel'
 s.dependency'AFNetworking'
 s.dependency 'SVProgressHUD'
+s.dependency 'HTCKeyboard'
 #s.dependency 'AMapNavi-NO-IDFA'
 end

@@ -208,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				4C8E244873192A017821B6EF /* [CP] Copy Pods Resources */,
-				04E368E50F943568DE487773 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,28 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04E368E50F943568DE487773 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-frameworks.sh",
-				"${PODS_ROOT}/../../KTMapFrameWork/Classes/Framework/DMap.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMap.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4C8E244873192A017821B6EF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +307,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-resources.sh",
+				"${PODS_ROOT}/HTCKeyboard/HTCKeyboard/HTCKeyboardRes.bundle",
+				"${PODS_ROOT}/../../KTMapFrameWork/Assets/HTCKeyboardRes.bundle",
 				"${PODS_ROOT}/../../KTMapFrameWork/Assets/KTRes.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
@@ -337,6 +316,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HTCKeyboardRes.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KTRes.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);

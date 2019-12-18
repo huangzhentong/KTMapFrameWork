@@ -1,0 +1,1 @@
+../../../../../KTMapFrameWork/Classes/Category/CLBeacon+ToDic.h

@@ -7,8 +7,8 @@
 //
 
 #import "KTViewController.h"
-#import <KTDMapViewController.h>
 
+#import <KTMapSDK.h>
 @interface KTViewController ()
 
 @end
@@ -22,8 +22,7 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    UIViewController *viewController = [[KTDMapViewController alloc] initWithCode:@"hyjg" withURL:@"https://test.seeklane.com/test/hyjg/index.html"];
-    [self presentViewController:viewController animated:true completion:nil];
+    [KTMapSDK presentSDK:self mapAPIKey:@"adfad"];
 }
 
 @end
