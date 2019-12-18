@@ -7,7 +7,7 @@
 
 #import "KTCarInfoViewController.h"
 #import "KTCarInfoView.h"
-
+#import "KTDMapViewController.h"
 #import "UIViewController+BackBarItem.h"
 
 
@@ -42,14 +42,15 @@
 
     
     [self.carInfoView.pathBtn addTarget:self action:@selector(pushToNearParkPlaceViewController) forControlEvents:UIControlEventTouchUpInside];
-
-    self.carInfoView.pathBtn.enabled = false;
+    
+    self.carInfoView.pathBtn.enabled = true;
    
 }
 
 -(void)pushToNearParkPlaceViewController
 {
-    
+    KTDMapViewController *viewController =[[KTDMapViewController alloc] initWithCode:@"hyjg" withURL:@"https://test.seeklane.com/test/hyjg/index.html"];
+    [self.navigationController pushViewController:viewController animated:true];
 }
 
 -(void)backBtnEvent

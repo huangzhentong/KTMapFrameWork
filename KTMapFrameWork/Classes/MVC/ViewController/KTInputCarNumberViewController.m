@@ -69,12 +69,12 @@
 //        };
 //        [client.dataTask resume];
         
-        KTInvalidViewController *viewController = [KTInvalidViewController new];
-        [self.navigationController pushViewController:viewController animated:true];
+//        KTInvalidViewController *viewController = [KTInvalidViewController new];
+//        [self.navigationController pushViewController:viewController animated:true];
         
     }
-//    KTCarInfoViewController *viewController = [KTCarInfoViewController new];
-//    [self.navigationController pushViewController:viewController animated:true];
+    KTCarInfoViewController *viewController = [KTCarInfoViewController new];
+    [self.navigationController pushViewController:viewController animated:true];
 }
 
 -(void)setupUI{

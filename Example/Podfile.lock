@@ -14,9 +14,11 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - DMapFramework (0.1.0)
   - HTCKeyboard (0.0.2)
-  - KTMapFrameWork (0.1.12):
+  - KTMapFrameWork (0.2.2):
     - AFNetworking
+    - DMapFramework
     - HTCKeyboard
     - Masonry
     - SVProgressHUD
@@ -29,6 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - DMapFramework
     - HTCKeyboard
     - Masonry
     - SVProgressHUD
@@ -39,8 +42,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  DMapFramework: c009229a00def5d97a54bf7d9c3a735d781ae601
   HTCKeyboard: 502cb754051b7a4f81f4e473bc2c7ef3e5dae337
-  KTMapFrameWork: 401bb54aa4454527e6df1594bdbf595fba1fdb37
+  KTMapFrameWork: 9dfe7e702bb85629604078fe4171b1f301425e9c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 

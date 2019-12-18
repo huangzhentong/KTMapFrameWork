@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTMapFrameWork'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'A short description of KTMapFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -45,9 +45,9 @@ TODO: Add long description of the pod here.
 
 s.dependency  'Masonry'
 #s.dependency 'IQKeyboardManager'
-#s.dependency 'YYModel'
+
 s.dependency'AFNetworking'
 s.dependency 'SVProgressHUD'
 s.dependency 'HTCKeyboard'
-#s.dependency 'AMapNavi-NO-IDFA'
+s.dependency 'DMapFramework'
 end
