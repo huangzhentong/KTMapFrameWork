@@ -36,12 +36,12 @@
 
         [_map setSourceWithType:0 source:self.code url:self.url];
 
-        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
-        }];
-        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
-        }];
+//        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+//            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
+//        }];
+//        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+//             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
+//        }];
 
         WKWebView *webView = [_map getMapView];
         webView.translatesAutoresizingMaskIntoConstraints = false;
