@@ -54,7 +54,7 @@
 		8B829F9303ADBC569EF9A2C3A4A04902 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A497C62137AEA20B53A21D5A404EADA /* NSArray+MASAdditions.m */; };
 		8B9B6F936EAD4802B58A3202994D1ECF /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D3CE74FCCFD783CECB38E4A66321A9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8F984D22EE4D79997D7D2B5605F78FA5 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7697C423AB6490EE15FD0FD69FC49C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94BED9783D5648122A5D61211EBE0DAC /* KTDMapViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.mm */; };
+		94BED9783D5648122A5D61211EBE0DAC /* KTDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.m */; };
 		95DECF800E135EAD269536397A1EA85D /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E408C7B57E49219DC0BABC6764B501 /* SVProgressAnimatedView.m */; };
 		9AA84616EBC6C94347A6F50DA0AEBA82 /* KTClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE68137E57EE4AD96772A39D9A7858B /* KTClassInfo.m */; };
 		9B343883F082BF15DB5B07B293A1750A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3837B69C5140919033B9183D60FAC8E /* AFHTTPSessionManager.m */; };
@@ -194,7 +194,7 @@
 		7602C2849DB3FED1FF60F962FF606148 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		763D0F9868D70BA79DA7ED68522898DA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		7CB81047543D5045A27C6FA86D3B1BA8 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; path = KTDMapViewController.mm; sourceTree = "<group>"; };
+		80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTDMapViewController.m; sourceTree = "<group>"; };
 		851EF8553DC61DCD7E1C79C79E6828C9 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		86B0F7B6265CC3B021C82F9C51505128 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		86CFB45CC09F2557E0DF549B1A2BBBBE /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -456,7 +456,7 @@
 			isa = PBXGroup;
 			children = (
 				6608CB79E69A63F06065A1C697C1F7FD /* KTDMapViewController.h */,
-				80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.mm */,
+				80901DC4C42D5D5F204BA1AE8845D10E /* KTDMapViewController.m */,
 			);
 			name = ViewController;
 			path = KTMapFrameWork/Classes/Module/ViewController;
@@ -949,7 +949,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AA84616EBC6C94347A6F50DA0AEBA82 /* KTClassInfo.m in Sources */,
-				94BED9783D5648122A5D61211EBE0DAC /* KTDMapViewController.mm in Sources */,
+				94BED9783D5648122A5D61211EBE0DAC /* KTDMapViewController.m in Sources */,
 				719B9E5466B77D0DC1B10846D6C0F162 /* KTMapFrameWork-dummy.m in Sources */,
 				4960E1B93A7C3EF6DADAE78ED6F425D0 /* NSObject+KTModel.m in Sources */,
 			);
