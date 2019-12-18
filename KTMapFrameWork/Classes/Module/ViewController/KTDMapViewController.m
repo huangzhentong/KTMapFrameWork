@@ -9,8 +9,8 @@
 #import "KTDMapViewController.h"
 
 @interface KTDMapViewController ()
-//@interface KTDMapViewController ()<DMapDelegate>
-//@property(nonatomic,strong)DMap *map;
+@interface KTDMapViewController ()<DMapDelegate>
+@property(nonatomic,strong)DMap *map;
 @property(nonatomic,copy)NSString *code;
 @property(nonatomic,copy)NSString *url;
 @end
@@ -29,27 +29,27 @@
     return self;
 }
 
-//-(DMap*)map
-//{
-//    if (!_map) {
-//        _map = [[DMap alloc] initWithView:self.view];
-//
-//        [_map setSourceWithType:0 source:self.code url:self.url];
-//
-//        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-//            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
-//        }];
-//        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-//             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
-//        }];
-//
-//        WKWebView *webView = [_map getMapView];
-//        webView.translatesAutoresizingMaskIntoConstraints = false;
-//        webView.frame = self.view.bounds;
-//
-//    }
-//    return _map;
-//}
+-(DMap*)map
+{
+    if (!_map) {
+        _map = [[DMap alloc] initWithView:self.view];
+
+        [_map setSourceWithType:0 source:self.code url:self.url];
+
+        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
+        }];
+        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
+        }];
+
+        WKWebView *webView = [_map getMapView];
+        webView.translatesAutoresizingMaskIntoConstraints = false;
+        webView.frame = self.view.bounds;
+
+    }
+    return _map;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
