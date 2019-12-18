@@ -7,8 +7,7 @@
 //
 
 #import "KTDMapViewController.h"
-//#import <DMap/DMap-Swift.h>
-//#import<DMap/DMap-Swift.h>
+#import <DMap/DMap-Swift.h>
 #import <WebKit/WebKit.h>
 @interface KTDMapViewController ()
 //@interface KTDMapViewController ()<DMapDelegate>
