@@ -36,12 +36,12 @@
 
         [_map setSourceWithType:0 source:self.code url:self.url];
 
-//        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-//            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
-//        }];
-//        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
-//             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
-//        }];
+        [_map registerLocationStatusEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+            NSLog(@"registerLocationStatusEventWithCb = %@", dic);
+        }];
+        [_map registerNavigationDistanceEventWithCb:^(NSDictionary<NSString *,id> * _Nullable dic) {
+             NSLog(@"registerNavigationDistanceEventWithCb = %@", dic);
+        }];
 
         WKWebView *webView = [_map getMapView];
         webView.translatesAutoresizingMaskIntoConstraints = false;
@@ -53,31 +53,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.map.delegate = self;
+    self.map.delegate = self;
     
 }
 
 
-//-(void)centralManagerDidUpdateStateWithState:(enum BluetoothState)state
-//{
-//    switch (state) {
-//        case BluetoothStateUnauthorized:
-//            NSLog(@"无权使用蓝牙");
-//            break;
-//            case BluetoothStatePoweredOff:
-//            NSLog(@"蓝牙关闭");
-//            break;
-//            case BluetoothStatePoweredOn:
-//            NSLog(@"蓝牙启动");
-//            break;
-//        default:
-//            NSLog(@"蓝牙故障");
-//            break;
-//    }
-//}
-//-(void)didMapReady {
-//    NSLog(@"map ready");
-//}
+-(void)centralManagerDidUpdateStateWithState:(enum BluetoothState)state
+{
+    switch (state) {
+        case BluetoothStateUnauthorized:
+            NSLog(@"无权使用蓝牙");
+            break;
+            case BluetoothStatePoweredOff:
+            NSLog(@"蓝牙关闭");
+            break;
+            case BluetoothStatePoweredOn:
+            NSLog(@"蓝牙启动");
+            break;
+        default:
+            NSLog(@"蓝牙故障");
+            break;
+    }
+}
+-(void)didMapReady {
+    NSLog(@"map ready");
+}
 
 
 @end

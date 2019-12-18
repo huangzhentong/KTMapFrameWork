@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTMapFrameWork'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'A short description of KTMapFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,8 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
  s.ios.deployment_target = '10.0'
+s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
+s.user_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' } #设置不支持bitcode
 
 
   s.source_files = 'KTMapFrameWork/Classes/Module/**/*'
