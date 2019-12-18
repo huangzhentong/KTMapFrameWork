@@ -18,11 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:@"开始" forState:UIControlStateNormal];
+    button.frame = CGRectMake(50, 50, 100, 30);
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.view addSubview:button];
+    [button addTarget:self action:@selector(startEvent:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
 }
-
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+-(void)startEvent:(id)object
 {
+    
     [KTMapSDK presentSDK:self mapAPIKey:@"adfad"];
 }
+
+
 
 @end
