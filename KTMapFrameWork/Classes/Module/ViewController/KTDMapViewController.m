@@ -57,7 +57,6 @@
     
 }
 
-
 -(void)centralManagerDidUpdateStateWithState:(enum BluetoothState)state
 {
     switch (state) {

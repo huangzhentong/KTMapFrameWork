@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <DMap/DMap-Swift.h>
+@import DMap;
+//#import <DMap/DMap-Swift.h>
 #import <WebKit/WebKit.h>
 NS_ASSUME_NONNULL_BEGIN
 //进入第三方SDK 导航
