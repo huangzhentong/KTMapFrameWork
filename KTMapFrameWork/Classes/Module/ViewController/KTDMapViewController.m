@@ -8,7 +8,7 @@
 
 #import "KTDMapViewController.h"
 
-@interface KTDMapViewController ()
+
 @interface KTDMapViewController ()<DMapDelegate>
 @property(nonatomic,strong)DMap *map;
 @property(nonatomic,copy)NSString *code;
