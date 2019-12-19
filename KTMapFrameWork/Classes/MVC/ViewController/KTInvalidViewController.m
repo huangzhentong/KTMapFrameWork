@@ -21,7 +21,7 @@
 {
     if(!_imageView)
     {
-        _imageView = [[UIImageView alloc] initWithImage:[UIImage getBundleImage:@""]];
+        _imageView = [[UIImageView alloc] initWithImage:[UIImage getBundleImage:@"default_Notin"]];
         [self.view addSubview:_imageView];
         return _imageView;
     }

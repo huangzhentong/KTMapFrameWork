@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
 
   s.source_files = 'KTMapFrameWork/Classes/**/*'
-  #s.resource = 'KTMapFrameWork/Assets/*'
+  s.resource = 'KTMapFrameWork/Assets/*'
   # s.resource_bundles = {
   #   'KTMapFrameWork' => ['KTMapFrameWork/Assets/*.png']
   # }

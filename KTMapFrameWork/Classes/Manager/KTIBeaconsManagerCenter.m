@@ -112,11 +112,7 @@
     KTAlertViewController *alertView = [KTAlertViewController alertViewWithTitle:KTLocalizedString(@"kt_warnBluth") withImage:[UIImage getBundleImage:@"popbox_prompt_bluetooth"] withMessage:@""];
     KTAlertAction *action = [KTAlertAction actionWithTitle:KTLocalizedString(@"IKnow") withAction:nil];
     [alertView addAction:action];
-//    KTAlertAction *action2 = [KTAlertAction actionWithTitle:KTLocalizedString(@"GoSetting") withAction:^{
-//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-//
-//    }];
-//    [alertView addAction:action2];
+
     UIViewController *view = [UIViewController getCurrentViewController];
     [view presentViewController:alertView animated:true completion:nil];
 }

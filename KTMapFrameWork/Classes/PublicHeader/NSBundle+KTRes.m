@@ -6,7 +6,7 @@
 //
 
 #import "NSBundle+KTRes.h"
-#import "KTMapSDK.h"
+#import "KTMapSDKManager.h"
 @implementation NSBundle (KTRes)
 static  NSBundle *imageBundle = nil;
 +(NSBundle*)getResBundel
@@ -14,7 +14,7 @@ static  NSBundle *imageBundle = nil;
   
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSBundle *bundle = [NSBundle bundleForClass:[KTMapSDK class]];
+        NSBundle *bundle = [NSBundle bundleForClass:[KTMapSDKManager class]];
         NSLog(@"bundle= %@",bundle);
         NSURL *url = [bundle URLForResource:@"KTRes" withExtension:@"bundle"];
         NSLog(@"bundle url =%@",url);

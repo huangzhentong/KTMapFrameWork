@@ -114,23 +114,7 @@ static NSString * const typeKey = @"type";
  
     client.dataTask = dataTask;
     return client;
-//    BaseClient *client = [BaseClient new];
-//    client.url = url;
-//    client.parameters = dic;
-//    client.type = type;
-//    if (isLoading) {
-//        [LoadingManager showLoading:KTLocalizedString(@"Loading")];
-//    }
-//
-//    return  [[[client requestReturnSignal] doCompleted:^{
-//        [LoadingManager dismiss];
-//    }] doError:^(NSError * _Nonnull error) {
-//        [LoadingManager dismiss];
-//        if (error.code>=3000 || error.code < 1000) {
-//            [LoadingManager showError:error];
-//        }
-//
-//    }] ;
+
 }
 
 +(id)responseObjectDisponse:(id)responseObject
@@ -143,7 +127,8 @@ static NSString * const typeKey = @"type";
     }
     else if([dict[@"code"] intValue]!= 2000)
     {
-        NSError *error  = [NSError errorWithDomain:dict[@"msg"] code:[dict[@"code"] intValue] userInfo:nil];
+        NSString *message = dict[@"msg"]?:dict[@"message"];
+        NSError *error  = [NSError errorWithDomain:message code:[dict[@"code"] intValue] userInfo:nil];
         if (error.code >= 3000 || error.code < 1000) {
             [LoadingManager showError:error];
         }

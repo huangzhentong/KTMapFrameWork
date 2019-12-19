@@ -56,25 +56,39 @@
 
 -(void)searchBtnEvent
 {
+    
+    self.placeView.parkPlaceTF.text = @"闽DV8B17";
     if(self.placeView.parkPlaceTF.text.length > 0)
     {
         __weak typeof(self) weakSelf = self;
-        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:@"http://ts.keytop.cn/ve_api/busCarPart/queryLatestParkingWithLpn" withParameters:@{@"lpn":@"南1000000"} withType:@"post"];
+        NSString *carNumber = self.placeView.parkPlaceTF.text;
+      
+        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:@"http://ts.keytop.cn/ve_api/busCarPart/queryLatestParkingWithLpn" withParameters:@{@"lpn":carNumber} withType:@"post"];
         self.client = client;
         client.successEvent = ^(id  _Nonnull object) {
             NSString *lotID = object[@"lotId"];
+            if (lotID) {
+                KTCarInfoViewController *viewController = [KTCarInfoViewController new];
+                viewController.lotID =  lotID;
+                viewController.carNumber = carNumber;
+                [weakSelf.navigationController pushViewController:viewController animated:true];
+            }
         };
         client.faildEvent = ^(NSError * _Nonnull error) {
-
+            if(error.code == 5000)
+            {
+                KTInvalidViewController *viewController = [KTInvalidViewController new];
+                [weakSelf.navigationController pushViewController:viewController animated:true];
+            }
         };
         [client.dataTask resume];
         
-//        KTInvalidViewController *viewController = [KTInvalidViewController new];
-//        [self.navigationController pushViewController:viewController animated:true];
+       
         
     }
-//    KTCarInfoViewController *viewController = [KTCarInfoViewController new];
-//    [self.navigationController pushViewController:viewController animated:true];
+    [self.placeView.parkPlaceTF resignFirstResponder];
+    
+   
 }
 
 -(void)setupUI{
@@ -91,7 +105,9 @@
 -(void)backBtnEvent
 {
     if (self.navigationController.viewControllers.count == 1) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"KTSDKClose" object:nil];
         [self.navigationController dismissViewControllerAnimated:true completion:nil];
+        
     }
     else{
         [self.navigationController popViewControllerAnimated:true];
