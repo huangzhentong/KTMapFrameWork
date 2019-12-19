@@ -1,6 +1,6 @@
 {
   "name": "KTMapFrameWork",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "A short description of KTMapFrameWork.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/181310067@qq.com/KTMapFrameWork",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "/Users/kt-stc08/Desktop/Git/KTMapFrameWork",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "KTMapFrameWork/Classes/**/*",
+  "resources": "KTMapFrameWork/Assets/*",
   "frameworks": [
     "UIKit",
     "WebKit",
@@ -36,9 +37,6 @@
 
     ],
     "HTCKeyboard": [
-
-    ],
-    "DMapFramework": [
 
     ]
   }

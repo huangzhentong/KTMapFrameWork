@@ -1,0 +1,1 @@
+../../../../../KTMapFrameWork/Classes/Manager/KTIBeaconsManagerCenter.h
