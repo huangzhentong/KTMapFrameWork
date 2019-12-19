@@ -12,7 +12,7 @@
 #import "UIViewController+BackBarItem.h"
 #import "KTParkDetailModel.h"
 #import "KTCarInfoModel.h"
-#import "KTIBeaconsManagerCenter.h"
+
 #import "LocationManager.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
