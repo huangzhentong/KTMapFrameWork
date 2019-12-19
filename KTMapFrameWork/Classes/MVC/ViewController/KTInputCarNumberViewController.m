@@ -58,23 +58,23 @@
 {
     if(self.placeView.parkPlaceTF.text.length > 0)
     {
-//        __weak typeof(self) weakSelf = self;
-//        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:KTFindUsersLocationInfoURL withParameters:@{@"lotId":[KTFindCarManager lotID],@"parkNo":self.placeView.parkPlaceTF.text} withType:@"get"];
-//        self.client = client;
-//        client.successEvent = ^(id  _Nonnull object) {
-//
-//        };
-//        client.faildEvent = ^(NSError * _Nonnull error) {
-//
-//        };
-//        [client.dataTask resume];
+        __weak typeof(self) weakSelf = self;
+        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:@"http://ts.keytop.cn/ve_api/busCarPart/queryLatestParkingWithLpn" withParameters:@{@"lpn":@"南1000000"} withType:@"post"];
+        self.client = client;
+        client.successEvent = ^(id  _Nonnull object) {
+            NSString *lotID = object[@"lotId"];
+        };
+        client.faildEvent = ^(NSError * _Nonnull error) {
+
+        };
+        [client.dataTask resume];
         
 //        KTInvalidViewController *viewController = [KTInvalidViewController new];
 //        [self.navigationController pushViewController:viewController animated:true];
         
     }
-    KTCarInfoViewController *viewController = [KTCarInfoViewController new];
-    [self.navigationController pushViewController:viewController animated:true];
+//    KTCarInfoViewController *viewController = [KTCarInfoViewController new];
+//    [self.navigationController pushViewController:viewController animated:true];
 }
 
 -(void)setupUI{

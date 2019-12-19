@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
+#if DEBUG
+#define KTBaseRequestURL @"https://ts.keytop.cn/fc_test"
+#else
+#define KTBaseRequestURL @"https://cloud.keytop.cn/fc"
+#endif
+
+
 //根据车场id和车牌号，获取车场蓝牙uuid和车辆停车信息
 #define KTGetParkingInfoURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/app-api/getParkingInfo"]
 //App获取找车初始化数据

@@ -25,6 +25,10 @@
     });
     return manager;
 }
++(void)load
+{
+    [NetWorkURLManager setBaseURL:KTBaseRequestURL];
+}
 +(void)setBaseURL:(NSString*)baseURL
 {
     [NetWorkURLManager shareInstance].baseURL = baseURL;
@@ -58,8 +62,7 @@
             i++;
         }
     }
-    //    NSString * charaters = @"?!@#$^&%*+,:;='\"`<>()[]{}/\\| ";
-    //    NSCharacterSet * set = [[NSCharacterSet characterSetWithCharactersInString:charaters] invertedSet];
+
     
     return  [mutableString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];;
 }
