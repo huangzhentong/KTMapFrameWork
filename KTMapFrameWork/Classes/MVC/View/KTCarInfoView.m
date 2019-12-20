@@ -7,7 +7,7 @@
 
 #import "KTCarInfoView.h"
 #import "NSString+AddLineSpace.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 #import "KTColorHeader.h"
 #import "UIImageView+ImageWithURL.h"
 @interface KTCarInfoView ()

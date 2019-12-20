@@ -10,7 +10,7 @@
 #import "NSString+AddLineSpace.h"
 #import "NSBundle+KTRes.h"
 #import "UIColor+Hexadecimal.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 #import "KTColorHeader.h"
 
 @interface KTFaildView ()

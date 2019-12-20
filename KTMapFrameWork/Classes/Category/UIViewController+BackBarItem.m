@@ -8,7 +8,7 @@
 
 #import "UIViewController+BackBarItem.h"
 #import <objc/runtime.h>
-#import <UIImage+Bundle.h>
+#import <UIImage+KTNSBundle.h>
 
 @implementation UIViewController (BackBarItem)
 

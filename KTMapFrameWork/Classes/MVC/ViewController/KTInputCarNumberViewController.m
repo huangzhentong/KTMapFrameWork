@@ -7,7 +7,7 @@
 
 #import "KTInputCarNumberViewController.h"
 #import "KTNearParkPlaceView.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 #import "KTNetWorkService.h"
 
 #import "KTCarInfoViewController.h"

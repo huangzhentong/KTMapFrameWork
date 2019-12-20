@@ -7,7 +7,7 @@
 
 #import "KTInvalidViewController.h"
 #import "UIViewController+BackBarItem.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 
 #import "KTColorHeader.h"
 @interface KTInvalidViewController ()

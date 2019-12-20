@@ -9,7 +9,7 @@
 
 #import "NSString+AddLineSpace.h"
 #import "KTColorHeader.h"
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 #import "HTCKeyboard.h"
 #import "UITextField+MaxLength.h"
 @interface KTNearParkPlaceView ()<UITextFieldDelegate>

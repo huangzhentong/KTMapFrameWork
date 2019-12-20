@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIImage (Bundle)
+@interface UIImage (KTNSBundle)
 
 +(UIImage*)getKTBundleImage:(NSString*)imageName ;
 @end

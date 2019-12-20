@@ -6,11 +6,11 @@
 //  Copyright © 2019 KT--stc08. All rights reserved.
 //
 
-#import "UIImage+Bundle.h"
+#import "UIImage+KTNSBundle.h"
 
 #import "NSBundle+KTRes.h"
 
-@implementation UIImage (Bundle)
+@implementation UIImage (KTNSBundle)
 
 
 +(UIImage*)getKTBundleImage:(NSString*)imageName

@@ -1,1 +1,0 @@
-../../../../../KTMapFrameWork/Classes/Category/UIImage+Color.h
