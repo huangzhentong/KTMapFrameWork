@@ -56,7 +56,7 @@
 {
     if (!_imageView) {
         _imageView = [[UIImageView alloc] init];
-        _imageView.image = [UIImage getBundleImage:@"default_requesttimedout"];
+        _imageView.image = [UIImage getKTBundleImage:@"default_requesttimedout"];
         [self addSubview:_imageView];
     }
     return _imageView;

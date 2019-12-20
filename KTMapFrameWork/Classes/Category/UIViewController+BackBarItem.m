@@ -22,7 +22,7 @@
 -(void)addBackBarBtn:(SEL)selector
 {
     UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    UIImage *image = [UIImage  getBundleImage:@"nav_return"];
+    UIImage *image = [UIImage  getKTBundleImage:@"nav_return"];
     [leftBtn setImage:image forState:UIControlStateNormal];
     if (selector == nil) {
         selector = NSSelectorFromString(@"backBtnEvent");
@@ -41,7 +41,7 @@
     UIFont *font = [UIFont systemFontOfSize:17];
     leftBtn.titleLabel.font = font;
     
-    UIImage *image = [UIImage  getBundleImage:@"nav_return"];
+    UIImage *image = [UIImage  getKTBundleImage:@"nav_return"];
     [leftBtn setImage:image forState:UIControlStateNormal];
     if (selector == nil) {
         selector = NSSelectorFromString(@"backBtnEvent");

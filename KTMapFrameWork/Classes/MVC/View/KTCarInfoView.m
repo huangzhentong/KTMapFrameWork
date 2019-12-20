@@ -41,7 +41,7 @@
 -(UIImageView*)carImageView
 {
     if (!_carImageView) {
-        _carImageView = [[UIImageView alloc] initWithImage:[UIImage getBundleImage:@""]];
+        _carImageView = [[UIImageView alloc] initWithImage:[UIImage getKTBundleImage:@""]];
         _carImageView.backgroundColor = KTColor_ECE;
         [self.carBackgroundView addSubview:_carImageView];
     }

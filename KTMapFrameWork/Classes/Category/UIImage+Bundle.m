@@ -13,7 +13,7 @@
 @implementation UIImage (Bundle)
 
 
-+(UIImage*)getBundleImage:(NSString*)imageName
++(UIImage*)getKTBundleImage:(NSString*)imageName
 {
     if([NSBundle getResBundel])
     {

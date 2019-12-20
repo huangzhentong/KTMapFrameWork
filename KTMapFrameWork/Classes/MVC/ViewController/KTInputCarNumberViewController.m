@@ -93,7 +93,7 @@
 
 -(void)setupUI{
     UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    UIImage *image = [UIImage  getBundleImage:@"nav_return_w"];
+    UIImage *image = [UIImage  getKTBundleImage:@"nav_return_w"];
     [leftBtn setImage:image forState:UIControlStateNormal];
     SEL  selector = NSSelectorFromString(@"backBtnEvent");
     [leftBtn addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];

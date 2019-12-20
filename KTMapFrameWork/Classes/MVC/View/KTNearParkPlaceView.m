@@ -130,10 +130,10 @@
         make.top.mas_equalTo(17+44+20);
         make.right.mas_equalTo(-24);
     }];
-    UIImageView *gridImageView = [[UIImageView alloc] initWithImage:[UIImage getBundleImage:@"home_topbg_grid"]];
+    UIImageView *gridImageView = [[UIImageView alloc] initWithImage:[UIImage getKTBundleImage:@"home_topbg_grid"]];
     [self.headerView addSubview:gridImageView];
     
-    UIImageView *pathImageView = [[UIImageView alloc] initWithImage:[UIImage getBundleImage:@"home_topbg_polyline"]];
+    UIImageView *pathImageView = [[UIImageView alloc] initWithImage:[UIImage getKTBundleImage:@"home_topbg_polyline"]];
     [self.headerView addSubview:pathImageView];
     
     [gridImageView mas_makeConstraints:^(MASConstraintMaker *make) {
