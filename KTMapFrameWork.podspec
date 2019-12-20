@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTMapFrameWork'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = 'A short description of KTMapFrameWork.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
 
   s.source_files = 'KTMapFrameWork/Classes/**/*'
- s.public_header_files = 'KTFindCarSDK/Classes/PublicHeader/*.h'
+ s.public_header_files = 'KTMapFrameWork/Classes/PublicHeader/*.h'
   #s.resource = 'KTMapFrameWork/Assets/*'
   # s.resource_bundles = {
   #   'KTMapFrameWork' => ['KTMapFrameWork/Assets/*.png']
