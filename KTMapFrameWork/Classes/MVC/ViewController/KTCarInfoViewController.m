@@ -144,10 +144,7 @@
             [self inputAMapSDK];
         }
     }
-    
-        
-    
-    
+  
 }
 
 //进入室入SDK

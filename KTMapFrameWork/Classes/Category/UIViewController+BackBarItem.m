@@ -51,8 +51,6 @@
     NSDictionary*attrs =@{NSFontAttributeName: font};
     //返回一个矩形，大小等于文本绘制完占据的宽和高。
     CGSize size =  [title  boundingRectWithSize:CGSizeMake(300, 100)  options:NSStringDrawingUsesLineFragmentOrigin  attributes:attrs   context:nil].size;
-    
-//    [leftBtn.titleLabel setContentCompressionResistancePriority:UILayoutPriorityDefaultHigh forAxis:UILayoutConstraintAxisHorizontal];
      leftBtn.frame = CGRectMake(0, 0, size.width+30, 44);
     leftBtn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, size.width+30-image.size.width);
     leftBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
