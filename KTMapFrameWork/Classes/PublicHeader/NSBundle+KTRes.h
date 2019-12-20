@@ -18,5 +18,5 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 //#define KTLocalizedString(string) NSLocalizedStringFromTableInBundle(string, @"Localizable", [NSBundle getResBundel], nil)
-#define KTLocalizedString(string) [[NSBundle getResBundel] localizedStringKey:string]
+#define KTLocalizedString(string) [[NSBundle getResBundel] localizedStringKey:string]?:@""
 NS_ASSUME_NONNULL_END

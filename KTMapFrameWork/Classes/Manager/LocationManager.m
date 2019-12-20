@@ -118,7 +118,7 @@ NSString *const longitude = @"longitude";
     }];
     [alertVC addAction:cancel];
     [alertVC addAction:setting];
-    [[[[[UIApplication sharedApplication] delegate] window] rootViewController] presentViewController:alertVC animated:true completion:nil];
+    [[[[UIApplication sharedApplication] keyWindow] rootViewController] presentViewController:alertVC animated:true completion:nil];
 }
 
 #pragma mark CoreLocation delegate (定位失败)

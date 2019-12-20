@@ -1,1 +1,0 @@
-../../../../../KTMapFrameWork/Classes/Manager/KTMapSDKManager.h

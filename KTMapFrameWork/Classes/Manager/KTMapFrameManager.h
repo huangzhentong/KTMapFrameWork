@@ -6,10 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KTMapSDKManager : NSObject
+@interface KTMapFrameManager : NSObject
 //跳转到SDK;
 //传入一个viewController;
 +(void)presentSDK:(UIViewController*)viewController mapAPIKey:(NSString*)apiKey;

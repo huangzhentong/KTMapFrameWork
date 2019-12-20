@@ -96,9 +96,9 @@
     if (!_pathBtn) {
         _pathBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         [_pathBtn setTitle:@"开始" forState:UIControlStateNormal];
-        [_pathBtn setTitleColor:KTBtnNormalColor forState:UIControlStateNormal];
+        [_pathBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _pathBtn.titleLabel.font = [UIFont systemFontOfSize:16];
-        [_pathBtn setBackgroundColor:KTBtnBackgroundColor];
+        [_pathBtn setBackgroundColor:KTBtnNormalColor];
         [self addSubview:_pathBtn];
     }
     return _pathBtn;

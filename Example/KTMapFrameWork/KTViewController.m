@@ -8,7 +8,7 @@
 
 #import "KTViewController.h"
 
-#import <KTMapSDKManager.h>
+#import <KTMapFrameManager.h>
 @interface KTViewController ()
 
 @end
@@ -30,7 +30,7 @@
 -(void)startEvent:(id)object
 {
     
-    [KTMapSDKManager presentSDK:self mapAPIKey:@"adfad"];
+    [KTMapFrameManager presentSDK:self mapAPIKey:@"adfad"];
 }
 
 

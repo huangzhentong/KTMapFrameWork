@@ -16,7 +16,6 @@
 -(NSArray*)leftArray
 {
     return @[KTLocalizedString(@"KTFloor")?:@"",
-             KTLocalizedString(@"KTParkSpace")?:@"",
              KTLocalizedString(@"KTParkAddresse")?:@""];
 }
 

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#if DEBUG
+#if !DEBUG
 #define KTBaseRequestURL @"https://ts.keytop.cn/fc_test"
 #else
 #define KTBaseRequestURL @"https://cloud.keytop.cn/fc"

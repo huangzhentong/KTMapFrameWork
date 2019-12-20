@@ -5,13 +5,13 @@
 //  Created by KT--stc08 on 2019/12/18.
 //
 
-#import "KTMapSDKManager.h"
+#import "KTMapFrameManager.h"
 #import "KTNaviViewController.h"
 #import "KTInputCarNumberViewController.h"
 #import "UIImage+Color.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
-@implementation KTMapSDKManager
+@implementation KTMapFrameManager
 
 
 +(void)presentSDK:(UIViewController*)viewController mapAPIKey:(NSString*)apiKey;

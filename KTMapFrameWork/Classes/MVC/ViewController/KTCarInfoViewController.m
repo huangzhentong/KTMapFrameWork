@@ -16,6 +16,8 @@
 #import "LocationManager.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
+#import "CoordinateTransformation.h"
+#import "KTLocationDataModel.h"
 @interface KTCarInfoViewController ()
 @property(nonatomic,strong)KTCarInfoView *carInfoView;
 @property(nonatomic,copy)NSString *code;
@@ -45,9 +47,7 @@
     [self.carInfoView.pathBtn addTarget:self action:@selector(pushToNearParkPlaceViewController) forControlEvents:UIControlEventTouchUpInside];
     self.carInfoView.pathBtn.enabled = false;
     
-    [LocationManager startLocationWithblock:^(CGFloat lat, CGFloat lon, NSError * _Nonnull error) {
-        
-    }];
+ 
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self reloadRequest];
     });
@@ -70,9 +70,9 @@
     model.imageURL = detailModel.parkInfo.imgUrl;
     model.title = self.carNumber;
     model.rightArray=@[detailModel.parkInfo.floorInfo.floorName,
-                       detailModel.parkInfo.areaName,
                        detailModel.parkInfo.parkNo];
     [self.carInfoView updateDataSource:model];
+    
     self.carInfoView.pathBtn.enabled = true;
     self.code = @"";
     self.url = @"";
@@ -142,6 +142,9 @@
         }
     }
     
+        
+    
+    
 }
 
 //进入室入SDK
@@ -152,9 +155,41 @@
 //进入高德SDK
 -(void)inputAMapSDK
 {
-    CGFloat lat = 24.27;
-    CGFloat lon = 118.06;
-     [[NSNotificationCenter defaultCenter] postNotificationName:@"pushToWalkViewController" object:@{@"viewController":self,@"long":@(lon),@"lat":@(lat)}];
+    
+    __weak typeof(self) weakSelf = self;
+    [LocationManager startLocationWithblock:^(CGFloat lat, CGFloat lon, NSError * _Nonnull error) {
+        
+       CLLocationCoordinate2D coordinte = [CoordinateTransformation transformFromWGSToGCJ:CLLocationCoordinate2DMake(lat, lon)];
+        
+        CGFloat latitude = 24.27;
+        CGFloat longitude = 118.06;
+        KTLocationPointModel *lostModel = nil;
+        NSArray *array = [KTLocationDataModel initWithLoactionData];
+        for (KTLocationDataModel * model in array) {
+            if ([model.lotId isEqualToString:weakSelf.lotID]) {
+                CGFloat dis = 999999999999999999;
+                for (KTLocationPointModel * pointModel in model.lotPoint) {
+                    
+                    CGFloat dis2 = [CoordinateTransformation gps2m:pointModel.latitude _y1:pointModel.longitude _x2:coordinte.latitude _y2:coordinte.longitude];
+                    NSLog(@"dis2=%lf",dis2);
+                    if (dis2<dis) {
+                        dis = dis2;
+                        lostModel = pointModel;
+                    }
+                }
+            }
+        }
+        
+        if (lostModel) {
+            longitude = lostModel.longitude;
+            latitude = lostModel.latitude;
+        }
+    
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"pushToWalkViewController" object:@{@"viewController":self,@"long":@(longitude),@"lat":@(latitude)}];
+        
+    }];
+    
+   
 }
 
 -(void)backBtnEvent
