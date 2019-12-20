@@ -133,7 +133,7 @@
     if ([aMapClass respondsToSelector:defaultServiceSel]) {
         id (*sharedServices)(id,SEL) = (id (*) (id,SEL))objc_msgSend;
         id aMap =  sharedServices(aMapClass,defaultServiceSel);
-        NSInteger status =  [[aMap objectForKey:@"locateState"] integerValue];
+        NSInteger status =  [[aMap valueForKey:@"locateState"] integerValue];
         if (status == 0) {
             //进入室入定位
             [self inputDMapSDK];
