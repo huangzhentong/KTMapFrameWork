@@ -57,7 +57,7 @@
 -(void)searchBtnEvent
 {
     
-    self.placeView.parkPlaceTF.text = @"闽D0AL27";
+    
     if(self.placeView.parkPlaceTF.text.length > 0)
     {
         __weak typeof(self) weakSelf = self;

@@ -7,182 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D294A14241F693D22614731BEEFFC1 /* KTNetWorkService.h in Headers */ = {isa = PBXBuildFile; fileRef = CCAD6007936C9FC354096B1AEBC1D717 /* KTNetWorkService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		01338F911BF75F0957B51442E7F863FB /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3E443878CD23E44F2C09F2BA687437 /* UIImage+Bundle.m */; };
-		02DAFE8042A15958414A906D8FB9B3CC /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0269695F6612BBD31B75A9330CDD /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		008F380C3A7A1ABE3F792C30719021EF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D581D36E8F2604536F328C48FE5FAEF /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		0343B86E9B9F5619970FCBD7370E033A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F951AC0775F64FA9241C78B53B7CA3 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADFB96FE254B1812652A624CDF7BCC3 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		07042AFEC951212AB1006596AA0DAA13 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 095DA485BF89AC731F85BF0F91E0F36C /* View+MASAdditions.m */; };
-		08F0B9B035D49250A60BA1EFA6989223 /* KTFaildView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D77DECED0EC88285520BC497BBC7E4 /* KTFaildView.m */; };
+		05E33EF6F94F8C2EF3F9E22139345B7B /* KTFloorInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A5ED8C2A2C33ACBE6A4D2071E103D0 /* KTFloorInfoModel.m */; };
+		05E95E1263688D8E07678BC7F11F9425 /* KTInvalidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC960739DAC82BF021F06A9931C8F3C /* KTInvalidViewController.m */; };
+		0A6C976ADE10313FC650C9A776B52DE0 /* UIViewController+GetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BED283D3560E4EB5691C66BD299073C /* UIViewController+GetViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0B52FF5AD6A846FCEB56FB6BE3E0AC14 /* UITextField+MaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F32229292FC6BA4B6BFC63AEF58847 /* UITextField+MaxLength.m */; };
 		0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7412A6C7D8006025D9A355F412896BEF /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0CF75D46E9ABE9A6B1938FE17BDF0B77 /* UIImageView+ImageWithURL.m in Sources */ = {isa = PBXBuildFile; fileRef = A83BB7B806A3AED2AC954937E8DA8F8F /* UIImageView+ImageWithURL.m */; };
-		0DC1192E83E48EF4832C08F966C9BEA1 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B698ABDDE1C1B14E6960336488BE9C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0F00D8603BFDC0FE353EB0AE3B42A08C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D581D36E8F2604536F328C48FE5FAEF /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		0FE423C92D08F53614C516183D7F7E51 /* KTCarInfoDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A44FC568C31A015E6AF154D7A7270C2 /* KTCarInfoDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		104EEAE45305A8A47C404D7A8FA2BF41 /* KTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F190D29EEFC3668AD1F459A0AA679 /* KTBaseViewController.m */; };
-		10B2E81FB41D6F7B70CC168252C0D000 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 2985222C91E55DA05A74B72FEA00ACF4 /* UIImage+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		10B96E5A48AC7E094128F45E9FC0D476 /* KTIBeaconModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE7FD877C8F00AA9D787D5DAB6F4017 /* KTIBeaconModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC02B880E1AEB878B8BEF1FA0FB687C /* AFImageDownloader.m */; };
 		1102564C9CDAC18DF8D6DB20F6523E72 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B6061F5BE512D07A725F42C17160F6A /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		128C344DDAB35A9271E03EA419D40AF6 /* UIImageView+ImageWithURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A343B1038A511812A25449FCBF10419 /* UIImageView+ImageWithURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		14014E74CFF827417A7A4A66ECD76D90 /* NetWorkURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C24C4E673865ECE9BC3FF869D6767 /* NetWorkURLManager.m */; };
-		14018F36FB1B520E65A4B01C566FB592 /* KTInvalidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB7CCAD7C58A2C759BD757099E691E /* KTInvalidViewController.m */; };
-		1AB5F0AED88FF45EE18A6445FBE7A8C0 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 560E9C415A34BE0F87C4983C28EF2FF0 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		129CFDB05753459E59FB5EA71024E78D /* UIViewController+GetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF229FB2159504203E9370588141F0E6 /* UIViewController+GetViewController.m */; };
+		17B843ADE0916478C447F2D410149860 /* KTCarInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B010F85673B6C95CFA709E90538DF2B /* KTCarInfoView.m */; };
+		186992476ED33C3897573608525F4AB1 /* KTParkDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E27F623DBF5B27B29E98AF4DBCB2312 /* KTParkDetailModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1ABEA7E633D1EE9F56A44D332871AC5B /* HTCListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC9F0DA368290348A18B422A9334BB0 /* HTCListView.m */; };
-		1D1DA3EE626B5F826A1C260FE643F78E /* KTNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 231EA47A3732E4870B2370CDF6005036 /* KTNetworkClient.m */; };
+		1B169B96541D6FAF67C5F82C01D1BEFA /* NSObject+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = F235696A717F1A8CEB7CA687C9B53710 /* NSObject+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B355ECB0ACC9E3DA2262CE667C6DFF4 /* KTBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1648F86C1777DDF4AE6DE2E139C05A /* KTBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B611BA0331D118711A85411FF8E78BB /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C634D54AF9A2DBC78289E2482DA862F1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D5EF6EAFAC0D383266396BAE5D5CAE6 /* KTPathInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D88D6961B9D3E832F7AE16BDE6DB08B /* KTPathInfoModel.m */; };
 		1EA1235398DAC98440B2EFBE43839FD1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999DF321F81349D7230ADBB81201A6FD /* AFSecurityPolicy.m */; };
+		1EB5C94103EB592D0F565CCEA49D6BCA /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D7D8B308B4FB9DD974B05AD035EB2D /* SVProgressHUD.m */; };
 		1F66F73B61BEA115076A9CF7DD463832 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D88068E85114479EEC9ACDB5BF4063 /* AFNetworkActivityIndicatorManager.m */; };
 		226042B8C82A311C2BCD59C3235DF09D /* HTCHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 641C6B6CDE90169EF26D53B9F49FCF66 /* HTCHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		24BB923454CA2C473AA3636F6E5B7A4B /* UIColor+Hexadecimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8CBC432B3F4AE809A11A10C159B309 /* UIColor+Hexadecimal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		270B735098230F98BF6710BD031C76E2 /* AIBBeaconRegionAny.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD2E3C1E749FCFB963D3C878D91113D /* AIBBeaconRegionAny.m */; };
-		27E425085474BECED68DEB7EC6C81925 /* NSMutableArray+KTCacheArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E83705A3C174BA28F80A285F7F2E9F2 /* NSMutableArray+KTCacheArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		236F634FCD63014C6F2D80726DD0DCDE /* KTLocationDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1824425D6C5E2CB5214497696566B278 /* KTLocationDataModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25C9DB3A5366B03B1139D6AAE30F7DF6 /* NSString+AddLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D7FF831F0EF984C93DE7DFDF6496B8E /* NSString+AddLineSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		272643F68E52BD65088167D0E35431CB /* KTCarInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C52FE734FE67F3FC46D71FC646D5601 /* KTCarInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2762A90AA4CB131DE2799749EA1EB9BA /* KTInvalidViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A93E72CEED34C450C4A17D14C04A97 /* KTInvalidViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2809B32AC76AE2840DD5E929139AED9C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD73EED442D95A29DE8638069298D741 /* SVIndefiniteAnimatedView.m */; };
+		2ADF919798F23BF169F1783009B3B0E5 /* KTNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E595689467E82E87A7578FD4A2A71F71 /* KTNetworkClient.m */; };
+		2BF4F0949D7FC2C625D73753A62D1AC8 /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B9D7EEBCB48995E39E040DABBD3BAFC /* LocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C5ADB9E219CBC48A74A7BE435287B86 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884A06B83E14397D8C7FB0BD5D5837E /* MASViewAttribute.m */; };
 		2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A69BD928EB8347407FA2A45E6B1A01 /* AFURLResponseSerialization.m */; };
-		2CB8E4201EB7BB67D1292102DC7B6A3E /* LoadingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 66254E88106CABD51A5FA789568D34D3 /* LoadingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2ED8E0D6DE47DC790535850BAC346787 /* KTInputCarNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DF5E75B7815F4C55314D0DB32A5428 /* KTInputCarNumberViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2FA2916EE9105D496A9E60F2F426EA6D /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B412AD7EBC483484B259A94F710511 /* MASConstraintMaker.m */; };
+		2DEEEF88A1246B5FF658049BE71D95A6 /* KTLocationDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FD5B713C195AC6CED06B79AFAC6145 /* KTLocationDataModel.m */; };
+		2E598B435AE62EEE3D0ECAB1CD5DAFD8 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A975FC66C9799312C7D5D2C8F6527 /* LocationManager.m */; };
+		2EC23A46E3D13ED63656E697DC2552DA /* KTNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C462D9352C7575DD1A3163A1FA50F9EA /* KTNaviViewController.m */; };
 		304FB2F3CB19F5C44D812D90AA2F1121 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC3EDDAA5A1656E06F4184C5EDBCB91 /* UIRefreshControl+AFNetworking.m */; };
-		3050684077D0912906965DCAFC8C1249 /* KTCarInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD78554CF52059CD2845157CE37CBA4 /* KTCarInfoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		323F97BA56A327F11AADA31FDD191B3B /* SVProgressHUD+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = E7899C51DA1F50615F7A37CB989620E4 /* SVProgressHUD+Window.m */; };
-		329CD4D0C048C864F50B310564C5A6D1 /* UITextField+MaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 1949FCF5DB97A80891DC646AC8B22C92 /* UITextField+MaxLength.m */; };
+		32108C9FBFDE4FC514E0AA37C8D7BFB0 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB12252331DB4D9452C9066BCBC4F1 /* SVRadialGradientLayer.m */; };
+		32EE8A490A71B704CBC7CE097A87F6CA /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 152D28D4014ED6A4CBADE8DE82AFEC80 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 052AD294A04981297E31BEB54C6AE1A8 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		33F14AF2E994F0C9CA78B3F4B7E63FB2 /* KTMapFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C4E598CA587BA57D9654ADDD449F81 /* KTMapFrameManager.m */; };
-		34958691D793FDDABFE271C88CF3BA8F /* CLBeacon+ToDic.m in Sources */ = {isa = PBXBuildFile; fileRef = CF660ED2F76D178F58F975B94A85B184 /* CLBeacon+ToDic.m */; };
-		37F5CF2E729A0AFE8EF2715091031480 /* KTMapFrameManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB85D62597D9EBCCEC27B0778D857C3 /* KTMapFrameManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		351357619681F5A72E94D273F7649946 /* NetWorkURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 137B64F5E427CEBB8C4886A68EA661E5 /* NetWorkURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		356F47ACAC6BAAD9864109F798DD96B8 /* KTAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04BF6FE7D46F8815CDE0B17914C3385F /* KTAlertViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3801A443834985F278FE479B54319B4F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EB028220ACA32EC5978502F24D7281 /* AFNetworkReachabilityManager.m */; };
-		39AFF114E02C642EDA06171742FD0B2F /* KTNetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB92685B9861B3C509C43869C346920 /* KTNetWorkService.m */; };
+		382C0A61BE298D76B7266527EF2CAC28 /* KTNetWorkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 452B93242FC1C63E26D3CC467D944982 /* KTNetWorkService.m */; };
+		3896E41B2C3E83D3E11ED58229D2F3D0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B412AD7EBC483484B259A94F710511 /* MASConstraintMaker.m */; };
 		3A430A0845EF640C5A3B38B376F562EC /* Pods-KTMapFrameWork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45D8F36168A75426954C4195C8878D /* Pods-KTMapFrameWork_Example-dummy.m */; };
-		3CE0CD31062398FF2A29ACA0C5C7F0D2 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBE262CDB1B7D82D6748A3A6A5DA4B0 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D13818394F0DB5E5771A01444532F5D /* NSMutableArray+KTCacheArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 473D8D1B038017EE4D8969EE6A26F23A /* NSMutableArray+KTCacheArray.m */; };
-		3DCF7C9FD192FE0566971B6C533971D6 /* LoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2954FD2559BD3448AB2BC2A1FCA3948 /* LoadingManager.m */; };
+		3C55FA92CD227303B1FDF58C312D17D7 /* AIBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B7EB8EBF967046A581B10F154D2EF4 /* AIBUtils.m */; };
+		3C8CA4E844DA09802C142DAFFB844206 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3295CAF941E59FE6E5A5457F1B4441 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CBA21AD9B178EED8135543E279B4803 /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D2070160BBD0A1C2A7E10575278B2F67 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E746A991EE85D77185B3630350C9BAB /* UIViewController+BackBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE94F42B33A60707F0C02100AB58156 /* UIViewController+BackBarItem.m */; };
 		40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5525768472BDA7AF3045666424D923 /* UIImageView+AFNetworking.m */; };
 		418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B352F511C0255D064564CC3D56188B9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		41CBD8F024B6C4A07C15420AAB947A63 /* CoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = DC38BC62D63659F21C062C66B1F3157A /* CoordinateTransformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		42307553BD0F298067B91F83BDCC8760 /* UIViewController+GetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE645ACA1BAADEFB6A2B6BD356691DB0 /* UIViewController+GetViewController.m */; };
-		4462EFE35D2E38598604FCB59C1A141D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA2FBBE529D3E0776F5A77674574B8D /* MASViewConstraint.m */; };
-		46AC606123AC56AF00F2FEB9 /* KTLocationDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AC605F23AC56AF00F2FEB9 /* KTLocationDataModel.h */; };
-		46AC606223AC56AF00F2FEB9 /* KTLocationDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AC606023AC56AF00F2FEB9 /* KTLocationDataModel.m */; };
-		4E74C0582CB71161AEDC5244C0A2D7C9 /* KTCarInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CFCFABBAEA46177C0D0FCAD564A1EA71 /* KTCarInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		528226D07AC65D81C356CEAE8929C465 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED7538A7858BA741B93A4DD9223DB0C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		456D078D2714F6318274574F5724D178 /* SVProgressHUD+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A874B318132EE11FB5EC1F23555B94 /* SVProgressHUD+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46AC606F23AC79AF00F2FEB9 /* KTGlobalModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 46AC606D23AC79AF00F2FEB9 /* KTGlobalModel.h */; };
+		46AC607023AC79AF00F2FEB9 /* KTGlobalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AC606E23AC79AF00F2FEB9 /* KTGlobalModel.m */; };
+		48172DBF44C385EE3C5BC562B02252E7 /* KTPathInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 17B96DD68D209274FC328D889537012C /* KTPathInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4826DB8CC64394E6A74BE2ADAE99174D /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FA50973755FA5F43742C57195B3846B /* UIImage+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		487B02D434F93109983B70BE707E94DD /* KTNaviViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB68BAA6A15466636B4F8A3E8451A08E /* KTNaviViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EE2271C463A7678AC3534508EAE061F /* AIBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 002FDFE5908883F537996C2BF999F323 /* AIBUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F6D170FCC33DE2C74794B7557F78C52 /* AIBBeaconRegionAny.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417C7BA4DD05FFA6E92E123E5C83362 /* AIBBeaconRegionAny.m */; };
+		5186E2CA316F0E1B71338A498EAC4667 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D749B1BDD8FF42AF9DEC2DF5A19D74 /* MASCompositeConstraint.m */; };
+		51E2FCF711D0F93E72C1E2A73D6D7F40 /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB86E17DFC6AE684403DF39846F2F01 /* UIColor+Hexadecimal.m */; };
+		55123641C6192CF86F219494D90540FA /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD494824112C8AED158AF2D0EC0FFD7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F1F089254DCA7721298C1302C2B278 /* UIActivityIndicatorView+AFNetworking.m */; };
 		5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B53CFBEB9B40A1B6E82762ECF4D3CE /* AFAutoPurgingImageCache.m */; };
 		5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 819B87D31509006A1BEE1330A8BA6FA4 /* UIWebView+AFNetworking.m */; };
-		57B2F33345BADBEFAF97A1E2ECFCA89A /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE3ADC1A8655EE0A15E1543CA36C12A /* UIImage+Color.m */; };
-		59434C9D58FEDE159AB9D3BC5DFE4344 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A4B0D53B565482B327778B791A4B98 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C932862E959364403BA1A46E3372A7B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D7D8B308B4FB9DD974B05AD035EB2D /* SVProgressHUD.m */; };
-		5C9823CE9C0091FA0F3A07C6F4D8011E /* KTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6663971B37633E156C8A267A64AB0B62 /* KTModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5CC67471B8937FCE79A979ADFD155E39 /* CoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0E5C3BB7DB309678D429C165E6AA9 /* CoordinateTransformation.m */; };
-		5E20B329E4B19EF2D1A41EE396E1F7E3 /* SVProgressHUD+Window.h in Headers */ = {isa = PBXBuildFile; fileRef = DC34909F47D2C9F23DDE5CA6AF7F5256 /* SVProgressHUD+Window.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5ECC69D6587C08AC86B17EB418B907AB /* KTCarInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B5CB504030C5982D9E5BABCCBC7F20 /* KTCarInfoView.m */; };
+		58CEEB682CD89C16A768B95906FE6B2F /* KTCarInfoView.h in Headers */ = {isa = PBXBuildFile; fileRef = AC484B58538EA7D4A0C2F3A085820C56 /* KTCarInfoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		592A9978712598250C58EE3AC38470A6 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F71E25DB16ABD8007247222480A0FE /* SVProgressHUD-dummy.m */; };
+		59D0B7623B22C426F6FC6BF4175C9040 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EE4AB741C332AC94F02773EE86FA3D /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A65513AE753A11A6D373FFF7A3793F0 /* UIViewController+BackBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE38BA89AE9F5E6DF9E8D057F13A3C1 /* UIViewController+BackBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C5BA2FE8AB1F19AD100F6E177B80CF7 /* CoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D003D7A6CE78A83450C03DB7550DDE2 /* CoordinateTransformation.m */; };
+		5D4F537D96B6411933895D7C92E8728E /* SVProgressHUD+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 88FDE95F4AF6B1F39729FBF10F5022AD /* SVProgressHUD+Window.m */; };
+		5D7ABF4D72ACA36AA3597115BDA7377D /* BYFoundationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B2879A2C33810B2A499287B9310A6D1E /* BYFoundationLog.m */; };
+		5F75976296E274B0125587D45A2F7DF7 /* LoadingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D91F4C5C7BAA5AF356C61C4BA7B0F7EC /* LoadingManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5FF1B4EEDEE8BCA2E676E2548A412B02 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A1539BEF243305EF37FD7FC6AEF34B15 /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5FF9725A573468D93C42A949CD7B72C8 /* KTParkPointModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1410E65A3F5F8A7DDCEDE34AA15BAE /* KTParkPointModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		622DE24431E3DF0AC4136F10C15A352C /* UIViewController+BackBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BC5A9096377EE6D2501F6DC058F9D3 /* UIViewController+BackBarItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		628BBE17124FC7F816731D9929DE6104 /* BYFoundationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B2E3BEC136FD78856DB07B69A48FF /* BYFoundationLog.m */; };
+		626B3343955375AA2315F98E93F9F433 /* KTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3954B5B3AE034DE66C63BDCEB3ADD7AA /* KTBaseViewController.m */; };
+		6427D9EB27709A53A6D283A6197FE29E /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F007B2D9BF7A849DF7898C9B3A5A8F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		64C9EA1A404F6C5EAA3C5D66514B3B5A /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74958D17FE014AFAA751D0DD6E94B33E /* UIImage+Bundle.m */; };
-		6532D5F613F2ED35DD460FFEEC1D56F5 /* NSString+AddLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = B88E53AAC92039E60614CE16E44934DE /* NSString+AddLineSpace.m */; };
-		666A3921729673596682D4666B33334E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F7B19D2A59E6BBE4031302C26F3726 /* SVProgressAnimatedView.m */; };
 		6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0560A9349806BEB78B6AF0949D10CE6B /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6BD219E96349C51506A3E904822F8D4F /* LocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E25857561D1F6D658D48FB3212E2D120 /* LocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6C356B399F973174985CA98529B7EB87 /* KTFaildView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F68C24112A683EFA0A21BFE0B3A593 /* KTFaildView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D1AE5FD623122C3AE4C8BF1C5FDF48F /* KTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F044055DF44394561B79685CA4DD7B73 /* KTAlertViewController.m */; };
-		6E50E852269BB8EE0CE2F08DBD1D27AD /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C5CD6460D63BBA238341B75759601 /* ViewController+MASAdditions.m */; };
-		710AFA347CD954C68B0EBE5A166C8C66 /* KTPathInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9715045C334CCCBB88A9011DFA9963B2 /* KTPathInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6CFA331220C91A64C908A60777AD3216 /* KTCarInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2929E2CBCEE8C51212BB9BC08236CF /* KTCarInfoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71EDA1ECBC39D41E43C9CDF4856A264D /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A1B698ABDDE1C1B14E6960336488BE9C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7269EFBCCB0B3E2FF2B083F59F31EE21 /* Pods-KTMapFrameWork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A0D41DA6C83B42DB14A7620408F22 /* Pods-KTMapFrameWork_Tests-dummy.m */; };
+		726F57476198850AF558426FE9B6B192 /* KTFaildView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7023E992AB48921B1462265E014C111 /* KTFaildView.m */; };
 		72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FE0FBD5CC61625D10879A4EBF91F49 /* AFURLRequestSerialization.m */; };
-		7399E3FC6F9CA9B4FCD3A6984DE96A62 /* KTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D72C97E4E90B1EF7139A0AF40D9674 /* KTBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		760C4E4A4EDA7A0F0A4C2DDDB0C8C069 /* AIBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D702F9449113821E12855F1F7D64B31E /* AIBUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		763697EBFE40A9B3F07B0B4D554A4B5F /* UIViewController+BackBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C8A47611EAD6C5B6A5AE292B875C9 /* UIViewController+BackBarItem.m */; };
-		79A07290F07519AD207A691C7A45BF50 /* KTParkDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBE851D00D32325D299D3945D8219B2 /* KTParkDetailModel.m */; };
-		7A1D2BF647F584E708BF7360EB6E2C02 /* NSString+AddLineSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA060AC88AA5A09AB93C69C40286B58 /* NSString+AddLineSpace.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CDE17AAFBCCAC02800001412822F4E4 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C94842443903B792A38887366C1979 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CFE165F4B1D449843E7C50377FAEA2D /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F71E25DB16ABD8007247222480A0FE /* SVProgressHUD-dummy.m */; };
-		7D70D058FB6E65807F3DFABDD19108C5 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E83D4B599B4E336B9CFABC6307FAFD1 /* LocationManager.m */; };
+		7457139670EB4A92015BE9B4E774D9C7 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 095DA485BF89AC731F85BF0F91E0F36C /* View+MASAdditions.m */; };
+		7741C4EA08533964ED1042824CB994F8 /* UITextField+MaxLength.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A6AF3E701492B7249589C6860305A5 /* UITextField+MaxLength.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7A3C969DF745D796F7CEE0CE4B9E2835 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6DC72313DF62759346AD98E5EBF3C9 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EDF3C4E3F2C17988BC877D8ABCE9BDD /* NSBundle+KTRes.h in Headers */ = {isa = PBXBuildFile; fileRef = F184A6D04B7224F5CBB415855CFFDBB6 /* NSBundle+KTRes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F40BE97DE7A780D7CA8B9C792A63548 /* CoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1354AD072205C4AB70E5BFC0A343BB /* CoordinateTransformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A524D17735955BC5E41BE5E4CA99D1B /* AFHTTPSessionManager.m */; };
-		83B1D51E3FC1ED0DB110BDFC94551E5A /* KTPathInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FBEE17FEF528F727AB1000948AFBA1 /* KTPathInfoModel.m */; };
-		84686FF905C482B817B4B994A48CE6AD /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F007B2D9BF7A849DF7898C9B3A5A8F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8518FD6691291D9BEEA7654A324B6DE8 /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB46EE7C3014D6AF5554402DC52DE89 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		88AEFBD183047E6BAA3887DB8BB92E41 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6D708C3DDD56907BAB29AC69AA173 /* MASLayoutConstraint.m */; };
+		834C96BC8E49D2DDD31AD14363E354F4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97111A28BEE53428B80F9BD3863626D5 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DF5D4453ED8CF2E7A3CBB8E681ECDA /* UIProgressView+AFNetworking.m */; };
-		89CC4DB97F976162864F1DD3C850E577 /* KTInvalidViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 385BCA570B3048C998219D69A8F13E7A /* KTInvalidViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A030E4BEFEC8CFF42FA019D084EBA5E /* KTCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F1780B7354E451BA0F8791C0405929 /* KTCarInfoViewController.m */; };
+		8C56738BFC3CCEBFD076C03317873857 /* KTMapFrameManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B402D978EE51A951BB2D7C83BD8A8F /* KTMapFrameManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8DFB8E42CCFFED0C49076C97E5F2CE18 /* KTCarInfoDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 451AEC56EDF79D0C0C41E7FA948BF2CF /* KTCarInfoDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8E3178118D8175941C1847FF49F7B611 /* HTCKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3719070CD769A3555ED7F7A0CC4622B9 /* HTCKeyboard-dummy.m */; };
-		910D670EB81DC2A37506DD05CD5CF8F1 /* NSBundle+KTRes.h in Headers */ = {isa = PBXBuildFile; fileRef = FB41EB381672E808CB75462EB5C8C7E3 /* NSBundle+KTRes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9189D6DD1D042156091FF638D6AE5E18 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6AA0AE6E1CEC7EC07CA941DF91A5B5 /* MASConstraint.m */; };
+		91C6A372D4562605E289FA035CE5E889 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED7538A7858BA741B93A4DD9223DB0C /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9298631FCB8703C88375562CE6536C46 /* KTNearParkPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C43D78C1BD5153745C8AF8DA8759 /* KTNearParkPlaceView.m */; };
+		92C65BBF34BC5A095B616960B787FCEC /* KTMapFrameWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64632CF074958C87EFCE3F18A3AF461 /* KTMapFrameWork-dummy.m */; };
+		92F9DFD899C7A10A88435693DAD9ED33 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 103DA1AEEF251F4998BB9619DCE72E1B /* UIImage+Color.m */; };
+		942365B35B5A3F5D5C667E1FBCB5D2F3 /* NSBundle+KTRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F0573DC4B4F9C04BC6E8B5EFBE0A3 /* NSBundle+KTRes.m */; };
+		94B7A0FC4493F2297D2765337DCE0782 /* KTParkPointModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD4D1E9775F393E6F32FDC035BA9E0DA /* KTParkPointModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95626E43E572E2CAB0836F3C1EEC07C3 /* KTInputCarNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AE92CDC06855B644B3AF0FE8EF3370 /* KTInputCarNumberViewController.m */; };
 		96FAB41A5DCB1693CD0AE45D37289250 /* HTCPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = C94F0DDF764AF0F319D753DAA52CB7D3 /* HTCPopView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		97219A2A96D8D63A864491670DE710E1 /* KTParkPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0BC611BB425723ED23B20DC37EEA34 /* KTParkPointModel.m */; };
-		9A2AEADE9224D367E2F4DDB9FF8E2E49 /* KTClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC027A8E74E3ADBAA0D22C8223666F0 /* KTClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CF582676932A059A3DE02114024BAC /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9DB683100FC5320BE2FCBFF5F2B87071 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5E8EC28FB8FB0C5FEB74FEA4513036 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D9938476A490D00200B76431A610DCE /* KTFloorInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 558A1BEC7DCACE99DD0331F59B13ED23 /* KTFloorInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E96D3C69CAFF4EA5945280CD68B1A6 /* UIButton+AFNetworking.m */; };
-		A5C9D68107CC1E11C4377D3AB5706B7F /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2CFE73FA262DFEDD916579E54BB06A /* Masonry-dummy.m */; };
+		A517B2E56EF842F02BBAD6C004028E8F /* CLBeacon+ToDic.h in Headers */ = {isa = PBXBuildFile; fileRef = 42789FC83E9883F045F84F64B33C1C42 /* CLBeacon+ToDic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A5CD31A5472DCD93AE273990102E7262 /* NSObject+KTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF95CA8A27DF37472F6D10FBD22372C /* NSObject+KTModel.m */; };
+		A65CE3B2D845BA3DF7E1B1A79C140D3A /* KTAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B53863078A0D427CE573E2652FDA3C /* KTAlertViewController.m */; };
+		A666287F073409986636C13567FEC09F /* CLBeacon+ToDic.m in Sources */ = {isa = PBXBuildFile; fileRef = B584373E0840DF50DD976CAA2ED998BE /* CLBeacon+ToDic.m */; };
+		A841D94B030675194F5299731A0DB896 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5E8EC28FB8FB0C5FEB74FEA4513036 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C206850A6DAB2EEC05D383C732FE10BB /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8858EB06D6F4144DFBDBF90393BDA7C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A915FD690855EEDA79B3A912A3FF719 /* NSArray+MASAdditions.m */; };
-		A8E295AB26242C00CCB1BAA3E1C9C756 /* KTMapFrameWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C876179B01F224F2B1623FEE6EE24C2 /* KTMapFrameWork-dummy.m */; };
-		AA8708FECDA2845417F2F25F852D4198 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C634D54AF9A2DBC78289E2482DA862F1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AAAC7BC7D701FF476FFF9091B5604220 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 152D28D4014ED6A4CBADE8DE82AFEC80 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF9651BA54445AACF109D9AC47AC4904 /* NSObject+KTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A4990C97BFF740A2A0BB1DAC47B8A805 /* NSObject+KTModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AFA8CE1EBF02471EFC5E71358998A915 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6AA0AE6E1CEC7EC07CA941DF91A5B5 /* MASConstraint.m */; };
+		A8BEEFFB2D52EEA5186FB962DFAA575D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA2FBBE529D3E0776F5A77674574B8D /* MASViewConstraint.m */; };
+		A9D982E07F93CCEECD3F68D1D1E53F23 /* NSObject+KTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A814CF08D21BD6C7B7451E10864466 /* NSObject+KTModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD4122C9660A235D72A3EB3DDD22961D /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C93B8878C523C2AF60131D72EDA61467 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF02F63C8B502316AD15567ED06AF663 /* KTClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EB2A033516882CEC7F19C0D9C839A4 /* KTClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF5E372BB3F32DB608516BC49FFF1F7C /* KTColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 527CF3539D5B94F3A796D2C277358C35 /* KTColorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B622D91F74D9DB8E899BA1320FA2587E /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B04AEEC760BEEAEF8FADE22581AF654F /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 97111A28BEE53428B80F9BD3863626D5 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B768B1404433AADC844FA0C9422A3E09 /* AFNetworking-dummy.m */; };
 		B27878E3B8F8ADB1FE01DBD6CB5812E7 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FEBA18B6FA97C6B01F5B0C4DF077BB /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B3068D136B894E6F4E784C13E39DACCA /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6DC72313DF62759346AD98E5EBF3C9 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B3E2A3D4DA6756180C456B859A928561 /* KTNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6896EF04AB23398D75A599A0947CE06E /* KTNaviViewController.m */; };
-		B6BBE6198EB9C9966C6D1709D86E84C7 /* NSObject+KTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29C03BF6E9D68A02CB57EA0D6E358DF /* NSObject+KTModel.m */; };
-		BCD82984F70B9E420287BC343AD6559F /* KTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B60E098BD282B6D1FD194B82ECC1D5A /* KTBaseModel.m */; };
-		BEC4A0CE8788B75F3B9B4F2FC3C5E0A2 /* KTNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AD90071F1CDF21AC23C31509A725F /* KTNetworkClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BEECCCF643DEA07FA9BD9C0E600C5D5C /* KTNaviViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A32D386027EE149A8A3D53C9B3AFDCC4 /* KTNaviViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4C23E670ACE297D59AD9D8404960ABD /* KTClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC149B5821F706A92D88B2332C76854 /* KTClassInfo.m */; };
+		B5DF842A0D3AAE42F36A2E76F2897258 /* NetWorkURLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 553EC22A9D6584C5FEA98DB630916ADD /* NetWorkURLManager.m */; };
+		B70D742F0D1F3C158E4F704BD63E2059 /* KTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C1603E124143127D6F7BC469C903B6CC /* KTBaseViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7F0667140CCCD49AF6A0BE981F6DB01 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B9D80C7747CBFF61A0690257B31771 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB42A45C693945AEC7CC64CD9176F7F5 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C94842443903B792A38887366C1979 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB6D97153949130759F72955B2E14956 /* AIBBeaconRegionAny.h in Headers */ = {isa = PBXBuildFile; fileRef = 9430A4A5903B93DF18F561FE2ED72F65 /* AIBBeaconRegionAny.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC62D431C38F76DB3E42A65E308571CB /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F7B19D2A59E6BBE4031302C26F3726 /* SVProgressAnimatedView.m */; };
 		BF231D1F89984C48444EBA18A67E00CD /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E78133941DA7ED7BB5F47324FA4198 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF78EFE4D4B170D504F2828B65CE5BF3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0269695F6612BBD31B75A9330CDD /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C06F61A759022A62864BD9F8EE3660F3 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D72F0021233E5761A90C3DA29489C762 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B64B7770BC58E296DFD659435C859E37 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C498A050745DE441C8D0B695F1CED1FB /* KTNearParkPlaceView.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9D73DAD3515122D202DB9FE22BB02C /* KTNearParkPlaceView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C57E265676852EAD909ED319951184D8 /* KTParkDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6787D000E2701FF4A4939FA01433BB4F /* KTParkDetailModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C59B948FC60C1665C2324EE941DAD8E1 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C93B8878C523C2AF60131D72EDA61467 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C613E0399601C9E746D42CD621A00A97 /* KTAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 71806DAC0020865BD520EADD83200242 /* KTAlertViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C91B46C7C82F4962D227AE8716FC8596 /* KTNearParkPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 263098113843790FA8066FE9450F50B9 /* KTNearParkPlaceView.m */; };
-		C99EB243E91C4A888CEAEE603623A0D9 /* KTFloorInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9039A84E7D5DDEA9FC4E7CB7EFFC9DEC /* KTFloorInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CAE87FCCE7E22EE84D238010A215D646 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B9D80C7747CBFF61A0690257B31771 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCEA6663CC2460C766F1B95FC34B543C /* KTBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5793A68E8D75D6DB3CA5789173D2FE0D /* KTBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C67F01E4AF91CBC2C6CBA1CBDDC8642C /* KTNetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E51ACCDF8D188431810E673A25A7BED1 /* KTNetworkClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C95C3AE6B079C6AB9538DD45E6FAB325 /* KTFaildView.h in Headers */ = {isa = PBXBuildFile; fileRef = D240FEB7D0629D4630766299113C306B /* KTFaildView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA7CD970A44F79E917E9643DE6FEA999 /* KTInputCarNumberViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4BE040E3E4124519B8220442130B28 /* KTInputCarNumberViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1CD8B1E9A037141613531AA5AF8358 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A915FD690855EEDA79B3A912A3FF719 /* NSArray+MASAdditions.m */; };
 		CD0AD4FCFCE3F996D3CB05188B07C78C /* HTCKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8192FDDEC252F42CBFE48DCA1101248D /* HTCKeyboard.m */; };
+		CDAA70FE26DC310255F2DE494EE95647 /* UIImageView+ImageWithURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 78E3F7014E01237EE3C88339CCE103F4 /* UIImageView+ImageWithURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D082EC5FE97430B43140C74AE4DB5201 /* HTCKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = D7936F6B4F664A44A83707B29D22CF27 /* HTCKeyboard.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1294914B75CF682B77707ECD7A7B551 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9541FA8225021FE1E694C0E225CA09C0 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D280A3B13923FF5FA778EF312BD965F7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA976AEB278D1706A15DA192D6B790F9 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C6308E2918C86457A8DA411D2409AC /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D4371A35B68933D6C941687D3AD02206 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3295CAF941E59FE6E5A5457F1B4441 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 95023498E67141A63F45176ACAE4B98D /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D59C2DB483BCFD47B9BD4A5901D6F798 /* NSBundle+KTRes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C758BFE44AFD0DDA837B3DFCB5C5C52 /* NSBundle+KTRes.m */; };
-		D7AB7ECDE7D7D145533C6281D050D01D /* CLBeacon+ToDic.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A5748F9915CA5C1EB2DC6C10C9391 /* CLBeacon+ToDic.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6BEDDA035AFEAA3032869103D7E188E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2CFE73FA262DFEDD916579E54BB06A /* Masonry-dummy.m */; };
+		D731DC0C9AF6E2E2BEAD36E14C3946DF /* KTNetWorkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F19EFAAD672FC7A9F26BA7C9939822 /* KTNetWorkService.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7D327EF5AB948D07FCAAE31F8919ECC /* KTIBeaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB0A343A1789864E3CF9735E3CCF8E /* KTIBeaconModel.m */; };
+		D83A5C7B7474246D2DCDA258C1EDBAC9 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF6D708C3DDD56907BAB29AC69AA173 /* MASLayoutConstraint.m */; };
+		D870789034DBE0345B385101B364F6CC /* KTParkPointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29987636D69A5DD6197BD1D408AC258F /* KTParkPointModel.m */; };
+		D8DDA0D806812E41C8B5A6877283EE8F /* UIColor+Hexadecimal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF1D6AB63C5E3A5FFFD6CA56529BAE6 /* UIColor+Hexadecimal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D8E05CC14B9FFE45358F93867BE0A080 /* HTCListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B12F1082CAF7FBAD4F82D9C2C9F498 /* HTCListView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D997FF1652648987A5F6E46BCB5125FA /* NetWorkURLManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C6C051DB527595CD2A6BB8F8A5E77B /* NetWorkURLManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DB41B7CD7540185E550FC1F3DDF87849 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD494824112C8AED158AF2D0EC0FFD7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DCAFDD57B17CC954EB7FBD2DF50C1FBB /* KTInputCarNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541D7C88EA5F254FB26CE2BE7924F59D /* KTInputCarNumberViewController.m */; };
-		DF3173BA25A5CA07B4A427A91D9BE2B7 /* KTColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F6590D2BFFED202A6A8A9AADE974C178 /* KTColorHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E130D19CC9E08A6A31576143B0DBE75A /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EE4AB741C332AC94F02773EE86FA3D /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E3E5E657A239F30B595D6638F61EC6CB /* UITextField+MaxLength.h in Headers */ = {isa = PBXBuildFile; fileRef = A481C749C0ABE9ACAEE4EB28E09C317A /* UITextField+MaxLength.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E5E12E25FEDE70FE1D74E760CD2D749E /* KTCarInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8C993D901ADDFDF1ED99CC30CDF422 /* KTCarInfoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D93E2041C7F803B74776594DDA602AD3 /* KTCarInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01748112FA5CBB1D20722101BAE2EF /* KTCarInfoModel.m */; };
+		DAF41DAB4247BAC1E84B3F85451E9EB0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 875C5CD6460D63BBA238341B75759601 /* ViewController+MASAdditions.m */; };
+		DD2B9B49E544C10A57526C2472EB692B /* NSString+AddLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3971DB85CE07E8D912ABF570138AAC42 /* NSString+AddLineSpace.m */; };
+		DDB49F19313034AAD8D333758C458C14 /* KTIBeaconModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BFFBF694D516ECCC897017BEF488C7 /* KTIBeaconModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2C8FD1B1CF9E91990E3525B0D064F90 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9541FA8225021FE1E694C0E225CA09C0 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E57C05266BEC601C54E3B6949CCB4B81 /* LoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 363D1CB012F1EF1714D186597D4EF846 /* LoadingManager.m */; };
+		E618B916D20CACDB3C4007A9441272BA /* KTNearParkPlaceView.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF7C837AD921FC881E5A4A43296A8C0 /* KTNearParkPlaceView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E7351E56F4C49CE1F9559D5C69ECC1ED /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D3A0664660D4D85F289E30B3B9E415 /* AFURLSessionManager.m */; };
-		EAB6C88D3E5856A540B60D9B71E2015F /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884A06B83E14397D8C7FB0BD5D5837E /* MASViewAttribute.m */; };
-		EAC7D082284053D5D95233AA383F1E1C /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD73EED442D95A29DE8638069298D741 /* SVIndefiniteAnimatedView.m */; };
-		ECDA37E8F41A07356258D910D675CF67 /* KTFloorInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DF7ED3865E298EAA4A6D6FF57727E5 /* KTFloorInfoModel.m */; };
+		E9F42D22718B6AFA54DB1D1669E33D07 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4501CF0956627A9BB6E308476E2AF79C /* UIImage+Bundle.m */; };
 		ED30B71402F9D36C5D867C08C3B87D69 /* HTCPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDAD811D8AC5EDF6C01351C1DFB69B6 /* HTCPopView.m */; };
-		ED9948EB944FB70EC384F48E32E9D079 /* UIViewController+GetViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7C0D97B52C74FD1A8C24131D5E87A1 /* UIViewController+GetViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EDD17D9590FCF1B6DF9107434C0A5BEA /* KTCarInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F55520BEEE266BB13C28269AA28A1C8 /* KTCarInfoModel.m */; };
-		EFD8104E3999F6C870C5FBD6125CA338 /* KTIBeaconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A861A9967F1D6B8495A0C337A8D4BAB /* KTIBeaconModel.m */; };
-		F40DF66962C87F5ECB96FFC12A07FBF6 /* KTClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFBD440C3396C9E7CFD253BEEA9E14F /* KTClassInfo.m */; };
-		F758A6C8CB9F27F7BD224F7453D5C8AE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D749B1BDD8FF42AF9DEC2DF5A19D74 /* MASCompositeConstraint.m */; };
+		EDEFA13C88AC150A6A5654ED3C5846C9 /* KTMapFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2976836356F9C733D395CC181321FB2 /* KTMapFrameManager.m */; };
+		EE8C12269131FB370BE3257423B57887 /* KTCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C59B6808FF1900E0D27716238D33 /* KTCarInfoViewController.m */; };
+		EEB428AF53A13F29D722F22527537617 /* NSMutableArray+KTCacheArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B989A00BC24BD47B30E2A19BF3A9D0 /* NSMutableArray+KTCacheArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EED8CFAC5D77C812729347C89A808CD9 /* KTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB4AF56412D86AE84FA20BC237A3AE /* KTBaseModel.m */; };
+		F34457C6E8CB2C2D94F6D4C5E6E572DE /* NSMutableArray+KTCacheArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 641F25AE1E6F095E04C9195F2EA50A7B /* NSMutableArray+KTCacheArray.m */; };
+		F6177646DEF20D598964E0F75AC0D020 /* UIImageView+ImageWithURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA842406E939B8DFF47B3F3DEEF6BF7 /* UIImageView+ImageWithURL.m */; };
+		F853DB7983E20C44840BBE1CC988D312 /* KTParkDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C721A211FFC7C22053660E51509E46A0 /* KTParkDetailModel.m */; };
 		F9AD2CFBEDD600706B921428D25DFA3A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E0B3F3AE7A41F772F4D9DE89D12A21 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA20772B08901EAF2945494E4AED070D /* AIBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8238C97634F2C51AF5E7D23B42F273A6 /* AIBUtils.m */; };
-		FB833F746976D9C4CA31B65091BCD773 /* AIBBeaconRegionAny.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C1334CA2D1F9AC3604D70F33190E8D /* AIBBeaconRegionAny.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FD0E3ADA1D4B328BF95B9838FB54A711 /* UIColor+Hexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 8061C07A76F6568A2830E457201137B6 /* UIColor+Hexadecimal.m */; };
-		FE51E91B754341B0B60432E50609276E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EB12252331DB4D9452C9066BCBC4F1 /* SVRadialGradientLayer.m */; };
+		FAB2A299B5C0DF2F1FDFA36B1D30BB11 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A4B0D53B565482B327778B791A4B98 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB512BBD092A2DAD1F698B2AD3F81268 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 560E9C415A34BE0F87C4983C28EF2FF0 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBCF7F178042150FF278EFDF38250D6E /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBE262CDB1B7D82D6748A3A6A5DA4B0 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD38159E17424982B22CCBA35C1AC26A /* NSObject+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = F09175F97BDE0B6AD5519F9B96DBF284 /* NSObject+Window.m */; };
+		FE47007A50A8EF89B5E9378068087317 /* KTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2EE3D9CA18A9C968CB116009A474FF /* KTModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FEAA3C60F4BDDAC22BD1A6B047DBAAE9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DC069343050B788012DC62FE101D18 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43EE1E4A7F5F8E893ED2473397671E38 /* PBXContainerItemProxy */ = {
+		0C33602AEC6EF7269D6C649E48F82956 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		718263093C0776B49FC8BDBE6D17D081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6054F480E788EC060C5B1EA687609E7C;
+			remoteInfo = HTCKeyboard;
 		};
 		821A5E1093ADF07573CC0C9639A6A2F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -198,13 +209,6 @@
 			remoteGlobalIDString = 1F341B4D8C373D76B07D37A10F1A3BB0;
 			remoteInfo = KTMapFrameWork;
 		};
-		8BE8E23701094C6ED92E592980502DE6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		A82E7F556FABAC6AB847D15172420EC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -212,19 +216,26 @@
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		BAC8348F42C3D716159517C57E66E475 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
-		};
 		CCB88D10EBEFF8E0C0BBB2D984E26E3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 18C4E74FC858FDB96FABF0F964C378BF;
 			remoteInfo = "Pods-KTMapFrameWork_Example";
+		};
+		CF7CEE9AD55BEBF898B33E93461D7806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		D52B99ABA52FF34E812E620D920EFC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 		DB20A5DD053AA54B7A95C5CDE8307528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -240,224 +251,221 @@
 			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		F8E3DE507B60E8B2C47B0FE65178371E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6054F480E788EC060C5B1EA687609E7C;
-			remoteInfo = HTCKeyboard;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C6C051DB527595CD2A6BB8F8A5E77B /* NetWorkURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetWorkURLManager.h; sourceTree = "<group>"; };
+		002FDFE5908883F537996C2BF999F323 /* AIBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIBUtils.h; sourceTree = "<group>"; };
 		03C6308E2918C86457A8DA411D2409AC /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		04BF6FE7D46F8815CDE0B17914C3385F /* KTAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTAlertViewController.h; sourceTree = "<group>"; };
 		052AD294A04981297E31BEB54C6AE1A8 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		0560A9349806BEB78B6AF0949D10CE6B /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		058B72CD3A8B729C8CE45564D5C7181A /* KTMapFrameWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KTMapFrameWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0855FF0989260A94076FCC250D0EB92D /* Pods-KTMapFrameWork_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTMapFrameWork_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0884A06B83E14397D8C7FB0BD5D5837E /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		095DA485BF89AC731F85BF0F91E0F36C /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		0A861A9967F1D6B8495A0C337A8D4BAB /* KTIBeaconModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTIBeaconModel.m; sourceTree = "<group>"; };
 		0AD494824112C8AED158AF2D0EC0FFD7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		0AD7C59B6808FF1900E0D27716238D33 /* KTCarInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoViewController.m; sourceTree = "<group>"; };
 		0B3295CAF941E59FE6E5A5457F1B4441 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		0BFBD440C3396C9E7CFD253BEEA9E14F /* KTClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTClassInfo.m; sourceTree = "<group>"; };
-		0E8CBC432B3F4AE809A11A10C159B309 /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
-		0EE7FD877C8F00AA9D787D5DAB6F4017 /* KTIBeaconModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTIBeaconModel.h; sourceTree = "<group>"; };
+		103DA1AEEF251F4998BB9619DCE72E1B /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		130185A51A978C86BC7F191A36AC84D5 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		137B64F5E427CEBB8C4886A68EA661E5 /* NetWorkURLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NetWorkURLManager.h; sourceTree = "<group>"; };
 		152D28D4014ED6A4CBADE8DE82AFEC80 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		1949FCF5DB97A80891DC646AC8B22C92 /* UITextField+MaxLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MaxLength.m"; sourceTree = "<group>"; };
+		17B96DD68D209274FC328D889537012C /* KTPathInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTPathInfoModel.h; sourceTree = "<group>"; };
+		1824425D6C5E2CB5214497696566B278 /* KTLocationDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTLocationDataModel.h; sourceTree = "<group>"; };
 		1A524D17735955BC5E41BE5E4CA99D1B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		1BE0E5C3BB7DB309678D429C165E6AA9 /* CoordinateTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CoordinateTransformation.m; sourceTree = "<group>"; };
+		1AC960739DAC82BF021F06A9931C8F3C /* KTInvalidViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTInvalidViewController.m; sourceTree = "<group>"; };
 		1D3D08AB42DC56BED231DF3C628F523B /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		1E3E443878CD23E44F2C09F2BA687437 /* UIImage+Bundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		231EA47A3732E4870B2370CDF6005036 /* KTNetworkClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNetworkClient.m; sourceTree = "<group>"; };
+		20A93E72CEED34C450C4A17D14C04A97 /* KTInvalidViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTInvalidViewController.h; sourceTree = "<group>"; };
 		2384A212208CE7323EF8798D05B76F73 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		263098113843790FA8066FE9450F50B9 /* KTNearParkPlaceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNearParkPlaceView.m; sourceTree = "<group>"; };
+		23AE92CDC06855B644B3AF0FE8EF3370 /* KTInputCarNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTInputCarNumberViewController.m; sourceTree = "<group>"; };
 		264689EFF99ABF6067928B93152E41AF /* Pods-KTMapFrameWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTMapFrameWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2985222C91E55DA05A74B72FEA00ACF4 /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		2A343B1038A511812A25449FCBF10419 /* UIImageView+ImageWithURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageWithURL.h"; sourceTree = "<group>"; };
-		2C758BFE44AFD0DDA837B3DFCB5C5C52 /* NSBundle+KTRes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+KTRes.m"; sourceTree = "<group>"; };
-		2EB92685B9861B3C509C43869C346920 /* KTNetWorkService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNetWorkService.m; sourceTree = "<group>"; };
+		29987636D69A5DD6197BD1D408AC258F /* KTParkPointModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTParkPointModel.m; sourceTree = "<group>"; };
+		2B01748112FA5CBB1D20722101BAE2EF /* KTCarInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoModel.m; sourceTree = "<group>"; };
 		2ED7538A7858BA741B93A4DD9223DB0C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		2FB85D62597D9EBCCEC27B0778D857C3 /* KTMapFrameManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTMapFrameManager.h; sourceTree = "<group>"; };
 		308ED791C336EE2F37F4747EC7E92B6B /* HTCKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCKeyboard.release.xcconfig; sourceTree = "<group>"; };
 		3242CE4F35E649DE53E09D0035859EC0 /* Pods-KTMapFrameWork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTMapFrameWork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		345D0269695F6612BBD31B75A9330CDD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		36C1334CA2D1F9AC3604D70F33190E8D /* AIBBeaconRegionAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIBBeaconRegionAny.h; sourceTree = "<group>"; };
+		363D1CB012F1EF1714D186597D4EF846 /* LoadingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoadingManager.m; sourceTree = "<group>"; };
 		3719070CD769A3555ED7F7A0CC4622B9 /* HTCKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTCKeyboard-dummy.m"; sourceTree = "<group>"; };
-		385BCA570B3048C998219D69A8F13E7A /* KTInvalidViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTInvalidViewController.h; sourceTree = "<group>"; };
+		3954B5B3AE034DE66C63BDCEB3ADD7AA /* KTBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTBaseViewController.m; sourceTree = "<group>"; };
+		3971DB85CE07E8D912ABF570138AAC42 /* NSString+AddLineSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddLineSpace.m"; sourceTree = "<group>"; };
 		39C7B8A2977979EAE9188E4E8C48D250 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		39DF5D4453ED8CF2E7A3CBB8E681ECDA /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		39F32229292FC6BA4B6BFC63AEF58847 /* UITextField+MaxLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MaxLength.m"; sourceTree = "<group>"; };
 		3B6061F5BE512D07A725F42C17160F6A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		3EC027A8E74E3ADBAA0D22C8223666F0 /* KTClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTClassInfo.h; sourceTree = "<group>"; };
-		3EE3ADC1A8655EE0A15E1543CA36C12A /* UIImage+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		3F55520BEEE266BB13C28269AA28A1C8 /* KTCarInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoModel.m; sourceTree = "<group>"; };
+		3C52FE734FE67F3FC46D71FC646D5601 /* KTCarInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoModel.h; sourceTree = "<group>"; };
+		42789FC83E9883F045F84F64B33C1C42 /* CLBeacon+ToDic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLBeacon+ToDic.h"; sourceTree = "<group>"; };
 		43E78133941DA7ED7BB5F47324FA4198 /* UIImage+Bundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Bundle.h"; path = "HTCKeyboard/UIImage+Bundle.h"; sourceTree = "<group>"; };
-		46AC605F23AC56AF00F2FEB9 /* KTLocationDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTLocationDataModel.h; sourceTree = "<group>"; };
-		46AC606023AC56AF00F2FEB9 /* KTLocationDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTLocationDataModel.m; sourceTree = "<group>"; };
-		473D8D1B038017EE4D8969EE6A26F23A /* NSMutableArray+KTCacheArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+KTCacheArray.m"; sourceTree = "<group>"; };
+		43FD5B713C195AC6CED06B79AFAC6145 /* KTLocationDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTLocationDataModel.m; sourceTree = "<group>"; };
+		4501CF0956627A9BB6E308476E2AF79C /* UIImage+Bundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bundle.m"; sourceTree = "<group>"; };
+		451AEC56EDF79D0C0C41E7FA948BF2CF /* KTCarInfoDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoDataSource.h; sourceTree = "<group>"; };
+		452B93242FC1C63E26D3CC467D944982 /* KTNetWorkService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNetWorkService.m; sourceTree = "<group>"; };
+		46AC606D23AC79AF00F2FEB9 /* KTGlobalModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTGlobalModel.h; sourceTree = "<group>"; };
+		46AC606E23AC79AF00F2FEB9 /* KTGlobalModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTGlobalModel.m; sourceTree = "<group>"; };
+		46B61691C8189EB1BEAE647F0896C8E9 /* KTMapFrameWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTMapFrameWork-prefix.pch"; sourceTree = "<group>"; };
+		47F19EFAAD672FC7A9F26BA7C9939822 /* KTNetWorkService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNetWorkService.h; sourceTree = "<group>"; };
+		49615E29BD756A47BA97852CA7C816DE /* KTMapFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTMapFrameWork.debug.xcconfig; sourceTree = "<group>"; };
 		4ADFB96FE254B1812652A624CDF7BCC3 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		4B2EE3D9CA18A9C968CB116009A474FF /* KTModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTModel.h; sourceTree = "<group>"; };
 		4D45D8F36168A75426954C4195C8878D /* Pods-KTMapFrameWork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTMapFrameWork_Example-dummy.m"; sourceTree = "<group>"; };
 		4D5E8EC28FB8FB0C5FEB74FEA4513036 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		4DF95CA8A27DF37472F6D10FBD22372C /* NSObject+KTModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KTModel.m"; sourceTree = "<group>"; };
 		4EF6D708C3DDD56907BAB29AC69AA173 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		527CF3539D5B94F3A796D2C277358C35 /* KTColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTColorHeader.h; sourceTree = "<group>"; };
 		52EB028220ACA32EC5978502F24D7281 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		541D7C88EA5F254FB26CE2BE7924F59D /* KTInputCarNumberViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTInputCarNumberViewController.m; sourceTree = "<group>"; };
 		54D749B1BDD8FF42AF9DEC2DF5A19D74 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		553EC22A9D6584C5FEA98DB630916ADD /* NetWorkURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetWorkURLManager.m; sourceTree = "<group>"; };
+		558A1BEC7DCACE99DD0331F59B13ED23 /* KTFloorInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTFloorInfoModel.h; sourceTree = "<group>"; };
 		55B12F1082CAF7FBAD4F82D9C2C9F498 /* HTCListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCListView.h; path = HTCKeyboard/HTCListView.h; sourceTree = "<group>"; };
 		560E9C415A34BE0F87C4983C28EF2FF0 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		562272D4532C97139A2269188229F76B /* KTMapFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTMapFrameWork.release.xcconfig; sourceTree = "<group>"; };
+		56B53863078A0D427CE573E2652FDA3C /* KTAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTAlertViewController.m; sourceTree = "<group>"; };
 		56D3A0664660D4D85F289E30B3B9E415 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		5793A68E8D75D6DB3CA5789173D2FE0D /* KTBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTBaseModel.h; sourceTree = "<group>"; };
 		57EB12252331DB4D9452C9066BCBC4F1 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
-		584C24C4E673865ECE9BC3FF869D6767 /* NetWorkURLManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NetWorkURLManager.m; sourceTree = "<group>"; };
 		5A7A0D41DA6C83B42DB14A7620408F22 /* Pods-KTMapFrameWork_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTMapFrameWork_Tests-dummy.m"; sourceTree = "<group>"; };
+		5ACB4AF56412D86AE84FA20BC237A3AE /* KTBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTBaseModel.m; sourceTree = "<group>"; };
 		5B352F511C0255D064564CC3D56188B9 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		5BCCCB942FA61BA654792E4098534BC3 /* Pods-KTMapFrameWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTMapFrameWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5C8FFE2CC2898BF13897DA87711C7B6D /* KTMapFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTMapFrameWork.debug.xcconfig; sourceTree = "<group>"; };
+		5D88D6961B9D3E832F7AE16BDE6DB08B /* KTPathInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTPathInfoModel.m; sourceTree = "<group>"; };
+		5E27F623DBF5B27B29E98AF4DBCB2312 /* KTParkDetailModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTParkDetailModel.h; sourceTree = "<group>"; };
+		5EF1D6AB63C5E3A5FFFD6CA56529BAE6 /* UIColor+Hexadecimal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hexadecimal.h"; sourceTree = "<group>"; };
+		5FA50973755FA5F43742C57195B3846B /* UIImage+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		5FC3EDDAA5A1656E06F4184C5EDBCB91 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		63A654B2BD27F01C6ED5B337DB65DD6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		617F0573DC4B4F9C04BC6E8B5EFBE0A3 /* NSBundle+KTRes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+KTRes.m"; sourceTree = "<group>"; };
 		641C6B6CDE90169EF26D53B9F49FCF66 /* HTCHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCHeader.h; path = HTCKeyboard/HTCHeader.h; sourceTree = "<group>"; };
+		641F25AE1E6F095E04C9195F2EA50A7B /* NSMutableArray+KTCacheArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+KTCacheArray.m"; sourceTree = "<group>"; };
 		65D7D8B308B4FB9DD974B05AD035EB2D /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		65E0B3F3AE7A41F772F4D9DE89D12A21 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		66254E88106CABD51A5FA789568D34D3 /* LoadingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoadingManager.h; sourceTree = "<group>"; };
-		6663971B37633E156C8A267A64AB0B62 /* KTModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTModel.h; sourceTree = "<group>"; };
-		66D72C97E4E90B1EF7139A0AF40D9674 /* KTBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTBaseViewController.h; sourceTree = "<group>"; };
-		6787D000E2701FF4A4939FA01433BB4F /* KTParkDetailModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTParkDetailModel.h; sourceTree = "<group>"; };
+		67332D56FD2A0FA9F58C27B427CE475E /* KTMapFrameWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KTMapFrameWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		67D88068E85114479EEC9ACDB5BF4063 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		6896EF04AB23398D75A599A0947CE06E /* KTNaviViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNaviViewController.m; sourceTree = "<group>"; };
 		69F71E25DB16ABD8007247222480A0FE /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		6B1410E65A3F5F8A7DDCEDE34AA15BAE /* KTParkPointModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTParkPointModel.h; sourceTree = "<group>"; };
-		6B1F190D29EEFC3668AD1F459A0AA679 /* KTBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTBaseViewController.m; sourceTree = "<group>"; };
-		6B8C993D901ADDFDF1ED99CC30CDF422 /* KTCarInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoModel.h; sourceTree = "<group>"; };
+		6B010F85673B6C95CFA709E90538DF2B /* KTCarInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoView.m; sourceTree = "<group>"; };
+		6B9D7EEBCB48995E39E040DABBD3BAFC /* LocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
 		6BAA07113A9550051C1E3056C1DB0543 /* libHTCKeyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTCKeyboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BED283D3560E4EB5691C66BD299073C /* UIViewController+GetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GetViewController.h"; sourceTree = "<group>"; };
 		6C6AA0AE6E1CEC7EC07CA941DF91A5B5 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		6C876179B01F224F2B1623FEE6EE24C2 /* KTMapFrameWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTMapFrameWork-dummy.m"; sourceTree = "<group>"; };
-		6CA060AC88AA5A09AB93C69C40286B58 /* NSString+AddLineSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AddLineSpace.h"; sourceTree = "<group>"; };
+		6CA842406E939B8DFF47B3F3DEEF6BF7 /* UIImageView+ImageWithURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageWithURL.m"; sourceTree = "<group>"; };
+		6D003D7A6CE78A83450C03DB7550DDE2 /* CoordinateTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CoordinateTransformation.m; sourceTree = "<group>"; };
 		6FB593A8D4B909CDF07FAB98A6033C79 /* libKTMapFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKTMapFrameWork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B412AD7EBC483484B259A94F710511 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		71806DAC0020865BD520EADD83200242 /* KTAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTAlertViewController.h; sourceTree = "<group>"; };
+		71E0C43D78C1BD5153745C8AF8DA8759 /* KTNearParkPlaceView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNearParkPlaceView.m; sourceTree = "<group>"; };
 		7412A6C7D8006025D9A355F412896BEF /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		74958D17FE014AFAA751D0DD6E94B33E /* UIImage+Bundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Bundle.m"; path = "HTCKeyboard/UIImage+Bundle.m"; sourceTree = "<group>"; };
-		755C8A47611EAD6C5B6A5AE292B875C9 /* UIViewController+BackBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBarItem.m"; sourceTree = "<group>"; };
 		76E96D3C69CAFF4EA5945280CD68B1A6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		7B60E098BD282B6D1FD194B82ECC1D5A /* KTBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTBaseModel.m; sourceTree = "<group>"; };
+		78E3F7014E01237EE3C88339CCE103F4 /* UIImageView+ImageWithURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageWithURL.h"; sourceTree = "<group>"; };
 		7CA9EF32300C103C04351B6C3A6B8EDD /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		7E83D4B599B4E336B9CFABC6307FAFD1 /* LocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		7D1648F86C1777DDF4AE6DE2E139C05A /* KTBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTBaseModel.h; sourceTree = "<group>"; };
 		7FDAD811D8AC5EDF6C01351C1DFB69B6 /* HTCPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCPopView.m; path = HTCKeyboard/HTCPopView.m; sourceTree = "<group>"; };
-		8061C07A76F6568A2830E457201137B6 /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
 		80F1F089254DCA7721298C1302C2B278 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		8192FDDEC252F42CBFE48DCA1101248D /* HTCKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCKeyboard.m; path = HTCKeyboard/HTCKeyboard.m; sourceTree = "<group>"; };
 		819B87D31509006A1BEE1330A8BA6FA4 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		8238C97634F2C51AF5E7D23B42F273A6 /* AIBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIBUtils.m; sourceTree = "<group>"; };
 		82CF582676932A059A3DE02114024BAC /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8417C7BA4DD05FFA6E92E123E5C83362 /* AIBBeaconRegionAny.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIBBeaconRegionAny.m; sourceTree = "<group>"; };
 		86AAA49A06A639AED44102FEA63E3380 /* libPods-KTMapFrameWork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTMapFrameWork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C5CD6460D63BBA238341B75759601 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		87B402D978EE51A951BB2D7C83BD8A8F /* KTMapFrameManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTMapFrameManager.h; sourceTree = "<group>"; };
+		88FDE95F4AF6B1F39729FBF10F5022AD /* SVProgressHUD+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Window.m"; sourceTree = "<group>"; };
 		89DC069343050B788012DC62FE101D18 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		89F1780B7354E451BA0F8791C0405929 /* KTCarInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoViewController.m; sourceTree = "<group>"; };
-		8A44FC568C31A015E6AF154D7A7270C2 /* KTCarInfoDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoDataSource.h; sourceTree = "<group>"; };
+		89EB2A033516882CEC7F19C0D9C839A4 /* KTClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTClassInfo.h; sourceTree = "<group>"; };
 		8A915FD690855EEDA79B3A912A3FF719 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8E83705A3C174BA28F80A285F7F2E9F2 /* NSMutableArray+KTCacheArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+KTCacheArray.h"; sourceTree = "<group>"; };
-		8FD78554CF52059CD2845157CE37CBA4 /* KTCarInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoView.h; sourceTree = "<group>"; };
-		9039A84E7D5DDEA9FC4E7CB7EFFC9DEC /* KTFloorInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTFloorInfoModel.h; sourceTree = "<group>"; };
+		8C1354AD072205C4AB70E5BFC0A343BB /* CoordinateTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CoordinateTransformation.h; sourceTree = "<group>"; };
+		8E407EAC37ED77D0A03C32112DCE3152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9430A4A5903B93DF18F561FE2ED72F65 /* AIBBeaconRegionAny.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIBBeaconRegionAny.h; sourceTree = "<group>"; };
 		94FBA539B0904288BB0A22A4DBF06F24 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		95023498E67141A63F45176ACAE4B98D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		9541FA8225021FE1E694C0E225CA09C0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		95FEBCC0547CE0C54749C15A70E40C65 /* Pods-KTMapFrameWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTMapFrameWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96653F5E0ACA77F461861C4FB64264A3 /* HTCKeyboardRes.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HTCKeyboardRes.bundle; path = HTCKeyboard/HTCKeyboardRes.bundle; sourceTree = "<group>"; };
 		97111A28BEE53428B80F9BD3863626D5 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		9715045C334CCCBB88A9011DFA9963B2 /* KTPathInfoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTPathInfoModel.h; sourceTree = "<group>"; };
 		97EE4AB741C332AC94F02773EE86FA3D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		98A874B318132EE11FB5EC1F23555B94 /* SVProgressHUD+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Window.h"; sourceTree = "<group>"; };
 		999DF321F81349D7230ADBB81201A6FD /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		9C1E838B7ED5E9BB4860AD54C6E4CDE7 /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		9D4D31421E3FA30E193B0A212792279C /* Pods-KTMapFrameWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTMapFrameWork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D581D36E8F2604536F328C48FE5FAEF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9D7FF831F0EF984C93DE7DFDF6496B8E /* NSString+AddLineSpace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+AddLineSpace.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ECF7E38C16AB4E4F1F9B642CC35C537 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		A1539BEF243305EF37FD7FC6AEF34B15 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		A18A975FC66C9799312C7D5D2C8F6527 /* LocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		A1B698ABDDE1C1B14E6960336488BE9C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		A1FEBA18B6FA97C6B01F5B0C4DF077BB /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		A2954FD2559BD3448AB2BC2A1FCA3948 /* LoadingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoadingManager.m; sourceTree = "<group>"; };
+		A2976836356F9C733D395CC181321FB2 /* KTMapFrameManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTMapFrameManager.m; sourceTree = "<group>"; };
 		A2C94842443903B792A38887366C1979 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		A32D386027EE149A8A3D53C9B3AFDCC4 /* KTNaviViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNaviViewController.h; sourceTree = "<group>"; };
-		A481C749C0ABE9ACAEE4EB28E09C317A /* UITextField+MaxLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+MaxLength.h"; sourceTree = "<group>"; };
-		A4990C97BFF740A2A0BB1DAC47B8A805 /* NSObject+KTModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+KTModel.h"; sourceTree = "<group>"; };
+		A3A814CF08D21BD6C7B7451E10864466 /* NSObject+KTModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+KTModel.h"; sourceTree = "<group>"; };
 		A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6FBEE17FEF528F727AB1000948AFBA1 /* KTPathInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTPathInfoModel.m; sourceTree = "<group>"; };
-		A83BB7B806A3AED2AC954937E8DA8F8F /* UIImageView+ImageWithURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageWithURL.m"; sourceTree = "<group>"; };
+		AC484B58538EA7D4A0C2F3A085820C56 /* KTCarInfoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoView.h; sourceTree = "<group>"; };
 		AD5525768472BDA7AF3045666424D923 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		AFA2FBBE529D3E0776F5A77674574B8D /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		B0B9D80C7747CBFF61A0690257B31771 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		B1F951AC0775F64FA9241C78B53B7CA3 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		B3DF7ED3865E298EAA4A6D6FF57727E5 /* KTFloorInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTFloorInfoModel.m; sourceTree = "<group>"; };
+		B2879A2C33810B2A499287B9310A6D1E /* BYFoundationLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BYFoundationLog.m; sourceTree = "<group>"; };
+		B584373E0840DF50DD976CAA2ED998BE /* CLBeacon+ToDic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLBeacon+ToDic.m"; sourceTree = "<group>"; };
+		B5B989A00BC24BD47B30E2A19BF3A9D0 /* NSMutableArray+KTCacheArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+KTCacheArray.h"; sourceTree = "<group>"; };
 		B622D91F74D9DB8E899BA1320FA2587E /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		B64B7770BC58E296DFD659435C859E37 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		B768B1404433AADC844FA0C9422A3E09 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		B7FE0FBD5CC61625D10879A4EBF91F49 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		B88E53AAC92039E60614CE16E44934DE /* NSString+AddLineSpace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+AddLineSpace.m"; sourceTree = "<group>"; };
 		BA2CFE73FA262DFEDD916579E54BB06A /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		BBC9F0DA368290348A18B422A9334BB0 /* HTCListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTCListView.m; path = HTCKeyboard/HTCListView.m; sourceTree = "<group>"; };
-		BFBE851D00D32325D299D3945D8219B2 /* KTParkDetailModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTParkDetailModel.m; sourceTree = "<group>"; };
 		BFC02B880E1AEB878B8BEF1FA0FB687C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		C0D77DECED0EC88285520BC497BBC7E4 /* KTFaildView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTFaildView.m; sourceTree = "<group>"; };
+		C1603E124143127D6F7BC469C903B6CC /* KTBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTBaseViewController.h; sourceTree = "<group>"; };
 		C206850A6DAB2EEC05D383C732FE10BB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		C462D9352C7575DD1A3163A1FA50F9EA /* KTNaviViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNaviViewController.m; sourceTree = "<group>"; };
 		C4A69BD928EB8347407FA2A45E6B1A01 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		C634D54AF9A2DBC78289E2482DA862F1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		C6A6AF3E701492B7249589C6860305A5 /* UITextField+MaxLength.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+MaxLength.h"; sourceTree = "<group>"; };
+		C721A211FFC7C22053660E51509E46A0 /* KTParkDetailModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTParkDetailModel.m; sourceTree = "<group>"; };
 		C7395DDB444FE3D0CEEB22B882C1EAD6 /* Pods-KTMapFrameWork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTMapFrameWork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C76DAB23A7455B2DAC6D0C4CB6481673 /* libPods-KTMapFrameWork_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTMapFrameWork_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C93B8878C523C2AF60131D72EDA61467 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		C94F0DDF764AF0F319D753DAA52CB7D3 /* HTCPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCPopView.h; path = HTCKeyboard/HTCPopView.h; sourceTree = "<group>"; };
-		CC1AD90071F1CDF21AC23C31509A725F /* KTNetworkClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNetworkClient.h; sourceTree = "<group>"; };
-		CCAD6007936C9FC354096B1AEBC1D717 /* KTNetWorkService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNetWorkService.h; sourceTree = "<group>"; };
-		CD0A5748F9915CA5C1EB2DC6C10C9391 /* CLBeacon+ToDic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLBeacon+ToDic.h"; sourceTree = "<group>"; };
+		CB68BAA6A15466636B4F8A3E8451A08E /* KTNaviViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNaviViewController.h; sourceTree = "<group>"; };
+		CBF7C837AD921FC881E5A4A43296A8C0 /* KTNearParkPlaceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNearParkPlaceView.h; sourceTree = "<group>"; };
 		CD73EED442D95A29DE8638069298D741 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		CE0BC611BB425723ED23B20DC37EEA34 /* KTParkPointModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTParkPointModel.m; sourceTree = "<group>"; };
-		CF660ED2F76D178F58F975B94A85B184 /* CLBeacon+ToDic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLBeacon+ToDic.m"; sourceTree = "<group>"; };
-		CF7C0D97B52C74FD1A8C24131D5E87A1 /* UIViewController+GetViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+GetViewController.h"; sourceTree = "<group>"; };
-		CFCFABBAEA46177C0D0FCAD564A1EA71 /* KTCarInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoViewController.h; sourceTree = "<group>"; };
+		CF5F8830B3D793B3FB63D5ED4B00DBCA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D0AD0C679FD22B5BCA98737A80981451 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
-		D2DF5E75B7815F4C55314D0DB32A5428 /* KTInputCarNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTInputCarNumberViewController.h; sourceTree = "<group>"; };
+		D1B7EB8EBF967046A581B10F154D2EF4 /* AIBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIBUtils.m; sourceTree = "<group>"; };
+		D2070160BBD0A1C2A7E10575278B2F67 /* UIImage+Bundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
+		D240FEB7D0629D4630766299113C306B /* KTFaildView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTFaildView.h; sourceTree = "<group>"; };
 		D4F007B2D9BF7A849DF7898C9B3A5A8F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		D702F9449113821E12855F1F7D64B31E /* AIBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AIBUtils.h; sourceTree = "<group>"; };
+		D7023E992AB48921B1462265E014C111 /* KTFaildView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTFaildView.m; sourceTree = "<group>"; };
 		D72F0021233E5761A90C3DA29489C762 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		D7936F6B4F664A44A83707B29D22CF27 /* HTCKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTCKeyboard.h; path = HTCKeyboard/HTCKeyboard.h; sourceTree = "<group>"; };
 		D8B53CFBEB9B40A1B6E82762ECF4D3CE /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		D91F4C5C7BAA5AF356C61C4BA7B0F7EC /* LoadingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoadingManager.h; sourceTree = "<group>"; };
+		DA95C2368939366A5899F75BE2EC8E61 /* KTMapFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTMapFrameWork.release.xcconfig; sourceTree = "<group>"; };
 		DA976AEB278D1706A15DA192D6B790F9 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		DAD2E3C1E749FCFB963D3C878D91113D /* AIBBeaconRegionAny.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AIBBeaconRegionAny.m; sourceTree = "<group>"; };
-		DBB46EE7C3014D6AF5554402DC52DE89 /* UIImage+Bundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bundle.h"; sourceTree = "<group>"; };
-		DC34909F47D2C9F23DDE5CA6AF7F5256 /* SVProgressHUD+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Window.h"; sourceTree = "<group>"; };
-		DC38BC62D63659F21C062C66B1F3157A /* CoordinateTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CoordinateTransformation.h; sourceTree = "<group>"; };
 		DCBE262CDB1B7D82D6748A3A6A5DA4B0 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		E1F68C24112A683EFA0A21BFE0B3A593 /* KTFaildView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTFaildView.h; sourceTree = "<group>"; };
+		DCE94F42B33A60707F0C02100AB58156 /* UIViewController+BackBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackBarItem.m"; sourceTree = "<group>"; };
+		DF229FB2159504203E9370588141F0E6 /* UIViewController+GetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GetViewController.m"; sourceTree = "<group>"; };
+		DF2929E2CBCEE8C51212BB9BC08236CF /* KTCarInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTCarInfoViewController.h; sourceTree = "<group>"; };
 		E1F7B19D2A59E6BBE4031302C26F3726 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		E25857561D1F6D658D48FB3212E2D120 /* LocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
-		E29C03BF6E9D68A02CB57EA0D6E358DF /* NSObject+KTModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KTModel.m"; sourceTree = "<group>"; };
+		E3A5ED8C2A2C33ACBE6A4D2071E103D0 /* KTFloorInfoModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTFloorInfoModel.m; sourceTree = "<group>"; };
+		E3BFFBF694D516ECCC897017BEF488C7 /* KTIBeaconModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTIBeaconModel.h; sourceTree = "<group>"; };
 		E45E7F279806C2CA89F35141B55F3032 /* HTCKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCKeyboard-prefix.pch"; sourceTree = "<group>"; };
-		E5B5CB504030C5982D9E5BABCCBC7F20 /* KTCarInfoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTCarInfoView.m; sourceTree = "<group>"; };
-		E7899C51DA1F50615F7A37CB989620E4 /* SVProgressHUD+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Window.m"; sourceTree = "<group>"; };
+		E51ACCDF8D188431810E673A25A7BED1 /* KTNetworkClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNetworkClient.h; sourceTree = "<group>"; };
+		E595689467E82E87A7578FD4A2A71F71 /* KTNetworkClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTNetworkClient.m; sourceTree = "<group>"; };
+		E64632CF074958C87EFCE3F18A3AF461 /* KTMapFrameWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTMapFrameWork-dummy.m"; sourceTree = "<group>"; };
 		E7B6569B325E0C62C3074263F31B102A /* Pods-KTMapFrameWork_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTMapFrameWork_Example-resources.sh"; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB40B908FCE36B3BEE8FA7305A9500CA /* KTMapFrameWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTMapFrameWork-prefix.pch"; sourceTree = "<group>"; };
-		EB9D73DAD3515122D202DB9FE22BB02C /* KTNearParkPlaceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTNearParkPlaceView.h; sourceTree = "<group>"; };
+		EA4BE040E3E4124519B8220442130B28 /* KTInputCarNumberViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTInputCarNumberViewController.h; sourceTree = "<group>"; };
 		EC6DC72313DF62759346AD98E5EBF3C9 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		ECAB7CCAD7C58A2C759BD757099E691E /* KTInvalidViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTInvalidViewController.m; sourceTree = "<group>"; };
-		EE645ACA1BAADEFB6A2B6BD356691DB0 /* UIViewController+GetViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+GetViewController.m"; sourceTree = "<group>"; };
+		ECCB0A343A1789864E3CF9735E3CCF8E /* KTIBeaconModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTIBeaconModel.m; sourceTree = "<group>"; };
+		EEB86E17DFC6AE684403DF39846F2F01 /* UIColor+Hexadecimal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hexadecimal.m"; sourceTree = "<group>"; };
 		F03D4A5EBCC97EB505D61FF0DC2AD54E /* Pods-KTMapFrameWork_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTMapFrameWork_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F044055DF44394561B79685CA4DD7B73 /* KTAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTAlertViewController.m; sourceTree = "<group>"; };
+		F09175F97BDE0B6AD5519F9B96DBF284 /* NSObject+Window.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Window.m"; sourceTree = "<group>"; };
 		F0A4B0D53B565482B327778B791A4B98 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		F15B2E3BEC136FD78856DB07B69A48FF /* BYFoundationLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BYFoundationLog.m; sourceTree = "<group>"; };
+		F184A6D04B7224F5CBB415855CFFDBB6 /* NSBundle+KTRes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+KTRes.h"; sourceTree = "<group>"; };
+		F235696A717F1A8CEB7CA687C9B53710 /* NSObject+Window.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+Window.h"; sourceTree = "<group>"; };
 		F577FD04E883FE94B88037894F4F678E /* HTCKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTCKeyboard.debug.xcconfig; sourceTree = "<group>"; };
-		F5C4E598CA587BA57D9654ADDD449F81 /* KTMapFrameManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTMapFrameManager.m; sourceTree = "<group>"; };
-		F6590D2BFFED202A6A8A9AADE974C178 /* KTColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTColorHeader.h; sourceTree = "<group>"; };
-		F7BC5A9096377EE6D2501F6DC058F9D3 /* UIViewController+BackBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBarItem.h"; sourceTree = "<group>"; };
-		F82BC14DAEDFB3CB3BED60C227C61AE6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F960FA70E9224BBC70393A9C528BDC54 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		FB41EB381672E808CB75462EB5C8C7E3 /* NSBundle+KTRes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+KTRes.h"; sourceTree = "<group>"; };
+		FAC149B5821F706A92D88B2332C76854 /* KTClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KTClassInfo.m; sourceTree = "<group>"; };
+		FD4D1E9775F393E6F32FDC035BA9E0DA /* KTParkPointModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTParkPointModel.h; sourceTree = "<group>"; };
+		FFE38BA89AE9F5E6DF9E8D057F13A3C1 /* UIViewController+BackBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackBarItem.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A764E789898E0E19DF4067D0DE90FB7 /* Frameworks */ = {
+		15B511D5B847F703D33BF76088C96DE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,6 +473,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5599508A68192D9A8BF0C9A9E09C23B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		563819CE23290FC54D4C5BD529C78FCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,14 +500,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8D9009ED7A82599213F9A788DE08B11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB6C49C346EB4BE37ED21E15C9DC3DCC /* Frameworks */ = {
+		F0B39D1F751932ED80937242CF0A00B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -509,6 +517,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0711C03E13B17B07233A3C2B10CB509A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E51ACCDF8D188431810E673A25A7BED1 /* KTNetworkClient.h */,
+				E595689467E82E87A7578FD4A2A71F71 /* KTNetworkClient.m */,
+				47F19EFAAD672FC7A9F26BA7C9939822 /* KTNetWorkService.h */,
+				452B93242FC1C63E26D3CC467D944982 /* KTNetWorkService.m */,
+				137B64F5E427CEBB8C4886A68EA661E5 /* NetWorkURLManager.h */,
+				553EC22A9D6584C5FEA98DB630916ADD /* NetWorkURLManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		090A380A3BDCF9393331E710E1AC9B6E /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -518,40 +539,18 @@
 			name = Security;
 			sourceTree = "<group>";
 		};
-		0E7AE7E93AB2A6AE160A617C3A358250 /* View */ = {
+		09532AEE83267ECCA688F36297C8C56B /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				8A44FC568C31A015E6AF154D7A7270C2 /* KTCarInfoDataSource.h */,
-				8FD78554CF52059CD2845157CE37CBA4 /* KTCarInfoView.h */,
-				E5B5CB504030C5982D9E5BABCCBC7F20 /* KTCarInfoView.m */,
-				E1F68C24112A683EFA0A21BFE0B3A593 /* KTFaildView.h */,
-				C0D77DECED0EC88285520BC497BBC7E4 /* KTFaildView.m */,
-				EB9D73DAD3515122D202DB9FE22BB02C /* KTNearParkPlaceView.h */,
-				263098113843790FA8066FE9450F50B9 /* KTNearParkPlaceView.m */,
+				8C1354AD072205C4AB70E5BFC0A343BB /* CoordinateTransformation.h */,
+				6D003D7A6CE78A83450C03DB7550DDE2 /* CoordinateTransformation.m */,
+				D91F4C5C7BAA5AF356C61C4BA7B0F7EC /* LoadingManager.h */,
+				363D1CB012F1EF1714D186597D4EF846 /* LoadingManager.m */,
+				6B9D7EEBCB48995E39E040DABBD3BAFC /* LocationManager.h */,
+				A18A975FC66C9799312C7D5D2C8F6527 /* LocationManager.m */,
 			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		0F456E7D088365A8A6B302755B66D178 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				D24B7A2F7CF960499261472CBCDFAD74 /* iBeacon */,
-				DECF36819D2F953FD799846BA746A7AE /* Networking */,
-			);
-			name = Service;
-			path = KTMapFrameWork/Classes/Service;
-			sourceTree = "<group>";
-		};
-		1F2E0A0A66CB328B9F1149422FB2FABC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6C876179B01F224F2B1623FEE6EE24C2 /* KTMapFrameWork-dummy.m */,
-				EB40B908FCE36B3BEE8FA7305A9500CA /* KTMapFrameWork-prefix.pch */,
-				5C8FFE2CC2898BF13897DA87711C7B6D /* KTMapFrameWork.debug.xcconfig */,
-				562272D4532C97139A2269188229F76B /* KTMapFrameWork.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KTMapFrameWork";
+			name = Manager;
+			path = KTMapFrameWork/Classes/Manager;
 			sourceTree = "<group>";
 		};
 		201845E33B2F03C9ED0715BB422CE602 /* NSURLSession */ = {
@@ -564,6 +563,18 @@
 				56D3A0664660D4D85F289E30B3B9E415 /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		306F8978E81273E4E7C07F8960F34A6A /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				527CF3539D5B94F3A796D2C277358C35 /* KTColorHeader.h */,
+				67FCE6248E9BBF904A18CE1B35EF662E /* Model */,
+				EC709B8B9BB0249D7B0F431203D12FD7 /* View */,
+				E8C24F796B84F5E8392B45385D2530F8 /* ViewController */,
+			);
+			name = MVC;
+			path = KTMapFrameWork/Classes/MVC;
 			sourceTree = "<group>";
 		};
 		38E31FB2D8DBB0107F8E5EF97F1E9F26 /* Support Files */ = {
@@ -587,6 +598,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3F0F974B60C4CC66B9F6C8A18C3F376F /* KTModel */ = {
+			isa = PBXGroup;
+			children = (
+				89EB2A033516882CEC7F19C0D9C839A4 /* KTClassInfo.h */,
+				FAC149B5821F706A92D88B2332C76854 /* KTClassInfo.m */,
+				4B2EE3D9CA18A9C968CB116009A474FF /* KTModel.h */,
+				A3A814CF08D21BD6C7B7451E10864466 /* NSObject+KTModel.h */,
+				4DF95CA8A27DF37472F6D10FBD22372C /* NSObject+KTModel.m */,
+			);
+			name = KTModel;
+			path = KTMapFrameWork/Classes/KTModel;
+			sourceTree = "<group>";
+		};
 		40F810AE93D5E8A8C55F258E9D6A14AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -599,23 +623,14 @@
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		4119FCD80FEF1E71B4A696D025DAC1C2 /* ViewController */ = {
+		41F7CC9717A5A846E3F17563CF115A43 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				71806DAC0020865BD520EADD83200242 /* KTAlertViewController.h */,
-				F044055DF44394561B79685CA4DD7B73 /* KTAlertViewController.m */,
-				66D72C97E4E90B1EF7139A0AF40D9674 /* KTBaseViewController.h */,
-				6B1F190D29EEFC3668AD1F459A0AA679 /* KTBaseViewController.m */,
-				CFCFABBAEA46177C0D0FCAD564A1EA71 /* KTCarInfoViewController.h */,
-				89F1780B7354E451BA0F8791C0405929 /* KTCarInfoViewController.m */,
-				D2DF5E75B7815F4C55314D0DB32A5428 /* KTInputCarNumberViewController.h */,
-				541D7C88EA5F254FB26CE2BE7924F59D /* KTInputCarNumberViewController.m */,
-				385BCA570B3048C998219D69A8F13E7A /* KTInvalidViewController.h */,
-				ECAB7CCAD7C58A2C759BD757099E691E /* KTInvalidViewController.m */,
-				A32D386027EE149A8A3D53C9B3AFDCC4 /* KTNaviViewController.h */,
-				6896EF04AB23398D75A599A0947CE06E /* KTNaviViewController.m */,
+				50E495D57F042BA44A2D21888251B6DE /* iBeacon */,
+				0711C03E13B17B07233A3C2B10CB509A /* Networking */,
 			);
-			path = ViewController;
+			name = Service;
+			path = KTMapFrameWork/Classes/Service;
 			sourceTree = "<group>";
 		};
 		44333D35653EE62A8A99A9A7FEB48A3A /* UIKit */ = {
@@ -645,6 +660,29 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		48CC56E23891312B6DECD733BE38984F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64632CF074958C87EFCE3F18A3AF461 /* KTMapFrameWork-dummy.m */,
+				46B61691C8189EB1BEAE647F0896C8E9 /* KTMapFrameWork-prefix.pch */,
+				49615E29BD756A47BA97852CA7C816DE /* KTMapFrameWork.debug.xcconfig */,
+				DA95C2368939366A5899F75BE2EC8E61 /* KTMapFrameWork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KTMapFrameWork";
+			sourceTree = "<group>";
+		};
+		50E495D57F042BA44A2D21888251B6DE /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				9430A4A5903B93DF18F561FE2ED72F65 /* AIBBeaconRegionAny.h */,
+				8417C7BA4DD05FFA6E92E123E5C83362 /* AIBBeaconRegionAny.m */,
+				002FDFE5908883F537996C2BF999F323 /* AIBUtils.h */,
+				D1B7EB8EBF967046A581B10F154D2EF4 /* AIBUtils.m */,
+			);
+			path = iBeacon;
+			sourceTree = "<group>";
+		};
 		54402D29DB48DB331BB53FDE20720E7F /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,19 +695,6 @@
 				44333D35653EE62A8A99A9A7FEB48A3A /* UIKit */,
 			);
 			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		55D8AC9A069133F1EF0EB87D975A41E4 /* KTModel */ = {
-			isa = PBXGroup;
-			children = (
-				3EC027A8E74E3ADBAA0D22C8223666F0 /* KTClassInfo.h */,
-				0BFBD440C3396C9E7CFD253BEEA9E14F /* KTClassInfo.m */,
-				6663971B37633E156C8A267A64AB0B62 /* KTModel.h */,
-				A4990C97BFF740A2A0BB1DAC47B8A805 /* NSObject+KTModel.h */,
-				E29C03BF6E9D68A02CB57EA0D6E358DF /* NSObject+KTModel.m */,
-			);
-			name = KTModel;
-			path = KTMapFrameWork/Classes/KTModel;
 			sourceTree = "<group>";
 		};
 		58C8AA8DEAC1B3334DFE91DC5EE77A90 /* Products */ = {
@@ -717,25 +742,27 @@
 			path = "Target Support Files/Pods-KTMapFrameWork_Tests";
 			sourceTree = "<group>";
 		};
-		6F6AB5A715C8750955EA232866917E7F /* Model */ = {
+		67FCE6248E9BBF904A18CE1B35EF662E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5793A68E8D75D6DB3CA5789173D2FE0D /* KTBaseModel.h */,
-				7B60E098BD282B6D1FD194B82ECC1D5A /* KTBaseModel.m */,
-				6B8C993D901ADDFDF1ED99CC30CDF422 /* KTCarInfoModel.h */,
-				3F55520BEEE266BB13C28269AA28A1C8 /* KTCarInfoModel.m */,
-				9039A84E7D5DDEA9FC4E7CB7EFFC9DEC /* KTFloorInfoModel.h */,
-				B3DF7ED3865E298EAA4A6D6FF57727E5 /* KTFloorInfoModel.m */,
-				0EE7FD877C8F00AA9D787D5DAB6F4017 /* KTIBeaconModel.h */,
-				0A861A9967F1D6B8495A0C337A8D4BAB /* KTIBeaconModel.m */,
-				6787D000E2701FF4A4939FA01433BB4F /* KTParkDetailModel.h */,
-				BFBE851D00D32325D299D3945D8219B2 /* KTParkDetailModel.m */,
-				6B1410E65A3F5F8A7DDCEDE34AA15BAE /* KTParkPointModel.h */,
-				CE0BC611BB425723ED23B20DC37EEA34 /* KTParkPointModel.m */,
-				9715045C334CCCBB88A9011DFA9963B2 /* KTPathInfoModel.h */,
-				A6FBEE17FEF528F727AB1000948AFBA1 /* KTPathInfoModel.m */,
-				46AC605F23AC56AF00F2FEB9 /* KTLocationDataModel.h */,
-				46AC606023AC56AF00F2FEB9 /* KTLocationDataModel.m */,
+				7D1648F86C1777DDF4AE6DE2E139C05A /* KTBaseModel.h */,
+				5ACB4AF56412D86AE84FA20BC237A3AE /* KTBaseModel.m */,
+				3C52FE734FE67F3FC46D71FC646D5601 /* KTCarInfoModel.h */,
+				2B01748112FA5CBB1D20722101BAE2EF /* KTCarInfoModel.m */,
+				558A1BEC7DCACE99DD0331F59B13ED23 /* KTFloorInfoModel.h */,
+				E3A5ED8C2A2C33ACBE6A4D2071E103D0 /* KTFloorInfoModel.m */,
+				E3BFFBF694D516ECCC897017BEF488C7 /* KTIBeaconModel.h */,
+				ECCB0A343A1789864E3CF9735E3CCF8E /* KTIBeaconModel.m */,
+				1824425D6C5E2CB5214497696566B278 /* KTLocationDataModel.h */,
+				43FD5B713C195AC6CED06B79AFAC6145 /* KTLocationDataModel.m */,
+				5E27F623DBF5B27B29E98AF4DBCB2312 /* KTParkDetailModel.h */,
+				C721A211FFC7C22053660E51509E46A0 /* KTParkDetailModel.m */,
+				FD4D1E9775F393E6F32FDC035BA9E0DA /* KTParkPointModel.h */,
+				29987636D69A5DD6197BD1D408AC258F /* KTParkPointModel.m */,
+				17B96DD68D209274FC328D889537012C /* KTPathInfoModel.h */,
+				5D88D6961B9D3E832F7AE16BDE6DB08B /* KTPathInfoModel.m */,
+				46AC606D23AC79AF00F2FEB9 /* KTGlobalModel.h */,
+				46AC606E23AC79AF00F2FEB9 /* KTGlobalModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -775,53 +802,6 @@
 			path = "../Target Support Files/HTCKeyboard";
 			sourceTree = "<group>";
 		};
-		859FFDDAA24FDBB82CB48D86445965BE /* KTMapFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				8637564B42878F4BD4D35623D890CD6C /* Category */,
-				55D8AC9A069133F1EF0EB87D975A41E4 /* KTModel */,
-				E4D063803CC2088E58861052088F2D3C /* Manager */,
-				D223A063F618797EC9DBB42C1282A181 /* MVC */,
-				A1159B31A96AFC62F0BE2E5546A106FA /* Pod */,
-				CC4D9314C41DE39AC56546ABD5B5CD11 /* PublicHeader */,
-				0F456E7D088365A8A6B302755B66D178 /* Service */,
-				1F2E0A0A66CB328B9F1149422FB2FABC /* Support Files */,
-			);
-			name = KTMapFrameWork;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8637564B42878F4BD4D35623D890CD6C /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				F15B2E3BEC136FD78856DB07B69A48FF /* BYFoundationLog.m */,
-				CD0A5748F9915CA5C1EB2DC6C10C9391 /* CLBeacon+ToDic.h */,
-				CF660ED2F76D178F58F975B94A85B184 /* CLBeacon+ToDic.m */,
-				8E83705A3C174BA28F80A285F7F2E9F2 /* NSMutableArray+KTCacheArray.h */,
-				473D8D1B038017EE4D8969EE6A26F23A /* NSMutableArray+KTCacheArray.m */,
-				6CA060AC88AA5A09AB93C69C40286B58 /* NSString+AddLineSpace.h */,
-				B88E53AAC92039E60614CE16E44934DE /* NSString+AddLineSpace.m */,
-				DC34909F47D2C9F23DDE5CA6AF7F5256 /* SVProgressHUD+Window.h */,
-				E7899C51DA1F50615F7A37CB989620E4 /* SVProgressHUD+Window.m */,
-				0E8CBC432B3F4AE809A11A10C159B309 /* UIColor+Hexadecimal.h */,
-				8061C07A76F6568A2830E457201137B6 /* UIColor+Hexadecimal.m */,
-				DBB46EE7C3014D6AF5554402DC52DE89 /* UIImage+Bundle.h */,
-				1E3E443878CD23E44F2C09F2BA687437 /* UIImage+Bundle.m */,
-				2985222C91E55DA05A74B72FEA00ACF4 /* UIImage+Color.h */,
-				3EE3ADC1A8655EE0A15E1543CA36C12A /* UIImage+Color.m */,
-				2A343B1038A511812A25449FCBF10419 /* UIImageView+ImageWithURL.h */,
-				A83BB7B806A3AED2AC954937E8DA8F8F /* UIImageView+ImageWithURL.m */,
-				A481C749C0ABE9ACAEE4EB28E09C317A /* UITextField+MaxLength.h */,
-				1949FCF5DB97A80891DC646AC8B22C92 /* UITextField+MaxLength.m */,
-				F7BC5A9096377EE6D2501F6DC058F9D3 /* UIViewController+BackBarItem.h */,
-				755C8A47611EAD6C5B6A5AE292B875C9 /* UIViewController+BackBarItem.m */,
-				CF7C0D97B52C74FD1A8C24131D5E87A1 /* UIViewController+GetViewController.h */,
-				EE645ACA1BAADEFB6A2B6BD356691DB0 /* UIViewController+GetViewController.m */,
-			);
-			name = Category;
-			path = KTMapFrameWork/Classes/Category;
-			sourceTree = "<group>";
-		};
 		86B1FABBA54AE8EDA6DB898E2E48A2D2 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,14 +830,20 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		A1159B31A96AFC62F0BE2E5546A106FA /* Pod */ = {
+		9F025DD42C0A285C229922F6298F30FB /* KTMapFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				058B72CD3A8B729C8CE45564D5C7181A /* KTMapFrameWork.podspec */,
-				63A654B2BD27F01C6ED5B337DB65DD6D /* LICENSE */,
-				F82BC14DAEDFB3CB3BED60C227C61AE6 /* README.md */,
+				D649E802D02DFF840A800F5893C38E21 /* Category */,
+				3F0F974B60C4CC66B9F6C8A18C3F376F /* KTModel */,
+				09532AEE83267ECCA688F36297C8C56B /* Manager */,
+				306F8978E81273E4E7C07F8960F34A6A /* MVC */,
+				CB0355F73DBB5A466E826195A100CEBB /* Pod */,
+				F3AD7215F6BEFCDB4753A54DA006E4BC /* PublicHeader */,
+				41F7CC9717A5A846E3F17563CF115A43 /* Service */,
+				48CC56E23891312B6DECD733BE38984F /* Support Files */,
 			);
-			name = Pod;
+			name = KTMapFrameWork;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A904624F4EF5F1306494103CD60FE316 /* Reachability */ = {
@@ -932,14 +918,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		CC4D9314C41DE39AC56546ABD5B5CD11 /* PublicHeader */ = {
+		CB0355F73DBB5A466E826195A100CEBB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FB41EB381672E808CB75462EB5C8C7E3 /* NSBundle+KTRes.h */,
-				2C758BFE44AFD0DDA837B3DFCB5C5C52 /* NSBundle+KTRes.m */,
+				67332D56FD2A0FA9F58C27B427CE475E /* KTMapFrameWork.podspec */,
+				CF5F8830B3D793B3FB63D5ED4B00DBCA /* LICENSE */,
+				8E407EAC37ED77D0A03C32112DCE3152 /* README.md */,
 			);
-			name = PublicHeader;
-			path = KTMapFrameWork/Classes/PublicHeader;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -954,27 +940,37 @@
 			);
 			sourceTree = "<group>";
 		};
-		D223A063F618797EC9DBB42C1282A181 /* MVC */ = {
+		D649E802D02DFF840A800F5893C38E21 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				F6590D2BFFED202A6A8A9AADE974C178 /* KTColorHeader.h */,
-				6F6AB5A715C8750955EA232866917E7F /* Model */,
-				0E7AE7E93AB2A6AE160A617C3A358250 /* View */,
-				4119FCD80FEF1E71B4A696D025DAC1C2 /* ViewController */,
+				B2879A2C33810B2A499287B9310A6D1E /* BYFoundationLog.m */,
+				42789FC83E9883F045F84F64B33C1C42 /* CLBeacon+ToDic.h */,
+				B584373E0840DF50DD976CAA2ED998BE /* CLBeacon+ToDic.m */,
+				B5B989A00BC24BD47B30E2A19BF3A9D0 /* NSMutableArray+KTCacheArray.h */,
+				641F25AE1E6F095E04C9195F2EA50A7B /* NSMutableArray+KTCacheArray.m */,
+				F235696A717F1A8CEB7CA687C9B53710 /* NSObject+Window.h */,
+				F09175F97BDE0B6AD5519F9B96DBF284 /* NSObject+Window.m */,
+				9D7FF831F0EF984C93DE7DFDF6496B8E /* NSString+AddLineSpace.h */,
+				3971DB85CE07E8D912ABF570138AAC42 /* NSString+AddLineSpace.m */,
+				98A874B318132EE11FB5EC1F23555B94 /* SVProgressHUD+Window.h */,
+				88FDE95F4AF6B1F39729FBF10F5022AD /* SVProgressHUD+Window.m */,
+				5EF1D6AB63C5E3A5FFFD6CA56529BAE6 /* UIColor+Hexadecimal.h */,
+				EEB86E17DFC6AE684403DF39846F2F01 /* UIColor+Hexadecimal.m */,
+				D2070160BBD0A1C2A7E10575278B2F67 /* UIImage+Bundle.h */,
+				4501CF0956627A9BB6E308476E2AF79C /* UIImage+Bundle.m */,
+				5FA50973755FA5F43742C57195B3846B /* UIImage+Color.h */,
+				103DA1AEEF251F4998BB9619DCE72E1B /* UIImage+Color.m */,
+				78E3F7014E01237EE3C88339CCE103F4 /* UIImageView+ImageWithURL.h */,
+				6CA842406E939B8DFF47B3F3DEEF6BF7 /* UIImageView+ImageWithURL.m */,
+				C6A6AF3E701492B7249589C6860305A5 /* UITextField+MaxLength.h */,
+				39F32229292FC6BA4B6BFC63AEF58847 /* UITextField+MaxLength.m */,
+				FFE38BA89AE9F5E6DF9E8D057F13A3C1 /* UIViewController+BackBarItem.h */,
+				DCE94F42B33A60707F0C02100AB58156 /* UIViewController+BackBarItem.m */,
+				6BED283D3560E4EB5691C66BD299073C /* UIViewController+GetViewController.h */,
+				DF229FB2159504203E9370588141F0E6 /* UIViewController+GetViewController.m */,
 			);
-			name = MVC;
-			path = KTMapFrameWork/Classes/MVC;
-			sourceTree = "<group>";
-		};
-		D24B7A2F7CF960499261472CBCDFAD74 /* iBeacon */ = {
-			isa = PBXGroup;
-			children = (
-				36C1334CA2D1F9AC3604D70F33190E8D /* AIBBeaconRegionAny.h */,
-				DAD2E3C1E749FCFB963D3C878D91113D /* AIBBeaconRegionAny.m */,
-				D702F9449113821E12855F1F7D64B31E /* AIBUtils.h */,
-				8238C97634F2C51AF5E7D23B42F273A6 /* AIBUtils.m */,
-			);
-			path = iBeacon;
+			name = Category;
+			path = KTMapFrameWork/Classes/Category;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -984,41 +980,57 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DECF36819D2F953FD799846BA746A7AE /* Networking */ = {
+		E8C24F796B84F5E8392B45385D2530F8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				CC1AD90071F1CDF21AC23C31509A725F /* KTNetworkClient.h */,
-				231EA47A3732E4870B2370CDF6005036 /* KTNetworkClient.m */,
-				CCAD6007936C9FC354096B1AEBC1D717 /* KTNetWorkService.h */,
-				2EB92685B9861B3C509C43869C346920 /* KTNetWorkService.m */,
-				02C6C051DB527595CD2A6BB8F8A5E77B /* NetWorkURLManager.h */,
-				584C24C4E673865ECE9BC3FF869D6767 /* NetWorkURLManager.m */,
+				04BF6FE7D46F8815CDE0B17914C3385F /* KTAlertViewController.h */,
+				56B53863078A0D427CE573E2652FDA3C /* KTAlertViewController.m */,
+				C1603E124143127D6F7BC469C903B6CC /* KTBaseViewController.h */,
+				3954B5B3AE034DE66C63BDCEB3ADD7AA /* KTBaseViewController.m */,
+				DF2929E2CBCEE8C51212BB9BC08236CF /* KTCarInfoViewController.h */,
+				0AD7C59B6808FF1900E0D27716238D33 /* KTCarInfoViewController.m */,
+				EA4BE040E3E4124519B8220442130B28 /* KTInputCarNumberViewController.h */,
+				23AE92CDC06855B644B3AF0FE8EF3370 /* KTInputCarNumberViewController.m */,
+				20A93E72CEED34C450C4A17D14C04A97 /* KTInvalidViewController.h */,
+				1AC960739DAC82BF021F06A9931C8F3C /* KTInvalidViewController.m */,
+				CB68BAA6A15466636B4F8A3E8451A08E /* KTNaviViewController.h */,
+				C462D9352C7575DD1A3163A1FA50F9EA /* KTNaviViewController.m */,
 			);
-			path = Networking;
+			path = ViewController;
 			sourceTree = "<group>";
 		};
-		E4D063803CC2088E58861052088F2D3C /* Manager */ = {
+		EC709B8B9BB0249D7B0F431203D12FD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DC38BC62D63659F21C062C66B1F3157A /* CoordinateTransformation.h */,
-				1BE0E5C3BB7DB309678D429C165E6AA9 /* CoordinateTransformation.m */,
-				2FB85D62597D9EBCCEC27B0778D857C3 /* KTMapFrameManager.h */,
-				F5C4E598CA587BA57D9654ADDD449F81 /* KTMapFrameManager.m */,
-				66254E88106CABD51A5FA789568D34D3 /* LoadingManager.h */,
-				A2954FD2559BD3448AB2BC2A1FCA3948 /* LoadingManager.m */,
-				E25857561D1F6D658D48FB3212E2D120 /* LocationManager.h */,
-				7E83D4B599B4E336B9CFABC6307FAFD1 /* LocationManager.m */,
+				451AEC56EDF79D0C0C41E7FA948BF2CF /* KTCarInfoDataSource.h */,
+				AC484B58538EA7D4A0C2F3A085820C56 /* KTCarInfoView.h */,
+				6B010F85673B6C95CFA709E90538DF2B /* KTCarInfoView.m */,
+				D240FEB7D0629D4630766299113C306B /* KTFaildView.h */,
+				D7023E992AB48921B1462265E014C111 /* KTFaildView.m */,
+				CBF7C837AD921FC881E5A4A43296A8C0 /* KTNearParkPlaceView.h */,
+				71E0C43D78C1BD5153745C8AF8DA8759 /* KTNearParkPlaceView.m */,
 			);
-			name = Manager;
-			path = KTMapFrameWork/Classes/Manager;
+			path = View;
 			sourceTree = "<group>";
 		};
 		EFBD895C8507BF1B278B385DC811C4C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				859FFDDAA24FDBB82CB48D86445965BE /* KTMapFrameWork */,
+				9F025DD42C0A285C229922F6298F30FB /* KTMapFrameWork */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F3AD7215F6BEFCDB4753A54DA006E4BC /* PublicHeader */ = {
+			isa = PBXGroup;
+			children = (
+				87B402D978EE51A951BB2D7C83BD8A8F /* KTMapFrameManager.h */,
+				A2976836356F9C733D395CC181321FB2 /* KTMapFrameManager.m */,
+				F184A6D04B7224F5CBB415855CFFDBB6 /* NSBundle+KTRes.h */,
+				617F0573DC4B4F9C04BC6E8B5EFBE0A3 /* NSBundle+KTRes.m */,
+			);
+			name = PublicHeader;
+			path = KTMapFrameWork/Classes/PublicHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1038,6 +1050,7 @@
 				B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */,
 				D569D00367B456F6CDFE2700097562FC /* AFURLRequestSerialization.h in Headers */,
 				9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */,
+				46AC606F23AC79AF00F2FEB9 /* KTGlobalModel.h in Headers */,
 				05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */,
 				418985D1EA0253EAA3C02FC1F31CA5E8 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
 				0C26E8CE5202114A92A9CFFBA1A9CE88 /* UIButton+AFNetworking.h in Headers */,
@@ -1046,19 +1059,7 @@
 				C1EE07F0E0B54668574633B545FBCE48 /* UIKit+AFNetworking.h in Headers */,
 				D3DC240631E1FA883A5604B3E99BAE2B /* UIProgressView+AFNetworking.h in Headers */,
 				A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */,
-				46AC606123AC56AF00F2FEB9 /* KTLocationDataModel.h in Headers */,
 				337C8A9592224E2629F71F4759AE0DF2 /* UIWebView+AFNetworking.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D19361B5B3351CC1002CB4AFE7EC91E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CDE17AAFBCCAC02800001412822F4E4 /* SVIndefiniteAnimatedView.h in Headers */,
-				DB41B7CD7540185E550FC1F3DDF87849 /* SVProgressAnimatedView.h in Headers */,
-				B3068D136B894E6F4E784C13E39DACCA /* SVProgressHUD.h in Headers */,
-				1AB5F0AED88FF45EE18A6445FBE7A8C0 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,52 +1070,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BBBDFE06232CD6DF137B63A5E9D1CC /* Headers */ = {
+		2F26DE171C268D7308209F9C6B6F5E6C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB833F746976D9C4CA31B65091BCD773 /* AIBBeaconRegionAny.h in Headers */,
-				760C4E4A4EDA7A0F0A4C2DDDB0C8C069 /* AIBUtils.h in Headers */,
-				D7AB7ECDE7D7D145533C6281D050D01D /* CLBeacon+ToDic.h in Headers */,
-				41CBD8F024B6C4A07C15420AAB947A63 /* CoordinateTransformation.h in Headers */,
-				C613E0399601C9E746D42CD621A00A97 /* KTAlertViewController.h in Headers */,
-				CCEA6663CC2460C766F1B95FC34B543C /* KTBaseModel.h in Headers */,
-				7399E3FC6F9CA9B4FCD3A6984DE96A62 /* KTBaseViewController.h in Headers */,
-				0FE423C92D08F53614C516183D7F7E51 /* KTCarInfoDataSource.h in Headers */,
-				E5E12E25FEDE70FE1D74E760CD2D749E /* KTCarInfoModel.h in Headers */,
-				3050684077D0912906965DCAFC8C1249 /* KTCarInfoView.h in Headers */,
-				4E74C0582CB71161AEDC5244C0A2D7C9 /* KTCarInfoViewController.h in Headers */,
-				9A2AEADE9224D367E2F4DDB9FF8E2E49 /* KTClassInfo.h in Headers */,
-				DF3173BA25A5CA07B4A427A91D9BE2B7 /* KTColorHeader.h in Headers */,
-				6C356B399F973174985CA98529B7EB87 /* KTFaildView.h in Headers */,
-				C99EB243E91C4A888CEAEE603623A0D9 /* KTFloorInfoModel.h in Headers */,
-				10B96E5A48AC7E094128F45E9FC0D476 /* KTIBeaconModel.h in Headers */,
-				2ED8E0D6DE47DC790535850BAC346787 /* KTInputCarNumberViewController.h in Headers */,
-				89CC4DB97F976162864F1DD3C850E577 /* KTInvalidViewController.h in Headers */,
-				37F5CF2E729A0AFE8EF2715091031480 /* KTMapFrameManager.h in Headers */,
-				5C9823CE9C0091FA0F3A07C6F4D8011E /* KTModel.h in Headers */,
-				BEECCCF643DEA07FA9BD9C0E600C5D5C /* KTNaviViewController.h in Headers */,
-				C498A050745DE441C8D0B695F1CED1FB /* KTNearParkPlaceView.h in Headers */,
-				BEC4A0CE8788B75F3B9B4F2FC3C5E0A2 /* KTNetworkClient.h in Headers */,
-				00D294A14241F693D22614731BEEFFC1 /* KTNetWorkService.h in Headers */,
-				C57E265676852EAD909ED319951184D8 /* KTParkDetailModel.h in Headers */,
-				5FF9725A573468D93C42A949CD7B72C8 /* KTParkPointModel.h in Headers */,
-				710AFA347CD954C68B0EBE5A166C8C66 /* KTPathInfoModel.h in Headers */,
-				2CB8E4201EB7BB67D1292102DC7B6A3E /* LoadingManager.h in Headers */,
-				6BD219E96349C51506A3E904822F8D4F /* LocationManager.h in Headers */,
-				D997FF1652648987A5F6E46BCB5125FA /* NetWorkURLManager.h in Headers */,
-				910D670EB81DC2A37506DD05CD5CF8F1 /* NSBundle+KTRes.h in Headers */,
-				27E425085474BECED68DEB7EC6C81925 /* NSMutableArray+KTCacheArray.h in Headers */,
-				AF9651BA54445AACF109D9AC47AC4904 /* NSObject+KTModel.h in Headers */,
-				7A1D2BF647F584E708BF7360EB6E2C02 /* NSString+AddLineSpace.h in Headers */,
-				5E20B329E4B19EF2D1A41EE396E1F7E3 /* SVProgressHUD+Window.h in Headers */,
-				24BB923454CA2C473AA3636F6E5B7A4B /* UIColor+Hexadecimal.h in Headers */,
-				8518FD6691291D9BEEA7654A324B6DE8 /* UIImage+Bundle.h in Headers */,
-				10B2E81FB41D6F7B70CC168252C0D000 /* UIImage+Color.h in Headers */,
-				128C344DDAB35A9271E03EA419D40AF6 /* UIImageView+ImageWithURL.h in Headers */,
-				E3E5E657A239F30B595D6638F61EC6CB /* UITextField+MaxLength.h in Headers */,
-				622DE24431E3DF0AC4136F10C15A352C /* UIViewController+BackBarItem.h in Headers */,
-				ED9948EB944FB70EC384F48E32E9D079 /* UIViewController+GetViewController.h in Headers */,
+				BB6D97153949130759F72955B2E14956 /* AIBBeaconRegionAny.h in Headers */,
+				4EE2271C463A7678AC3534508EAE061F /* AIBUtils.h in Headers */,
+				A517B2E56EF842F02BBAD6C004028E8F /* CLBeacon+ToDic.h in Headers */,
+				7F40BE97DE7A780D7CA8B9C792A63548 /* CoordinateTransformation.h in Headers */,
+				356F47ACAC6BAAD9864109F798DD96B8 /* KTAlertViewController.h in Headers */,
+				1B355ECB0ACC9E3DA2262CE667C6DFF4 /* KTBaseModel.h in Headers */,
+				B70D742F0D1F3C158E4F704BD63E2059 /* KTBaseViewController.h in Headers */,
+				8DFB8E42CCFFED0C49076C97E5F2CE18 /* KTCarInfoDataSource.h in Headers */,
+				272643F68E52BD65088167D0E35431CB /* KTCarInfoModel.h in Headers */,
+				58CEEB682CD89C16A768B95906FE6B2F /* KTCarInfoView.h in Headers */,
+				6CFA331220C91A64C908A60777AD3216 /* KTCarInfoViewController.h in Headers */,
+				AF02F63C8B502316AD15567ED06AF663 /* KTClassInfo.h in Headers */,
+				AF5E372BB3F32DB608516BC49FFF1F7C /* KTColorHeader.h in Headers */,
+				C95C3AE6B079C6AB9538DD45E6FAB325 /* KTFaildView.h in Headers */,
+				9D9938476A490D00200B76431A610DCE /* KTFloorInfoModel.h in Headers */,
+				DDB49F19313034AAD8D333758C458C14 /* KTIBeaconModel.h in Headers */,
+				CA7CD970A44F79E917E9643DE6FEA999 /* KTInputCarNumberViewController.h in Headers */,
+				2762A90AA4CB131DE2799749EA1EB9BA /* KTInvalidViewController.h in Headers */,
+				236F634FCD63014C6F2D80726DD0DCDE /* KTLocationDataModel.h in Headers */,
+				8C56738BFC3CCEBFD076C03317873857 /* KTMapFrameManager.h in Headers */,
+				FE47007A50A8EF89B5E9378068087317 /* KTModel.h in Headers */,
+				487B02D434F93109983B70BE707E94DD /* KTNaviViewController.h in Headers */,
+				E618B916D20CACDB3C4007A9441272BA /* KTNearParkPlaceView.h in Headers */,
+				C67F01E4AF91CBC2C6CBA1CBDDC8642C /* KTNetworkClient.h in Headers */,
+				D731DC0C9AF6E2E2BEAD36E14C3946DF /* KTNetWorkService.h in Headers */,
+				186992476ED33C3897573608525F4AB1 /* KTParkDetailModel.h in Headers */,
+				94B7A0FC4493F2297D2765337DCE0782 /* KTParkPointModel.h in Headers */,
+				48172DBF44C385EE3C5BC562B02252E7 /* KTPathInfoModel.h in Headers */,
+				5F75976296E274B0125587D45A2F7DF7 /* LoadingManager.h in Headers */,
+				2BF4F0949D7FC2C625D73753A62D1AC8 /* LocationManager.h in Headers */,
+				351357619681F5A72E94D273F7649946 /* NetWorkURLManager.h in Headers */,
+				7EDF3C4E3F2C17988BC877D8ABCE9BDD /* NSBundle+KTRes.h in Headers */,
+				EEB428AF53A13F29D722F22527537617 /* NSMutableArray+KTCacheArray.h in Headers */,
+				A9D982E07F93CCEECD3F68D1D1E53F23 /* NSObject+KTModel.h in Headers */,
+				1B169B96541D6FAF67C5F82C01D1BEFA /* NSObject+Window.h in Headers */,
+				25C9DB3A5366B03B1139D6AAE30F7DF6 /* NSString+AddLineSpace.h in Headers */,
+				456D078D2714F6318274574F5724D178 /* SVProgressHUD+Window.h in Headers */,
+				D8DDA0D806812E41C8B5A6877283EE8F /* UIColor+Hexadecimal.h in Headers */,
+				3CBA21AD9B178EED8135543E279B4803 /* UIImage+Bundle.h in Headers */,
+				4826DB8CC64394E6A74BE2ADAE99174D /* UIImage+Color.h in Headers */,
+				CDAA70FE26DC310255F2DE494EE95647 /* UIImageView+ImageWithURL.h in Headers */,
+				7741C4EA08533964ED1042824CB994F8 /* UITextField+MaxLength.h in Headers */,
+				5A65513AE753A11A6D373FFF7A3793F0 /* UIViewController+BackBarItem.h in Headers */,
+				0A6C976ADE10313FC650C9A776B52DE0 /* UIViewController+GetViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684A4CDA6DE5496FA08F3EAADE859D97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB42A45C693945AEC7CC64CD9176F7F5 /* SVIndefiniteAnimatedView.h in Headers */,
+				55123641C6192CF86F219494D90540FA /* SVProgressAnimatedView.h in Headers */,
+				7A3C969DF745D796F7CEE0CE4B9E2835 /* SVProgressHUD.h in Headers */,
+				FB512BBD092A2DAD1F698B2AD3F81268 /* SVRadialGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1137,25 +1151,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F098103E79C5302C8B2D824BA6A55A88 /* Headers */ = {
+		BE99F158309666E8A50F8387568348F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC1192E83E48EF4832C08F966C9BEA1 /* MASCompositeConstraint.h in Headers */,
-				D1294914B75CF682B77707ECD7A7B551 /* MASConstraint+Private.h in Headers */,
-				E130D19CC9E08A6A31576143B0DBE75A /* MASConstraint.h in Headers */,
-				AA8708FECDA2845417F2F25F852D4198 /* MASConstraintMaker.h in Headers */,
-				AAAC7BC7D701FF476FFF9091B5604220 /* MASLayoutConstraint.h in Headers */,
-				9DB683100FC5320BE2FCBFF5F2B87071 /* Masonry.h in Headers */,
-				3CE0CD31062398FF2A29ACA0C5C7F0D2 /* MASUtilities.h in Headers */,
-				D4371A35B68933D6C941687D3AD02206 /* MASViewAttribute.h in Headers */,
-				59434C9D58FEDE159AB9D3BC5DFE4344 /* MASViewConstraint.h in Headers */,
-				B04AEEC760BEEAEF8FADE22581AF654F /* NSArray+MASAdditions.h in Headers */,
-				C59B948FC60C1665C2324EE941DAD8E1 /* NSArray+MASShorthandAdditions.h in Headers */,
-				84686FF905C482B817B4B994A48CE6AD /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				CAE87FCCE7E22EE84D238010A215D646 /* View+MASAdditions.h in Headers */,
-				528226D07AC65D81C356CEAE8929C465 /* View+MASShorthandAdditions.h in Headers */,
-				02DAFE8042A15958414A906D8FB9B3CC /* ViewController+MASAdditions.h in Headers */,
+				71EDA1ECBC39D41E43C9CDF4856A264D /* MASCompositeConstraint.h in Headers */,
+				E2C8FD1B1CF9E91990E3525B0D064F90 /* MASConstraint+Private.h in Headers */,
+				59D0B7623B22C426F6FC6BF4175C9040 /* MASConstraint.h in Headers */,
+				1B611BA0331D118711A85411FF8E78BB /* MASConstraintMaker.h in Headers */,
+				32EE8A490A71B704CBC7CE097A87F6CA /* MASLayoutConstraint.h in Headers */,
+				A841D94B030675194F5299731A0DB896 /* Masonry.h in Headers */,
+				FBCF7F178042150FF278EFDF38250D6E /* MASUtilities.h in Headers */,
+				3C8CA4E844DA09802C142DAFFB844206 /* MASViewAttribute.h in Headers */,
+				FAB2A299B5C0DF2F1FDFA36B1D30BB11 /* MASViewConstraint.h in Headers */,
+				834C96BC8E49D2DDD31AD14363E354F4 /* NSArray+MASAdditions.h in Headers */,
+				AD4122C9660A235D72A3EB3DDD22961D /* NSArray+MASShorthandAdditions.h in Headers */,
+				6427D9EB27709A53A6D283A6197FE29E /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				B7F0667140CCCD49AF6A0BE981F6DB01 /* View+MASAdditions.h in Headers */,
+				91C6A372D4562605E289FA035CE5E889 /* View+MASShorthandAdditions.h in Headers */,
+				BF78EFE4D4B170D504F2828B65CE5BF3 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,11 +1217,11 @@
 		};
 		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74C3E788E5352C93A4A4E430766FB9A9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildConfigurationList = 122F72005E2AF51B9CD8124770EDF379 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
 			buildPhases = (
-				1D19361B5B3351CC1002CB4AFE7EC91E /* Headers */,
-				364ECBFB918233427E3DE207FB70470A /* Sources */,
-				A8D9009ED7A82599213F9A788DE08B11 /* Frameworks */,
+				684A4CDA6DE5496FA08F3EAADE859D97 /* Headers */,
+				0CA45EF934C66149FC4F06C644F901AB /* Sources */,
+				563819CE23290FC54D4C5BD529C78FCD /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1220,19 +1234,19 @@
 		};
 		1F341B4D8C373D76B07D37A10F1A3BB0 /* KTMapFrameWork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C88DAB69AE1D88CD9E08640953F85F2 /* Build configuration list for PBXNativeTarget "KTMapFrameWork" */;
+			buildConfigurationList = CDC6402C58F4B7D68AD9434F8C3E8D78 /* Build configuration list for PBXNativeTarget "KTMapFrameWork" */;
 			buildPhases = (
-				48BBBDFE06232CD6DF137B63A5E9D1CC /* Headers */,
-				711CB62C39B68929CFBBAB65CED364AE /* Sources */,
-				1A764E789898E0E19DF4067D0DE90FB7 /* Frameworks */,
+				2F26DE171C268D7308209F9C6B6F5E6C /* Headers */,
+				CC971FE1327FE57DCB544E46B44444D9 /* Sources */,
+				15B511D5B847F703D33BF76088C96DE1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51F09C98EDF187E63B66A5A8D7986D60 /* PBXTargetDependency */,
-				DC9B649AAAD5E1A971CE5ACC4FE66401 /* PBXTargetDependency */,
-				F78631896874DB774F03CAF79AD75EA8 /* PBXTargetDependency */,
-				245EE0EAA0ABAE281ADF40E402F2566D /* PBXTargetDependency */,
+				11B103CF840CD6FEDD74BABA2E07FC58 /* PBXTargetDependency */,
+				C94C88EE4B1432C9467FC05210BAE7C5 /* PBXTargetDependency */,
+				5CFE57A17DED4C5EF8EC7BFBA51DFE71 /* PBXTargetDependency */,
+				732FDB5101C144DBCCB3D574381E34A7 /* PBXTargetDependency */,
 			);
 			name = KTMapFrameWork;
 			productName = KTMapFrameWork;
@@ -1241,11 +1255,11 @@
 		};
 		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E48282A08127391C4023047CBC95496 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 68C21B85C70E237C6C577E3FFD6FF403 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				F098103E79C5302C8B2D824BA6A55A88 /* Headers */,
-				1F5A254C98ABE0FFB48C986BF6EC2776 /* Sources */,
-				DB6C49C346EB4BE37ED21E15C9DC3DCC /* Frameworks */,
+				BE99F158309666E8A50F8387568348F7 /* Headers */,
+				53B3BA95D34AAD1E7CBD8E332EE26F0A /* Sources */,
+				F0B39D1F751932ED80937242CF0A00B6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1329,6 +1343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46AC607023AC79AF00F2FEB9 /* KTGlobalModel.m in Sources */,
 				5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */,
 				8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */,
 				10EB9A7552672DC328F8695A98E605B3 /* AFImageDownloader.m in Sources */,
@@ -1339,7 +1354,6 @@
 				72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */,
 				2C95C61175E1EB929A4B094581747835 /* AFURLResponseSerialization.m in Sources */,
 				E7351E56F4C49CE1F9559D5C69ECC1ED /* AFURLSessionManager.m in Sources */,
-				46AC606223AC56AF00F2FEB9 /* KTLocationDataModel.m in Sources */,
 				551EDABAFCE6F89BB75C7174D4D9D059 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */,
 				40F9C3B7C0CCD0982FD14728F2595632 /* UIImageView+AFNetworking.m in Sources */,
@@ -1349,33 +1363,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F5A254C98ABE0FFB48C986BF6EC2776 /* Sources */ = {
+		0CA45EF934C66149FC4F06C644F901AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F758A6C8CB9F27F7BD224F7453D5C8AE /* MASCompositeConstraint.m in Sources */,
-				AFA8CE1EBF02471EFC5E71358998A915 /* MASConstraint.m in Sources */,
-				2FA2916EE9105D496A9E60F2F426EA6D /* MASConstraintMaker.m in Sources */,
-				88AEFBD183047E6BAA3887DB8BB92E41 /* MASLayoutConstraint.m in Sources */,
-				A5C9D68107CC1E11C4377D3AB5706B7F /* Masonry-dummy.m in Sources */,
-				EAB6C88D3E5856A540B60D9B71E2015F /* MASViewAttribute.m in Sources */,
-				4462EFE35D2E38598604FCB59C1A141D /* MASViewConstraint.m in Sources */,
-				A8858EB06D6F4144DFBDBF90393BDA7C /* NSArray+MASAdditions.m in Sources */,
-				0F00D8603BFDC0FE353EB0AE3B42A08C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				07042AFEC951212AB1006596AA0DAA13 /* View+MASAdditions.m in Sources */,
-				6E50E852269BB8EE0CE2F08DBD1D27AD /* ViewController+MASAdditions.m in Sources */,
+				2809B32AC76AE2840DD5E929139AED9C /* SVIndefiniteAnimatedView.m in Sources */,
+				BC62D431C38F76DB3E42A65E308571CB /* SVProgressAnimatedView.m in Sources */,
+				592A9978712598250C58EE3AC38470A6 /* SVProgressHUD-dummy.m in Sources */,
+				1EB5C94103EB592D0F565CCEA49D6BCA /* SVProgressHUD.m in Sources */,
+				32108C9FBFDE4FC514E0AA37C8D7BFB0 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364ECBFB918233427E3DE207FB70470A /* Sources */ = {
+		53B3BA95D34AAD1E7CBD8E332EE26F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAC7D082284053D5D95233AA383F1E1C /* SVIndefiniteAnimatedView.m in Sources */,
-				666A3921729673596682D4666B33334E /* SVProgressAnimatedView.m in Sources */,
-				7CFE165F4B1D449843E7C50377FAEA2D /* SVProgressHUD-dummy.m in Sources */,
-				5C932862E959364403BA1A46E3372A7B /* SVProgressHUD.m in Sources */,
-				FE51E91B754341B0B60432E50609276E /* SVRadialGradientLayer.m in Sources */,
+				5186E2CA316F0E1B71338A498EAC4667 /* MASCompositeConstraint.m in Sources */,
+				9189D6DD1D042156091FF638D6AE5E18 /* MASConstraint.m in Sources */,
+				3896E41B2C3E83D3E11ED58229D2F3D0 /* MASConstraintMaker.m in Sources */,
+				D83A5C7B7474246D2DCDA258C1EDBAC9 /* MASLayoutConstraint.m in Sources */,
+				D6BEDDA035AFEAA3032869103D7E188E /* Masonry-dummy.m in Sources */,
+				2C5ADB9E219CBC48A74A7BE435287B86 /* MASViewAttribute.m in Sources */,
+				A8BEEFFB2D52EEA5186FB962DFAA575D /* MASViewConstraint.m in Sources */,
+				CB1CD8B1E9A037141613531AA5AF8358 /* NSArray+MASAdditions.m in Sources */,
+				008F380C3A7A1ABE3F792C30719021EF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7457139670EB4A92015BE9B4E774D9C7 /* View+MASAdditions.m in Sources */,
+				DAF41DAB4247BAC1E84B3F85451E9EB0 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1384,54 +1398,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A430A0845EF640C5A3B38B376F562EC /* Pods-KTMapFrameWork_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		711CB62C39B68929CFBBAB65CED364AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				270B735098230F98BF6710BD031C76E2 /* AIBBeaconRegionAny.m in Sources */,
-				FA20772B08901EAF2945494E4AED070D /* AIBUtils.m in Sources */,
-				628BBE17124FC7F816731D9929DE6104 /* BYFoundationLog.m in Sources */,
-				34958691D793FDDABFE271C88CF3BA8F /* CLBeacon+ToDic.m in Sources */,
-				5CC67471B8937FCE79A979ADFD155E39 /* CoordinateTransformation.m in Sources */,
-				6D1AE5FD623122C3AE4C8BF1C5FDF48F /* KTAlertViewController.m in Sources */,
-				BCD82984F70B9E420287BC343AD6559F /* KTBaseModel.m in Sources */,
-				104EEAE45305A8A47C404D7A8FA2BF41 /* KTBaseViewController.m in Sources */,
-				EDD17D9590FCF1B6DF9107434C0A5BEA /* KTCarInfoModel.m in Sources */,
-				5ECC69D6587C08AC86B17EB418B907AB /* KTCarInfoView.m in Sources */,
-				8A030E4BEFEC8CFF42FA019D084EBA5E /* KTCarInfoViewController.m in Sources */,
-				F40DF66962C87F5ECB96FFC12A07FBF6 /* KTClassInfo.m in Sources */,
-				08F0B9B035D49250A60BA1EFA6989223 /* KTFaildView.m in Sources */,
-				ECDA37E8F41A07356258D910D675CF67 /* KTFloorInfoModel.m in Sources */,
-				EFD8104E3999F6C870C5FBD6125CA338 /* KTIBeaconModel.m in Sources */,
-				DCAFDD57B17CC954EB7FBD2DF50C1FBB /* KTInputCarNumberViewController.m in Sources */,
-				14018F36FB1B520E65A4B01C566FB592 /* KTInvalidViewController.m in Sources */,
-				33F14AF2E994F0C9CA78B3F4B7E63FB2 /* KTMapFrameManager.m in Sources */,
-				A8E295AB26242C00CCB1BAA3E1C9C756 /* KTMapFrameWork-dummy.m in Sources */,
-				B3E2A3D4DA6756180C456B859A928561 /* KTNaviViewController.m in Sources */,
-				C91B46C7C82F4962D227AE8716FC8596 /* KTNearParkPlaceView.m in Sources */,
-				1D1DA3EE626B5F826A1C260FE643F78E /* KTNetworkClient.m in Sources */,
-				39AFF114E02C642EDA06171742FD0B2F /* KTNetWorkService.m in Sources */,
-				79A07290F07519AD207A691C7A45BF50 /* KTParkDetailModel.m in Sources */,
-				97219A2A96D8D63A864491670DE710E1 /* KTParkPointModel.m in Sources */,
-				83B1D51E3FC1ED0DB110BDFC94551E5A /* KTPathInfoModel.m in Sources */,
-				3DCF7C9FD192FE0566971B6C533971D6 /* LoadingManager.m in Sources */,
-				7D70D058FB6E65807F3DFABDD19108C5 /* LocationManager.m in Sources */,
-				14014E74CFF827417A7A4A66ECD76D90 /* NetWorkURLManager.m in Sources */,
-				D59C2DB483BCFD47B9BD4A5901D6F798 /* NSBundle+KTRes.m in Sources */,
-				3D13818394F0DB5E5771A01444532F5D /* NSMutableArray+KTCacheArray.m in Sources */,
-				B6BBE6198EB9C9966C6D1709D86E84C7 /* NSObject+KTModel.m in Sources */,
-				6532D5F613F2ED35DD460FFEEC1D56F5 /* NSString+AddLineSpace.m in Sources */,
-				323F97BA56A327F11AADA31FDD191B3B /* SVProgressHUD+Window.m in Sources */,
-				FD0E3ADA1D4B328BF95B9838FB54A711 /* UIColor+Hexadecimal.m in Sources */,
-				01338F911BF75F0957B51442E7F863FB /* UIImage+Bundle.m in Sources */,
-				57B2F33345BADBEFAF97A1E2ECFCA89A /* UIImage+Color.m in Sources */,
-				0CF75D46E9ABE9A6B1938FE17BDF0B77 /* UIImageView+ImageWithURL.m in Sources */,
-				329CD4D0C048C864F50B310564C5A6D1 /* UITextField+MaxLength.m in Sources */,
-				763697EBFE40A9B3F07B0B4D554A4B5F /* UIViewController+BackBarItem.m in Sources */,
-				42307553BD0F298067B91F83BDCC8760 /* UIViewController+GetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1455,6 +1421,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC971FE1327FE57DCB544E46B44444D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6D170FCC33DE2C74794B7557F78C52 /* AIBBeaconRegionAny.m in Sources */,
+				3C55FA92CD227303B1FDF58C312D17D7 /* AIBUtils.m in Sources */,
+				5D7ABF4D72ACA36AA3597115BDA7377D /* BYFoundationLog.m in Sources */,
+				A666287F073409986636C13567FEC09F /* CLBeacon+ToDic.m in Sources */,
+				5C5BA2FE8AB1F19AD100F6E177B80CF7 /* CoordinateTransformation.m in Sources */,
+				A65CE3B2D845BA3DF7E1B1A79C140D3A /* KTAlertViewController.m in Sources */,
+				EED8CFAC5D77C812729347C89A808CD9 /* KTBaseModel.m in Sources */,
+				626B3343955375AA2315F98E93F9F433 /* KTBaseViewController.m in Sources */,
+				D93E2041C7F803B74776594DDA602AD3 /* KTCarInfoModel.m in Sources */,
+				17B843ADE0916478C447F2D410149860 /* KTCarInfoView.m in Sources */,
+				EE8C12269131FB370BE3257423B57887 /* KTCarInfoViewController.m in Sources */,
+				B4C23E670ACE297D59AD9D8404960ABD /* KTClassInfo.m in Sources */,
+				726F57476198850AF558426FE9B6B192 /* KTFaildView.m in Sources */,
+				05E33EF6F94F8C2EF3F9E22139345B7B /* KTFloorInfoModel.m in Sources */,
+				D7D327EF5AB948D07FCAAE31F8919ECC /* KTIBeaconModel.m in Sources */,
+				95626E43E572E2CAB0836F3C1EEC07C3 /* KTInputCarNumberViewController.m in Sources */,
+				05E95E1263688D8E07678BC7F11F9425 /* KTInvalidViewController.m in Sources */,
+				2DEEEF88A1246B5FF658049BE71D95A6 /* KTLocationDataModel.m in Sources */,
+				EDEFA13C88AC150A6A5654ED3C5846C9 /* KTMapFrameManager.m in Sources */,
+				92C65BBF34BC5A095B616960B787FCEC /* KTMapFrameWork-dummy.m in Sources */,
+				2EC23A46E3D13ED63656E697DC2552DA /* KTNaviViewController.m in Sources */,
+				9298631FCB8703C88375562CE6536C46 /* KTNearParkPlaceView.m in Sources */,
+				2ADF919798F23BF169F1783009B3B0E5 /* KTNetworkClient.m in Sources */,
+				382C0A61BE298D76B7266527EF2CAC28 /* KTNetWorkService.m in Sources */,
+				F853DB7983E20C44840BBE1CC988D312 /* KTParkDetailModel.m in Sources */,
+				D870789034DBE0345B385101B364F6CC /* KTParkPointModel.m in Sources */,
+				1D5EF6EAFAC0D383266396BAE5D5CAE6 /* KTPathInfoModel.m in Sources */,
+				E57C05266BEC601C54E3B6949CCB4B81 /* LoadingManager.m in Sources */,
+				2E598B435AE62EEE3D0ECAB1CD5DAFD8 /* LocationManager.m in Sources */,
+				B5DF842A0D3AAE42F36A2E76F2897258 /* NetWorkURLManager.m in Sources */,
+				942365B35B5A3F5D5C667E1FBCB5D2F3 /* NSBundle+KTRes.m in Sources */,
+				F34457C6E8CB2C2D94F6D4C5E6E572DE /* NSMutableArray+KTCacheArray.m in Sources */,
+				A5CD31A5472DCD93AE273990102E7262 /* NSObject+KTModel.m in Sources */,
+				FD38159E17424982B22CCBA35C1AC26A /* NSObject+Window.m in Sources */,
+				DD2B9B49E544C10A57526C2472EB692B /* NSString+AddLineSpace.m in Sources */,
+				5D4F537D96B6411933895D7C92E8728E /* SVProgressHUD+Window.m in Sources */,
+				51E2FCF711D0F93E72C1E2A73D6D7F40 /* UIColor+Hexadecimal.m in Sources */,
+				E9F42D22718B6AFA54DB1D1669E33D07 /* UIImage+Bundle.m in Sources */,
+				92F9DFD899C7A10A88435693DAD9ED33 /* UIImage+Color.m in Sources */,
+				F6177646DEF20D598964E0F75AC0D020 /* UIImageView+ImageWithURL.m in Sources */,
+				0B52FF5AD6A846FCEB56FB6BE3E0AC14 /* UITextField+MaxLength.m in Sources */,
+				3E746A991EE85D77185B3630350C9BAB /* UIViewController+BackBarItem.m in Sources */,
+				129CFDB05753459E59FB5EA71024E78D /* UIViewController+GetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1464,17 +1480,17 @@
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
 			targetProxy = A82E7F556FABAC6AB847D15172420EC2 /* PBXContainerItemProxy */;
 		};
+		11B103CF840CD6FEDD74BABA2E07FC58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 0C33602AEC6EF7269D6C649E48F82956 /* PBXContainerItemProxy */;
+		};
 		147FC99CA221EED727423A3E1B8F7335 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KTMapFrameWork;
 			target = 1F341B4D8C373D76B07D37A10F1A3BB0 /* KTMapFrameWork */;
 			targetProxy = 89263E220FD6D44ED71005775592F04E /* PBXContainerItemProxy */;
-		};
-		245EE0EAA0ABAE281ADF40E402F2566D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 43EE1E4A7F5F8E893ED2473397671E38 /* PBXContainerItemProxy */;
 		};
 		2F08E041745543371903AD60D5C46F47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1482,11 +1498,17 @@
 			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
 			targetProxy = DB20A5DD053AA54B7A95C5CDE8307528 /* PBXContainerItemProxy */;
 		};
-		51F09C98EDF187E63B66A5A8D7986D60 /* PBXTargetDependency */ = {
+		5CFE57A17DED4C5EF8EC7BFBA51DFE71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = BAC8348F42C3D716159517C57E66E475 /* PBXContainerItemProxy */;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = D52B99ABA52FF34E812E620D920EFC34 /* PBXContainerItemProxy */;
+		};
+		732FDB5101C144DBCCB3D574381E34A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = CF7CEE9AD55BEBF898B33E93461D7806 /* PBXContainerItemProxy */;
 		};
 		BB763196D3C90D9587BD05492084AB4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1494,11 +1516,11 @@
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
 			targetProxy = EECE3499601FA555681AEC037B4CE784 /* PBXContainerItemProxy */;
 		};
-		DC9B649AAAD5E1A971CE5ACC4FE66401 /* PBXTargetDependency */ = {
+		C94C88EE4B1432C9467FC05210BAE7C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTCKeyboard;
 			target = 6054F480E788EC060C5B1EA687609E7C /* HTCKeyboard */;
-			targetProxy = F8E3DE507B60E8B2C47B0FE65178371E /* PBXContainerItemProxy */;
+			targetProxy = 718263093C0776B49FC8BDBE6D17D081 /* PBXContainerItemProxy */;
 		};
 		E7AD4A5AA3CE79F30AA7CAC78E79D7F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1511,12 +1533,6 @@
 			name = "Pods-KTMapFrameWork_Example";
 			target = 18C4E74FC858FDB96FABF0F964C378BF /* Pods-KTMapFrameWork_Example */;
 			targetProxy = CCB88D10EBEFF8E0C0BBB2D984E26E3F /* PBXContainerItemProxy */;
-		};
-		F78631896874DB774F03CAF79AD75EA8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = 8BE8E23701094C6ED92E592980502DE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1564,32 +1580,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		172C0287D9EA55231C062176A695E004 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562272D4532C97139A2269188229F76B /* KTMapFrameWork.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KTMapFrameWork/KTMapFrameWork-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KTMapFrameWork;
-				PRODUCT_NAME = KTMapFrameWork;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1655,21 +1645,22 @@
 			};
 			name = Debug;
 		};
-		36F631423B2F091ED44E3A22B670BA77 /* Release */ = {
+		358F92A9172BB4E44AAEB521345CCBE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C1E838B7ED5E9BB4860AD54C6E4CDE7 /* Masonry.release.xcconfig */;
+			baseConfigurationReference = DA95C2368939366A5899F75BE2EC8E61 /* KTMapFrameWork.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/KTMapFrameWork/KTMapFrameWork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
+				PRODUCT_MODULE_NAME = KTMapFrameWork;
+				PRODUCT_NAME = KTMapFrameWork;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1703,30 +1694,6 @@
 			};
 			name = Release;
 		};
-		406D081871B1CB870E2EFD29ECA2ADE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9ECF7E38C16AB4E4F1F9B642CC35C537 /* SVProgressHUD.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		4E8151C4B4BE73283A96D287B8741C6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F577FD04E883FE94B88037894F4F678E /* HTCKeyboard.debug.xcconfig */;
@@ -1751,6 +1718,31 @@
 			};
 			name = Debug;
 		};
+		644D4CEBF25A0503C004B886C78C2BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA9EF32300C103C04351B6C3A6B8EDD /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		6BFA28F593F567222152A27182DD40B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5BCCCB942FA61BA654792E4098534BC3 /* Pods-KTMapFrameWork_Tests.release.xcconfig */;
@@ -1774,21 +1766,46 @@
 			};
 			name = Release;
 		};
-		ADC7D63C3BCE2B2C8CB632BB0C70E25A /* Release */ = {
+		7150A35E79B7A1BC1B6BA19C4897A0EA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CA9EF32300C103C04351B6C3A6B8EDD /* SVProgressHUD.release.xcconfig */;
+			baseConfigurationReference = 49615E29BD756A47BA97852CA7C816DE /* KTMapFrameWork.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KTMapFrameWork/KTMapFrameWork-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = KTMapFrameWork;
+				PRODUCT_NAME = KTMapFrameWork;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D3CC9FAA24770B385463C1A7BF884A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1E838B7ED5E9BB4860AD54C6E4CDE7 /* Masonry.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SVProgressHUD;
-				PRODUCT_NAME = SVProgressHUD;
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1882,6 +1899,30 @@
 			};
 			name = Debug;
 		};
+		C9749ED798522BA461E5801B5F001911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECF7E38C16AB4E4F1F9B642CC35C537 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D057FB6DF1168E940C772F036E475974 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 308ED791C336EE2F37F4747EC7E92B6B /* HTCKeyboard.release.xcconfig */;
@@ -1932,32 +1973,7 @@
 			};
 			name = Release;
 		};
-		EBD2ED0FAED3C6C024B0695F7DD5DD31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C8FFE2CC2898BF13897DA87711C7B6D /* KTMapFrameWork.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/KTMapFrameWork/KTMapFrameWork-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = KTMapFrameWork;
-				PRODUCT_NAME = KTMapFrameWork;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F454F7C6E87B8040ADC07BBC33528069 /* Debug */ = {
+		EA875EA62D23BFE7002432FD9807CB60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0AD0C679FD22B5BCA98737A80981451 /* Masonry.debug.xcconfig */;
 			buildSettings = {
@@ -1984,11 +2000,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C88DAB69AE1D88CD9E08640953F85F2 /* Build configuration list for PBXNativeTarget "KTMapFrameWork" */ = {
+		122F72005E2AF51B9CD8124770EDF379 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBD2ED0FAED3C6C024B0695F7DD5DD31 /* Debug */,
-				172C0287D9EA55231C062176A695E004 /* Release */,
+				C9749ED798522BA461E5801B5F001911 /* Debug */,
+				644D4CEBF25A0503C004B886C78C2BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2011,20 +2027,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E48282A08127391C4023047CBC95496 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		68C21B85C70E237C6C577E3FFD6FF403 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F454F7C6E87B8040ADC07BBC33528069 /* Debug */,
-				36F631423B2F091ED44E3A22B670BA77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		74C3E788E5352C93A4A4E430766FB9A9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				406D081871B1CB870E2EFD29ECA2ADE9 /* Debug */,
-				ADC7D63C3BCE2B2C8CB632BB0C70E25A /* Release */,
+				EA875EA62D23BFE7002432FD9807CB60 /* Debug */,
+				9D3CC9FAA24770B385463C1A7BF884A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2043,6 +2050,15 @@
 			buildConfigurations = (
 				4E8151C4B4BE73283A96D287B8741C6B /* Debug */,
 				D057FB6DF1168E940C772F036E475974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC6402C58F4B7D68AD9434F8C3E8D78 /* Build configuration list for PBXNativeTarget "KTMapFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7150A35E79B7A1BC1B6BA19C4897A0EA /* Debug */,
+				358F92A9172BB4E44AAEB521345CCBE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

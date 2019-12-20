@@ -1,6 +1,6 @@
 {
   "name": "KTMapFrameWork",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "summary": "A short description of KTMapFrameWork.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/181310067@qq.com/KTMapFrameWork",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "/Users/kt-stc08/Desktop/Git/KTMapFrameWork",
-    "tag": "0.2.4"
+    "tag": "0.2.5"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "KTMapFrameWork/Classes/**/*",
+  "public_header_files": "KTFindCarSDK/Classes/PublicHeader/*.h",
   "frameworks": [
     "UIKit",
     "WebKit",

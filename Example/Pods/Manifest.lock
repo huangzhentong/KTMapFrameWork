@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - HTCKeyboard (0.0.2)
-  - KTMapFrameWork (0.2.4):
+  - KTMapFrameWork (0.2.5):
     - AFNetworking
     - HTCKeyboard
     - Masonry
@@ -40,7 +40,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   HTCKeyboard: 502cb754051b7a4f81f4e473bc2c7ef3e5dae337
-  KTMapFrameWork: ede632f900998f83ad53337adccdb0bb5d822ddc
+  KTMapFrameWork: bdd9ee473a75e9b5cd8723bb036e5db82b9d0e09
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 

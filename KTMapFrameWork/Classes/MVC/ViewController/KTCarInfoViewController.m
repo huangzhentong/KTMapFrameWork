@@ -18,6 +18,7 @@
 #import <objc/message.h>
 #import "CoordinateTransformation.h"
 #import "KTLocationDataModel.h"
+#import "KTGlobalModel.h"
 @interface KTCarInfoViewController ()
 @property(nonatomic,strong)KTCarInfoView *carInfoView;
 @property(nonatomic,copy)NSString *code;
@@ -73,10 +74,12 @@
                        detailModel.parkInfo.parkNo];
     [self.carInfoView updateDataSource:model];
     
-    self.carInfoView.pathBtn.enabled = true;
-    self.code = @"";
-    self.url = @"";
+    self.carInfoView.pathBtn.enabled = true; 
+    self.code = @"hyjg";
+    self.url = @"https://test.seeklane.com/test/hyjg/index.html";
     
+    [KTGlobalModel shareInstance].floor =detailModel.parkInfo.floorInfo.floorName;
+    [KTGlobalModel shareInstance].park =detailModel.parkInfo.parkNo;
     Class aMapClass = NSClassFromString(@"KTDMapManager");
     if (aMapClass == nil) {
         NSLog(@"未集成DMap");

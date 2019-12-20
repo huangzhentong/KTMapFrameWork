@@ -1,1 +1,1 @@
-../../../../../KTMapFrameWork/Classes/Manager/KTMapFrameManager.h
+../../../../../KTMapFrameWork/Classes/PublicHeader/KTMapFrameManager.h
