@@ -9,13 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#if DEBUG
-#define KTBaseRequestURL @"https://cloud.keytop.cn/fc"
-//#define KTBaseRequestURL @"https://ts.keytop.cn/fc_test"
-#else
-#define KTBaseRequestURL @"https://cloud.keytop.cn/fc"
-#endif
+#define KTBaseDebugRequestURL @"https://ts.keytop.cn/fc_test"
+#define KTBaseReleaseRequestURL @"https://cloud.keytop.cn/fc"
 
+
+#define KTCarBaseDebugURL @"http://ts.keytop.cn/ve_api"
+#define KTCarBaseReleaseURL @"https://kos.keytop.cn/ve_api"
+
+//#if DEBUG
+//#define KTBaseRequestURL KTBaseDebugRequestURL
+//#else
+//#define KTBaseRequestURL KTBaseReleaseRequestURL
+//#endif
+
+
+//获取车牌所在车场
+//#define  KTGetParkingFromCarNumber @"http://ts.keytop.cn/ve_api/busCarPart/queryLatestParkingWithLpn"
 
 //根据车场id和车牌号，获取车场蓝牙uuid和车辆停车信息
 #define KTGetParkingInfoURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/app-api/getParkingInfo"]
@@ -33,6 +42,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NetWorkURLManager : NSObject
++(void)setDebug:(BOOL)isDebug;
+
 +(void)setBaseURL:(NSString*)baseURL;
 +(NSString*)baseURL;
 //拼接URL
@@ -60,6 +71,12 @@ NS_ASSUME_NONNULL_BEGIN
                   withFloorID:(NSString*)flootID
                withBeginPoint:(CGPoint)beginPoint
                  withEndPoint:(CGPoint)endPoint;
+
+
+//反向寻车
++(NSString*)getParkingFromCarNumber;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

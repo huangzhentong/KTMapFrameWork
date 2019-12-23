@@ -12,6 +12,7 @@
 
 #import "KTCarInfoViewController.h"
 #import "KTInvalidViewController.h"
+#import "NetWorkURLManager.h"
 @interface KTInputCarNumberViewController ()
 @property(nonatomic,strong)KTNearParkPlaceView *placeView;
 @end
@@ -63,7 +64,7 @@
         __weak typeof(self) weakSelf = self;
         NSString *carNumber = self.placeView.parkPlaceTF.text;
       
-        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:@"http://ts.keytop.cn/ve_api/busCarPart/queryLatestParkingWithLpn" withParameters:@{@"lpn":carNumber} withType:@"post"];
+        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:[NetWorkURLManager getParkingFromCarNumber] withParameters:@{@"lpn":carNumber} withType:@"post"];
         self.client = client;
         client.successEvent = ^(id  _Nonnull object) {
             NSString *lotID = object[@"lotId"];

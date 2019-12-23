@@ -11,6 +11,7 @@
 #import "UIImage+Color.h"
 #import <objc/runtime.h>
 #import <objc/message.h>
+#import "NetWorkURLManager.h"
 @implementation KTMapFrameManager
 
 
@@ -49,5 +50,10 @@
            }
     }
 }
-
+//设置debug 模式，true 为debug 模式，false 为release
++(void)setDebugMode:(BOOL)debug
+{
+    [NetWorkURLManager setDebug:debug];
+    
+}
 @end

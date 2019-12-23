@@ -30,22 +30,9 @@
 }
 -(void)startEvent:(id)object
 {
-    Class globalModel = NSClassFromString(@"KTGlobalModel");
-           if (globalModel == nil) {
-              
-               return;
-           }
-           SEL defaultServiceSel = NSSelectorFromString(@"shareInstance");
-           if ([globalModel respondsToSelector:defaultServiceSel]) {
-               id (*sharedServices)(id,SEL) = (id (*) (id,SEL))objc_msgSend;
-               id model =  sharedServices(globalModel,defaultServiceSel);
-               [model setValue:@"B1" forKey:@"floor"];
-               [model setValue:@"B1-1001" forKey:@"park"];
-               NSString *floor = [model valueForKey:@"floor"];
-               NSString *park = [model valueForKey:@"park"];
-               NSLog(@"floor = %@|park=%@",floor,park);
-           }
+    
     [KTMapFrameManager presentSDK:self mapAPIKey:@"adfad"];
+    [KTMapFrameManager setDebugMode:true];
 }
 
 

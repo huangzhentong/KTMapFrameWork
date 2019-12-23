@@ -80,6 +80,7 @@ static NSString * const typeKey = @"type";
     if (isLoading) {
         [LoadingManager showLoading:KTLocalizedString(@"Loading")];
     }
+    NSLog(@"url = %@",url);
 
     void (^success)(NSURLSessionDataTask * _Nonnull, id _Nullable) = ^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject){
         id object = [KTNetWorkService responseObjectDisponse:responseObject];

@@ -13,7 +13,7 @@
     
 }
 @property(nonatomic,copy)NSString *baseURL;
-
+@property(nonatomic)BOOL isDebug;
 @end
 @implementation NetWorkURLManager
 +(instancetype)shareInstance{
@@ -27,7 +27,7 @@
 }
 +(void)load
 {
-    [NetWorkURLManager setBaseURL:KTBaseRequestURL];
+    [NetWorkURLManager setBaseURL:KTBaseReleaseRequestURL];
 }
 +(void)setBaseURL:(NSString*)baseURL
 {
@@ -106,6 +106,34 @@
                                                                       @"beginPoint":[NSString stringWithFormat:@"{x:%i,y:%i}",(int)beginPoint.x,(int)beginPoint.y],
                                                                       @"tagetPoint":[NSString stringWithFormat:@"{x:%i,y:%i}",(int)endPoint.x,(int)endPoint.y]
                                                                       }];
+}
+
++(void)setDebug:(BOOL)isDebug
+{
+    //debug 模式
+    if (isDebug) {
+        [[NetWorkURLManager shareInstance] setBaseURL:KTBaseDebugRequestURL];
+    }
+    else
+    {
+        [[NetWorkURLManager shareInstance] setBaseURL:KTBaseReleaseRequestURL];
+    }
+     [NetWorkURLManager shareInstance].isDebug = isDebug;
+}
+
+//反向寻车
++(NSString*)getParkingFromCarNumber
+{
+    NSString *string = nil;
+    if ([NetWorkURLManager shareInstance].isDebug) {
+        string = KTCarBaseDebugURL;
+    }
+    else
+    {
+        string = KTCarBaseReleaseURL;
+    }
+    
+    return  [string stringByAppendingString:@"/busCarPart/queryLatestParkingWithLpn"];
 }
 
 @end
