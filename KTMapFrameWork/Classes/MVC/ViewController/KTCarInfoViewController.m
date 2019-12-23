@@ -19,6 +19,7 @@
 #import "CoordinateTransformation.h"
 #import "KTLocationDataModel.h"
 #import "KTGlobalModel.h"
+#import "LoadingManager.h"
 @interface KTCarInfoViewController ()
 @property(nonatomic,strong)KTCarInfoView *carInfoView;
 @property(nonatomic,copy)NSString *code;
@@ -125,6 +126,8 @@
 {
     
     Class aMapClass = NSClassFromString(@"KTDMapManager");
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"DMapLocationStatusChange" object:nil];
+    [self inputAMapSDK];
     if (aMapClass == nil) {
         NSLog(@"未集成DMap");
         return;
@@ -141,10 +144,23 @@
         else if (status != -1)
         {
             //进入高德定位
+            
             [self inputAMapSDK];
+        }
+        else if (status == -1)
+        {
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(initSDKSuccess:) name:@"DMapLocationStatusChange" object:nil];
+            [LoadingManager showLoading:@"定位中..."];
         }
     }
   
+}
+-(void)initSDKSuccess:(NSNotification*)notification
+{
+    if( notification.object)
+    {
+        [LoadingManager showSuccess:@"定位完成"];
+    }
 }
 
 //进入室入SDK
@@ -157,6 +173,7 @@
 {
     
     __weak typeof(self) weakSelf = self;
+    [LoadingManager showLoading:@"定位中..."];
     [LocationManager startLocationWithblock:^(CGFloat lat, CGFloat lon, NSError * _Nonnull error) {
         
        CLLocationCoordinate2D coordinte = [CoordinateTransformation transformFromWGSToGCJ:CLLocationCoordinate2DMake(lat, lon)];
@@ -184,7 +201,7 @@
             longitude = lostModel.longitude;
             latitude = lostModel.latitude;
         }
-    
+        [LoadingManager dismiss];
         [[NSNotificationCenter defaultCenter] postNotificationName:@"pushToWalkViewController" object:@{@"viewController":self,@"long":@(longitude),@"lat":@(latitude)}];
         
     }];

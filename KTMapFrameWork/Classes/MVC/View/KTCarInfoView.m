@@ -163,9 +163,15 @@
 //    }];
     
     [self.pathBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.bottom.mas_equalTo(0);
+        make.left.mas_equalTo(0);
         make.height.mas_equalTo(47);
         make.width.equalTo(self);
+        if (@available(iOS 11.0, *)) {
+            make.bottom.equalTo(self.mas_safeAreaLayoutGuideBottom);
+        }
+        else{
+            make.bottom.mas_equalTo(0);
+        }
     }];
 
     
