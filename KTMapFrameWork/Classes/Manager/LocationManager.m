@@ -145,7 +145,7 @@ NSString *const longitude = @"longitude";
    
     CLLocationCoordinate2D newCoor = [CoordinateTransformation transformFromWGSToGCJ:coor];
     //打印当前的经度与纬度
-    NSLog(@"%f,%f",currentLocation.coordinate.latitude,currentLocation.coordinate.longitude);
+//    NSLog(@"%f,%f",currentLocation.coordinate.latitude,currentLocation.coordinate.longitude);
     if (self.block) {
         self.block(newCoor.latitude, newCoor.longitude,nil);
         self.block = nil;

@@ -15,9 +15,9 @@ static  NSBundle *imageBundle = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         NSBundle *bundle = [NSBundle bundleForClass:[KTMapFrameManager class]];
-        NSLog(@"bundle= %@",bundle);
+//        NSLog(@"bundle= %@",bundle);
         NSURL *url = [bundle URLForResource:@"KTRes" withExtension:@"bundle"];
-        NSLog(@"bundle url =%@",url);
+//        NSLog(@"bundle url =%@",url);
         if (url) {
             imageBundle = [NSBundle bundleWithURL:url];
         }

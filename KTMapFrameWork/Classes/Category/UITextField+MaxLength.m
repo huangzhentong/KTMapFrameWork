@@ -45,7 +45,7 @@
 //}
 
 - (void)textFieldEditChanged:(UITextField *)textField {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
+    
     NSString *lang = [[UIApplication sharedApplication]textInputMode].primaryLanguage; // 键盘输入模式
     
     // 简体中文输入，包括简体拼音，健体五笔，简体手写

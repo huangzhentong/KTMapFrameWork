@@ -188,7 +188,7 @@
                 for (KTLocationPointModel * pointModel in model.lotPoint) {
                     
                     CGFloat dis2 = [CoordinateTransformation gps2m:pointModel.latitude _y1:pointModel.longitude _x2:coordinte.latitude _y2:coordinte.longitude];
-                    NSLog(@"dis2=%lf",dis2);
+                  
                     if (dis2<dis) {
                         dis = dis2;
                         lostModel = pointModel;
@@ -217,7 +217,7 @@
 
 -(void)dealloc
 {
-    NSLog(@"dealloc");
+//    NSLog(@"dealloc");
 }
 
 @end
