@@ -206,7 +206,7 @@
             latitude = lostModel.latitude;
         }
         [LoadingManager dismiss];
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"pushToWalkViewController" object:@{@"viewController":self,@"long":@(longitude),@"lat":@(latitude)}];
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"PushToWalkViewController" object:@{@"viewController":self,@"long":@(longitude),@"lat":@(latitude)}];
         
     }];
     
