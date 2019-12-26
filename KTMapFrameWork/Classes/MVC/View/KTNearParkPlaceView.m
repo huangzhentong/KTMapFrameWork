@@ -104,11 +104,27 @@
         [_searchBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         _searchBtn.titleLabel.font = [UIFont systemFontOfSize:16];
         _searchBtn.backgroundColor = KTBtnNormalColor;
-        _searchBtn.layer.cornerRadius = 5;
+        _searchBtn.layer.cornerRadius = 3;
         [self addSubview:_searchBtn];
     }
     return _searchBtn;
 }
+
+-(UIButton*)pushSDK
+{
+    if (!_pushSDK) {
+        _pushSDK = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_pushSDK setTitle:@"查找车位" forState:UIControlStateNormal];
+        [_pushSDK setTitleColor:KTBtnNormalColor forState:UIControlStateNormal];
+        _pushSDK.titleLabel.font = [UIFont systemFontOfSize:16];
+//        _pushSDK.backgroundColor = KTBtnNormalColor;
+        _pushSDK.backgroundColor =[UIColor colorWithRed:241/255.0 green:244/255.0 blue:253/255.0 alpha:1.0];
+        _pushSDK.layer.cornerRadius =3;
+        [self addSubview:_pushSDK];
+    }
+    return _pushSDK;
+}
+
 -(instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -161,6 +177,11 @@
         make.left.right.equalTo(self.parkPlaceTF);
         make.height.mas_equalTo(43);
         make.top.equalTo(self.parkPlaceTF.mas_bottom).offset(24);
+    }];
+    [self.pushSDK mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.height.equalTo(self.searchBtn);
+   
+        make.top.equalTo(self.searchBtn.mas_bottom).offset(12.5);
     }];
     
     [self.hintLabel2 mas_makeConstraints:^(MASConstraintMaker *make) {

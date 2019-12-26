@@ -9,10 +9,12 @@
 #import "KTNearParkPlaceView.h"
 #import "UIImage+KTNSBundle.h"
 #import "KTNetWorkService.h"
-
+#import <objc/runtime.h>
+#import <objc/message.h>
 #import "KTCarInfoViewController.h"
 #import "KTInvalidViewController.h"
 #import "NetWorkURLManager.h"
+#import "KTGlobalModel.h"
 @interface KTInputCarNumberViewController ()
 @property(nonatomic,strong)KTNearParkPlaceView *placeView;
 @end
@@ -38,14 +40,33 @@
         make.edges.mas_equalTo(UIEdgeInsetsMake(0, 0, 0, 0));
     }];
     [self setupUI];
-    
+    NSString * code = @"hyjg";
+    NSString * url = @"https://test.seeklane.com/test/hyjg/index.html";
+       Class aMapClass = NSClassFromString(@"KTDMapManager");
+          if (aMapClass == nil) {
+              NSLog(@"未集成DMap");
+              return;
+          }
+          SEL defaultServiceSel = NSSelectorFromString(@"shareInstance");
+          if ([aMapClass respondsToSelector:defaultServiceSel]) {
+              id (*sharedServices)(id,SEL) = (id (*) (id,SEL))objc_msgSend;
+              id aMap =  sharedServices(aMapClass,defaultServiceSel);
+              [aMap setValue:code forKey:@"code"];
+              [aMap setValue:url forKey:@"url"];
+          }
+     
   
 }
 
 -(void)bindVM{
     [self.placeView.searchBtn addTarget:self action:@selector(searchBtnEvent) forControlEvents:UIControlEventTouchUpInside];
+    [self.placeView.pushSDK addTarget:self action:@selector(pushToSDK) forControlEvents:UIControlEventTouchUpInside];
 }
-
+-(void)pushToSDK{
+    [KTGlobalModel shareInstance].park = nil;
+    [KTGlobalModel shareInstance].floor = nil;
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"PushToDMapViewController" object:@{@"viewController":self}];
+}
 -(void)hintError{
    UIAlertController *alert=  [UIAlertController alertControllerWithTitle:@"未找到车位" message:nil preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"关闭" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {

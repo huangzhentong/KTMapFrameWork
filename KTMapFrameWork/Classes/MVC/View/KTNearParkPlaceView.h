@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface KTNearParkPlaceView : UIView
 @property(nonatomic,strong)UIButton *searchBtn;
 @property(nonatomic,strong)UITextField *parkPlaceTF;
+@property(nonatomic,strong)UIButton *pushSDK;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -78,7 +78,6 @@
     self.carInfoView.pathBtn.enabled = true; 
     self.code = @"hyjg";
     self.url = @"https://test.seeklane.com/test/hyjg/index.html";
-    
     [KTGlobalModel shareInstance].floor =detailModel.parkInfo.floorInfo.floorName;
     [KTGlobalModel shareInstance].park =detailModel.parkInfo.parkNo;
     Class aMapClass = NSClassFromString(@"KTDMapManager");
@@ -175,6 +174,11 @@
     __weak typeof(self) weakSelf = self;
     [LoadingManager showLoading:@"定位中..."];
     [LocationManager startLocationWithblock:^(CGFloat lat, CGFloat lon, NSError * _Nonnull error) {
+        
+        if (error) {
+            [LoadingManager showError:[NSError errorWithDomain:@"定位失败" code:5000 userInfo:nil]];
+            return ;
+        }
         
        CLLocationCoordinate2D coordinte = [CoordinateTransformation transformFromWGSToGCJ:CLLocationCoordinate2DMake(lat, lon)];
         

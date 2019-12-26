@@ -10,8 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 //全局部变量
 @interface KTGlobalModel : NSObject
-@property(nonatomic,copy)NSString *floor;          //楼层
-@property(nonatomic,copy)NSString *park;           //车位
+@property(nonatomic,copy,nullable)NSString *floor;          //楼层
+@property(nonatomic,copy,nullable)NSString *park;           //车位
 
 +(instancetype)shareInstance;
 @end
