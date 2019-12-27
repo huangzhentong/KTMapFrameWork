@@ -32,7 +32,7 @@
 {
     
     [KTMapFrameManager presentSDK:self mapAPIKey:@"adfad"];
-    [KTMapFrameManager setDebugMode:true];
+    [KTMapFrameManager setDebugMode:false];
 }
 
 

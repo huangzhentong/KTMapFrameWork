@@ -49,18 +49,18 @@
     [self.carInfoView.pathBtn addTarget:self action:@selector(pushToNearParkPlaceViewController) forControlEvents:UIControlEventTouchUpInside];
     self.carInfoView.pathBtn.enabled = false;
     
- 
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self reloadRequest];
-    });
+    [self updateModel:self.model];
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self reloadRequest];
+//    });
     
 }
 
--(void)reloadRequest
-{
-    self.client =  [[KTNetWorkService shareInstance] requestJSONWithURL:KTGetParkingInfoURL withParameters:@{@"lotId":self.lotID,@"carPlateNum":self.carNumber} withType:@"get"];
-    [super reloadRequest];
-}
+//-(void)reloadRequest
+//{
+//    self.client =  [[KTNetWorkService shareInstance] requestJSONWithURL:KTGetParkingInfoURL withParameters:@{@"lotId":self.lotID,@"carPlateNum":self.carNumber} withType:@"get"];
+//    [super reloadRequest];
+//}
 
 -(void)requestSuccess:(id)x
 {
@@ -73,13 +73,18 @@
     model.title = self.carNumber;
     model.rightArray=@[detailModel.parkInfo.floorInfo.floorName,
                        detailModel.parkInfo.parkNo];
+    
+    
+}
+
+-(void)updateModel:(KTCarInfoModel*)model
+{
     [self.carInfoView updateDataSource:model];
     
-    self.carInfoView.pathBtn.enabled = true; 
+    self.carInfoView.pathBtn.enabled = true;
     self.code = @"hyjg";
     self.url = @"https://test.seeklane.com/test/hyjg/index.html";
-    [KTGlobalModel shareInstance].floor =detailModel.parkInfo.floorInfo.floorName;
-    [KTGlobalModel shareInstance].park =detailModel.parkInfo.parkNo;
+    
     Class aMapClass = NSClassFromString(@"KTDMapManager");
     if (aMapClass == nil) {
         NSLog(@"未集成DMap");
@@ -94,9 +99,8 @@
         void(*initWithDMapWithCode)(id,SEL,NSString *,NSString *) = (id(*)(id,SEL,NSString *code,NSString *url))objc_msgSend;
         initWithDMapWithCode(aMap,NSSelectorFromString(@"initWithDMapWithCode:url:"),self.code,self.url);
     }
-    
-    
 }
+
 - (BOOL)prefersHomeIndicatorAutoHidden{
     return YES;
 }

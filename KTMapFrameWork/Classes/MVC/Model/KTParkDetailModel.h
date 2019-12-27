@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic)CGFloat keyPointCount;
 @property(nonatomic)NSInteger mapCorrectAngle;
 @property(nonatomic)NSInteger ibeaconStationCount;
+@property(nonatomic,copy,nullable)NSString *lotId;
 @end
 
 NS_ASSUME_NONNULL_END

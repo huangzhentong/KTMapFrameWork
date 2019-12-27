@@ -15,8 +15,10 @@
 #import "KTInvalidViewController.h"
 #import "NetWorkURLManager.h"
 #import "KTGlobalModel.h"
+#import "KTParkDetailModel.h"
 @interface KTInputCarNumberViewController ()
 @property(nonatomic,strong)KTNearParkPlaceView *placeView;
+@property(nonatomic,strong)KTParkDetailModel *detailModel;
 @end
 
 @implementation KTInputCarNumberViewController
@@ -85,14 +87,25 @@
         __weak typeof(self) weakSelf = self;
         NSString *carNumber = self.placeView.parkPlaceTF.text;
       
-        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:[NetWorkURLManager getParkingFromCarNumber] withParameters:@{@"lpn":carNumber} withType:@"post"];
+        KTNetworkClient *client = [[KTNetWorkService shareInstance] requestJSONWithURL:[NetWorkURLManager getParkingFromCarNumber] withParameters:@{@"carPlateNum":carNumber} withType:@"get"];
         self.client = client;
         client.successEvent = ^(id  _Nonnull object) {
-            NSString *lotID = object[@"lotId"];
+            
+          KTParkDetailModel *detailModel = [KTParkDetailModel KT_modelWithJSON:object];
+            weakSelf.detailModel = detailModel;
+            NSString *lotID = detailModel.lotId;
             if (lotID) {
                 KTCarInfoViewController *viewController = [KTCarInfoViewController new];
                 viewController.lotID =  lotID;
                 viewController.carNumber = carNumber;
+                KTCarInfoModel * model = [KTCarInfoModel new];
+                   model.imageURL = detailModel.parkInfo.imgUrl;
+                   model.title = carNumber;
+                   model.rightArray=@[detailModel.parkInfo.floorInfo.floorName,
+                                      detailModel.parkInfo.parkNo];
+                [KTGlobalModel shareInstance].floor =detailModel.parkInfo.floorInfo.floorName;
+                viewController.model = model;
+                [KTGlobalModel shareInstance].park =detailModel.parkInfo.parkNo;
                 [weakSelf.navigationController pushViewController:viewController animated:true];
             }
         };
@@ -104,9 +117,7 @@
             }
         };
         [client.dataTask resume];
-        
-       
-        
+  
     }
     [self.placeView.parkPlaceTF resignFirstResponder];
     

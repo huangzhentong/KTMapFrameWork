@@ -124,16 +124,18 @@
 //反向寻车
 +(NSString*)getParkingFromCarNumber
 {
-    NSString *string = nil;
-    if ([NetWorkURLManager shareInstance].isDebug) {
-        string = KTCarBaseDebugURL;
-    }
-    else
-    {
-        string = KTCarBaseReleaseURL;
-    }
     
-    return  [string stringByAppendingString:@"/busCarPart/queryLatestParkingWithLpn"];
+    return [[NetWorkURLManager shareInstance].baseURL stringByAppendingString: @"/app-api/getParkingInfoByCarPlateNum"];
+//    NSString *string = nil;
+//    if ([NetWorkURLManager shareInstance].isDebug) {
+//        string = KTCarBaseDebugURL;
+//    }
+//    else
+//    {
+//        string = KTCarBaseReleaseURL;
+//    }
+//
+//    return  [string stringByAppendingString:@"/busCarPart/queryLatestParkingWithLpn"];
 }
 
 @end
