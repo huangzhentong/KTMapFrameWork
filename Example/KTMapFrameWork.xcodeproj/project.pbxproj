@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0AFC2B51C188BD475617394A /* libPods-KTMapFrameWork_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 904F7E1F2A2030201F234BAF /* libPods-KTMapFrameWork_Example.a */; };
+		462B23CC23B99A510051EA01 /* KTDMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B23C223B99A500051EA01 /* KTDMapManager.m */; };
+		462B23CD23B99A510051EA01 /* KTDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B23C423B99A510051EA01 /* KTDMapViewController.m */; };
+		462B23CE23B99A510051EA01 /* KTSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B23C523B99A510051EA01 /* KTSDK.m */; };
+		462B23CF23B99A510051EA01 /* KTNaviWalkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B23C623B99A510051EA01 /* KTNaviWalkController.m */; };
+		462B23D023B99A510051EA01 /* BundleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 462B23C823B99A510051EA01 /* BundleManager.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +43,17 @@
 
 /* Begin PBXFileReference section */
 		112DF383545E8DB6DB82C817 /* Pods-KTMapFrameWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMapFrameWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-KTMapFrameWork_Tests/Pods-KTMapFrameWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		462B23C123B99A500051EA01 /* KTNotifiction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNotifiction.h; sourceTree = "<group>"; };
+		462B23C223B99A500051EA01 /* KTDMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTDMapManager.m; sourceTree = "<group>"; };
+		462B23C323B99A500051EA01 /* KTSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSDK.h; sourceTree = "<group>"; };
+		462B23C423B99A510051EA01 /* KTDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTDMapViewController.m; sourceTree = "<group>"; };
+		462B23C523B99A510051EA01 /* KTSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSDK.m; sourceTree = "<group>"; };
+		462B23C623B99A510051EA01 /* KTNaviWalkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTNaviWalkController.m; sourceTree = "<group>"; };
+		462B23C723B99A510051EA01 /* KTDMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTDMapManager.h; sourceTree = "<group>"; };
+		462B23C823B99A510051EA01 /* BundleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleManager.m; sourceTree = "<group>"; };
+		462B23C923B99A510051EA01 /* BundleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleManager.h; sourceTree = "<group>"; };
+		462B23CA23B99A510051EA01 /* KTNaviWalkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTNaviWalkController.h; sourceTree = "<group>"; };
+		462B23CB23B99A510051EA01 /* KTDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTDMapViewController.h; sourceTree = "<group>"; };
 		49533D4EA9021589471A13CE /* libPods-KTMapFrameWork_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTMapFrameWork_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KTMapFrameWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTMapFrameWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -143,6 +159,17 @@
 		6003F593195388D20070C39A /* Example for KTMapFrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				462B23C923B99A510051EA01 /* BundleManager.h */,
+				462B23C823B99A510051EA01 /* BundleManager.m */,
+				462B23C723B99A510051EA01 /* KTDMapManager.h */,
+				462B23C223B99A500051EA01 /* KTDMapManager.m */,
+				462B23CB23B99A510051EA01 /* KTDMapViewController.h */,
+				462B23C423B99A510051EA01 /* KTDMapViewController.m */,
+				462B23CA23B99A510051EA01 /* KTNaviWalkController.h */,
+				462B23C623B99A510051EA01 /* KTNaviWalkController.m */,
+				462B23C123B99A500051EA01 /* KTNotifiction.h */,
+				462B23C323B99A500051EA01 /* KTSDK.h */,
+				462B23C523B99A510051EA01 /* KTSDK.m */,
 				6003F59C195388D20070C39A /* KTAppDelegate.h */,
 				6003F59D195388D20070C39A /* KTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -208,6 +235,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				4C8E244873192A017821B6EF /* [CP] Copy Pods Resources */,
+				9E37E22D84139095AB2AC134 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,17 +333,41 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
 				"${PODS_ROOT}/HTCKeyboard/HTCKeyboard/HTCKeyboardRes.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HTCKeyboardRes.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E37E22D84139095AB2AC134 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-frameworks.sh",
+				"${PODS_ROOT}/DMapFramework/DMapFramework/Classes/DMap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DMap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KTMapFrameWork_Example/Pods-KTMapFrameWork_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8C960F54EB940C9F2D4F356 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,8 +422,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KTAppDelegate.m in Sources */,
+				462B23CF23B99A510051EA01 /* KTNaviWalkController.m in Sources */,
 				6003F5A7195388D20070C39A /* KTViewController.m in Sources */,
+				462B23CD23B99A510051EA01 /* KTDMapViewController.m in Sources */,
+				462B23CE23B99A510051EA01 /* KTSDK.m in Sources */,
+				462B23CC23B99A510051EA01 /* KTDMapManager.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				462B23D023B99A510051EA01 /* BundleManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

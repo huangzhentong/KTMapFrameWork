@@ -14,8 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AMap3DMap (7.1.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.6.1)
+  - AMapNavi (7.1.0):
+    - AMap3DMap (~> 7.0)
+    - AMapFoundation (~> 1.5)
+  - DMapFramework (0.1.0)
   - HTCKeyboard (0.0.2)
-  - KTMapFrameWork (0.3.0):
+  - IQKeyboardManager (6.5.4)
+  - KTMapFrameWork (0.3.7):
     - AFNetworking
     - HTCKeyboard
     - Masonry
@@ -24,12 +32,20 @@ PODS:
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - AMapNavi
+  - DMapFramework
+  - IQKeyboardManager
   - KTMapFrameWork (from `../`)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapNavi
+    - DMapFramework
     - HTCKeyboard
+    - IQKeyboardManager
     - Masonry
     - SVProgressHUD
 
@@ -39,11 +55,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap3DMap: ef26e2fb120ae9f1635b4b26b28df6d1379a05f0
+  AMapFoundation: df9a0ceec845ae2b5f57bdf9884666f2ed73bf5b
+  AMapNavi: 28a5c56377342428a7381ac6abab286ff33c6251
+  DMapFramework: c009229a00def5d97a54bf7d9c3a735d781ae601
   HTCKeyboard: 502cb754051b7a4f81f4e473bc2c7ef3e5dae337
-  KTMapFrameWork: 0f395aac7d4ce08fa6a94e1aabd3437bc8294591
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  KTMapFrameWork: 87f79eee4a7672dce01717f86627ddfe94beafa6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 393d81b68da7b4be540498f83d368c41c3560dd1
+PODFILE CHECKSUM: e63c77a9db5af69f552058e02a6adaffb2519181
 
 COCOAPODS: 1.9.0.beta.2

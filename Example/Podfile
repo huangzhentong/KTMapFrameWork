@@ -3,7 +3,9 @@ platform :ios, '10.0'
 
 target 'KTMapFrameWork_Example' do
   pod 'KTMapFrameWork', :path => '../'
-
+  pod 'DMapFramework'
+  pod 'AMapNavi'
+  pod 'IQKeyboardManager'
   target 'KTMapFrameWork_Tests' do
     inherit! :search_paths
 

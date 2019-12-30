@@ -80,8 +80,6 @@
 
 -(void)searchBtnEvent
 {
-    
-    
     if(self.placeView.parkPlaceTF.text.length > 0)
     {
         __weak typeof(self) weakSelf = self;

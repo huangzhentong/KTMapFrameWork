@@ -38,6 +38,9 @@
 #define KTFindBusNumberPointURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/service/find_car/findBusNumberPoint"]
 
 #define KTCollectIBeaconsURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/debug/collect/ibeacon"]
+//获得SDKCode
+#define KTGetSDKCodeURL  [[NetWorkURLManager baseURL] stringByAppendingString:@"/app-api/getUrl"]
+
 
 NS_ASSUME_NONNULL_BEGIN
 

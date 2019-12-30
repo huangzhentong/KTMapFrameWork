@@ -51,30 +51,46 @@
     
     [self updateModel:self.model];
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [self reloadRequest];
+        [self reloadRequest];
 //    });
     
 }
 
-//-(void)reloadRequest
-//{
-//    self.client =  [[KTNetWorkService shareInstance] requestJSONWithURL:KTGetParkingInfoURL withParameters:@{@"lotId":self.lotID,@"carPlateNum":self.carNumber} withType:@"get"];
-//    [super reloadRequest];
-//}
+-(void)reloadRequest
+{
+    self.client =  [[KTNetWorkService shareInstance] requestJSONWithURL:KTGetSDKCodeURL withParameters:@{} withType:@"post"];
+    [super reloadRequest];
+}
 
 -(void)requestSuccess:(id)x
 {
     [super requestSuccess:x];
-    KTParkDetailModel *detailModel = nil;
-    detailModel = [KTParkDetailModel KT_modelWithJSON:x];
-    
-    KTCarInfoModel * model = [KTCarInfoModel new];
-    model.imageURL = detailModel.parkInfo.imgUrl;
-    model.title = self.carNumber;
-    model.rightArray=@[detailModel.parkInfo.floorInfo.floorName,
-                       detailModel.parkInfo.parkNo];
-    
-    
+//    self.code = @"hyjg";
+//    self.url = @"https://test.seeklane.com/test/hyjg/index.html";
+    self.code = x[@"code"];
+    self.url = x[@"url"];
+    [self initDMapSDK];
+
+}
+-(void)initDMapSDK{
+    if (self.code == nil || self.url == nil ) {
+        NSLog(@"SDK 初使化失败，code = %@|url = %@",self.code,self.url);
+        return;
+    }
+    Class aMapClass = NSClassFromString(@"KTDMapManager");
+       if (aMapClass == nil) {
+           NSLog(@"未集成DMap");
+           return;
+       }
+       SEL defaultServiceSel = NSSelectorFromString(@"shareInstance");
+       if ([aMapClass respondsToSelector:defaultServiceSel]) {
+           id (*sharedServices)(id,SEL) = (id (*) (id,SEL))objc_msgSend;
+           id aMap =  sharedServices(aMapClass,defaultServiceSel);
+           
+           
+           void(*initWithDMapWithCode)(id,SEL,NSString *,NSString *) = (id(*)(id,SEL,NSString *code,NSString *url))objc_msgSend;
+           initWithDMapWithCode(aMap,NSSelectorFromString(@"initWithDMapWithCode:url:"),self.code,self.url);
+       }
 }
 
 -(void)updateModel:(KTCarInfoModel*)model
@@ -82,23 +98,7 @@
     [self.carInfoView updateDataSource:model];
     
     self.carInfoView.pathBtn.enabled = true;
-    self.code = @"hyjg";
-    self.url = @"https://test.seeklane.com/test/hyjg/index.html";
     
-    Class aMapClass = NSClassFromString(@"KTDMapManager");
-    if (aMapClass == nil) {
-        NSLog(@"未集成DMap");
-        return;
-    }
-    SEL defaultServiceSel = NSSelectorFromString(@"shareInstance");
-    if ([aMapClass respondsToSelector:defaultServiceSel]) {
-        id (*sharedServices)(id,SEL) = (id (*) (id,SEL))objc_msgSend;
-        id aMap =  sharedServices(aMapClass,defaultServiceSel);
-        
-        
-        void(*initWithDMapWithCode)(id,SEL,NSString *,NSString *) = (id(*)(id,SEL,NSString *code,NSString *url))objc_msgSend;
-        initWithDMapWithCode(aMap,NSSelectorFromString(@"initWithDMapWithCode:url:"),self.code,self.url);
-    }
 }
 
 - (BOOL)prefersHomeIndicatorAutoHidden{
@@ -106,8 +106,12 @@
 }
 -(void)requestFaild:(NSError *)error
 {
-    [super requestFaild:error];
+//    [super requestFaild:error];
+    self.code = @"hyjg";
+    self.url = @"https://test.seeklane.com/test/hyjg/index.html";
     
+    [self initDMapSDK];
+
 }
 
 
@@ -130,7 +134,7 @@
     
     Class aMapClass = NSClassFromString(@"KTDMapManager");
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"DMapLocationStatusChange" object:nil];
-    [self inputAMapSDK];
+   
     if (aMapClass == nil) {
         NSLog(@"未集成DMap");
         return;
@@ -163,8 +167,11 @@
     if( notification.object)
     {
         [LoadingManager showSuccess:@"定位完成"];
+        [self pushToNearParkPlaceViewController];
     }
+    
 }
+
 
 //进入室入SDK
 -(void)inputDMapSDK
